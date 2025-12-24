@@ -1295,13 +1295,13 @@
       "和食",
       "海鮮料理"
     ],
-    "address": "佐賀市松原３−２−２２050-5304-692011:00 ～ 14:00（L.O.13:30）/18:00 ～ 22:00定休日：月曜日、日曜日公式HP",
+    "address": "佐賀市松原３−２−２２",
     "phone": "",
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=すいづき&query_place_id=ChIJLbmw09XLQTURXS4E0_1QoUk",
-    "lat": 33.347748,
-    "lng": 130.2592,
+    "lat": 33.2531178,
+    "lng": 130.3041371,
     "hours_structured": null
   },
   {
@@ -1779,8 +1779,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002669/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=やきとり 鶴&query_place_id=ChIJ61kwznHKQTURv09NK9yDGa8",
-    "lat": 33.2635,
-    "lng": 130.3,
+    "lat": 33.254317,
+    "lng": 130.29921,
     "hours_structured": null
   },
   {
@@ -1794,8 +1794,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005474/",
     "google_map": "https://www.google.com/maps?cid=13009490268639435019",
-    "lat": 33.258,
-    "lng": 130.2995,
+    "lat": 33.259691,
+    "lng": 130.29902,
     "hours_structured": null
   },
   {
@@ -1809,8 +1809,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006698/",
     "google_map": "https://www.google.com/maps?cid=13944303133581624791",
-    "lat": 33.258,
-    "lng": 130.2995,
+    "lat": 33.259081,
+    "lng": 130.298492,
     "hours_structured": null
   },
   {
@@ -1822,8 +1822,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006731/",
     "google_map": "https://www.google.com/maps?cid=16910431398603202869",
-    "lat": 33.2575,
-    "lng": 130.3015,
+    "lat": 33.257929,
+    "lng": 130.30162,
     "hours_structured": null
   },
   {
@@ -1837,8 +1837,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=5306909240175205721",
-    "lat": 33.2555,
-    "lng": 130.302,
+    "lat": 33.255529,
+    "lng": 130.300942,
     "hours_structured": null
   },
   {
@@ -1852,8 +1852,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=6135677246566361010",
-    "lat": 33.254,
-    "lng": 130.302,
+    "lat": 33.25433,
+    "lng": 130.301909,
     "hours_structured": null
   },
   {
@@ -1880,8 +1880,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=中央本町５−１&query_place_id=ChIJ-91TGXHKQTURCLCYPrCw-1I",
-    "lat": 33.254,
-    "lng": 130.302,
+    "lat": 33.253285,
+    "lng": 130.302242,
     "hours_structured": null
   },
   {
@@ -1893,8 +1893,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=佐賀市中央本町４−７&query_place_id=ChIJ_WoXbXHKQTURFxxaZ5uUv2",
-    "lat": 33.254,
-    "lng": 130.302,
+    "lat": 33.254244,
+    "lng": 130.301933,
     "hours_structured": null
   },
   {
@@ -1908,8 +1908,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=5775866123828281530",
-    "lat": 33.2575,
-    "lng": 130.3015,
+    "lat": 33.256395,
+    "lng": 130.301459,
     "hours_structured": null
   },
   {
@@ -1921,8 +1921,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005057/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=ロレッタ&query_place_id=ChIJa5Mfw3bKQTUR02LDtlDJBME",
-    "lat": 33.2525,
-    "lng": 130.3045,
+    "lat": 33.252949,
+    "lng": 130.304185,
     "hours_structured": null
   },
   {
@@ -1934,8 +1934,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000160/",
     "google_map": "https://www.google.com/maps?cid=7261011068018277914",
-    "lat": 33.2635,
-    "lng": 130.3,
+    "lat": 33.254053,
+    "lng": 130.298719,
     "hours_structured": null
   }
 ]

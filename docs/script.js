@@ -357,7 +357,6 @@ function showShopModal(shop) {
                 <div class="links-grid">
                     <a href="${shop.url}" target="_blank" class="link-button">詳細ページ</a>
                     ${(shop.tabelogUrl && shop.tabelogUrl.trim()) || (shop.tabelog && shop.tabelog.trim()) ? `<a href="${shop.tabelogUrl || shop.tabelog}" target="_blank" class="link-button tabelog">食べログで見る</a>` : ''}
-                    ${(shop.googleMapUrl && shop.googleMapUrl.trim()) || (shop.google_map && shop.google_map.trim()) ? `<a href="${shop.googleMapUrl || shop.google_map}" target="_blank" class="link-button google-map">Googleマップで見る</a>` : ''}
                 </div>
             </div>
             ${(shop.sns && (shop.sns.twitter || shop.sns.instagram || shop.sns.facebook)) ? `

@@ -911,7 +911,7 @@
       "バー",
       "スナック"
     ],
-    "address": "佐賀市大財１丁目１−１０　いろはビル１階１０３​",
+    "address": "佐賀市大財１丁目１−１０　いろはビル１階１０３​20:00 ～ 2:00​-",
     "phone": "",
     "hours": "",
     "tabelog": "",
@@ -1301,7 +1301,7 @@
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=すいづき&query_place_id=ChIJLbmw09XLQTURXS4E0_1QoUk",
     "lat": 33.347748,
-    "lng": 130.280378,
+    "lng": 130.2592,
     "hours_structured": null
   },
   {
@@ -1491,8 +1491,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003657/",
     "google_map": "https://www.google.com/maps?cid=10976546013094873846",
-    "lat": 33.271284,
-    "lng": 130.271305,
+    "lat": 33.281423,
+    "lng": 130.269764,
     "hours_structured": null
   },
   {
@@ -1624,8 +1624,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001645/",
     "google_map": "https://www.google.com/maps?cid=17056872432783415994",
-    "lat": 33.2635,
-    "lng": 130.3,
+    "lat": 33.291396,
+    "lng": 130.287268,
     "hours_structured": null
   },
   {
@@ -1637,8 +1637,8 @@
     "hours": "18:00 ～ 23:00 不定休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001950/",
     "google_map": "https://www.google.com/maps?cid=3963565068481052202",
-    "lat": 33.2723223,
-    "lng": 130.2633126,
+    "lat": 33.272314,
+    "lng": 130.263292,
     "hours_structured": {
       "text": "18:00 ～ 23:00",
       "parsed": {
@@ -1663,8 +1663,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=12446754691524094026",
-    "lat": 33.2575,
-    "lng": 130.3015,
+    "lat": 33.256327,
+    "lng": 130.301469,
     "hours_structured": null
   },
   {
@@ -1676,8 +1676,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=BUNGA VILLAGE&query_place_id=ChIJVzerdXzJQTURo8CjHklwxfI",
-    "lat": 33.2635,
-    "lng": 130.3,
+    "lat": 33.317243,
+    "lng": 130.277201,
     "hours_structured": null
   },
   {
@@ -1689,8 +1689,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=3795807686832765469",
-    "lat": 33.254,
-    "lng": 130.302,
+    "lat": 33.253318,
+    "lng": 130.302441,
     "hours_structured": null
   },
   {
@@ -1704,8 +1704,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000019/",
     "google_map": "https://www.google.com/maps?cid=10394571146557512006",
-    "lat": 33.2635,
-    "lng": 130.3,
+    "lat": 33.261051,
+    "lng": 130.319089,
     "hours_structured": null
   },
   {
@@ -1719,8 +1719,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007259/",
     "google_map": "https://www.google.com/maps?cid=6278653391884495004",
-    "lat": 33.254,
-    "lng": 130.302,
+    "lat": 33.253455,
+    "lng": 130.303014,
     "hours_structured": null
   },
   {
@@ -1736,8 +1736,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000149/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=むとう&query_place_id=ChIJed4bb3LKQTUROd-B6mXMQ2U",
-    "lat": 33.258,
-    "lng": 130.2995,
+    "lat": 33.257861,
+    "lng": 130.299582,
     "hours_structured": null
   },
   {
@@ -1749,8 +1749,8 @@
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=member's chip IN&query_place_id=ChIJKbyphxHLQTURLQRbg8jGyAA",
-    "lat": 33.254,
-    "lng": 130.302,
+    "lat": 33.253486,
+    "lng": 130.303309,
     "hours_structured": null
   },
   {
@@ -1764,8 +1764,8 @@
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001204/",
     "google_map": "https://www.google.com/maps?cid=8663115713892142179",
-    "lat": 33.264,
-    "lng": 130.3,
+    "lat": 33.261877,
+    "lng": 130.297255,
     "hours_structured": null
   },
   {

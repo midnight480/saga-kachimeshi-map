@@ -1,0 +1,14 @@
+{
+  "name": "Saga Kachimeshi Map",
+  "short_name": "かちめしマップ",
+  "description": "佐賀の飲食店を地図で検索できるアプリ",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d32f2f",
+  "orientation": "portrait-primary",
+  "icons": [],
+  "categories": ["food", "travel", "lifestyle"],
+  "lang": "ja"
+}
+

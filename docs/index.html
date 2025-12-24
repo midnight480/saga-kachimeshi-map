@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="佐賀かちめしマップ - 佐賀の飲食店を地図で検索">
+    <meta name="theme-color" content="#d32f2f">
+    <title>Saga Kachimeshi Map</title>
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="app">
+        <header>
+            <h1>Saga Kachimeshi Map</h1>
+            <div id="view-tabs">
+                <button class="view-tab active" data-view="map">地図で見る</button>
+                <button class="view-tab" data-view="list">一覧で見る</button>
+            </div>
+            <div id="filters">
+                <input type="text" id="filter-text" placeholder="店舗名で検索">
+                <select id="filter-category">
+                    <option value="">カテゴリー</option>
+                </select>
+                <select id="filter-day">
+                    <option value="">曜日</option>
+                    <option value="Mon">月</option>
+                    <option value="Tue">火</option>
+                    <option value="Wed">水</option>
+                    <option value="Thu">木</option>
+                    <option value="Fri">金</option>
+                    <option value="Sat">土</option>
+                    <option value="Sun">日</option>
+                </select>
+                <input type="time" id="filter-time">
+                <button id="reset-filters">クリア</button>
+            </div>
+            <div id="shop-count">表示中: 0 / 0店舗</div>
+        </header>
+        <div id="map" class="view-content active"></div>
+        <div id="list-view" class="view-content">
+            <div id="shop-list"></div>
+        </div>
+    </div>
+
+    <!-- Shop Modal -->
+    <div id="shop-modal" class="modal">
+        <div class="modal-content" id="shop-modal-content">
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- App JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

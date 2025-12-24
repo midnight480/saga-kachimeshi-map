@@ -1,0 +1,4783 @@
+{
+  "shops": [
+    {
+      "id": "aoi_tsuki",
+      "name": "青い月",
+      "nameKana": "青い月",
+      "genre": [
+        "洋食",
+        "創作料理"
+      ],
+      "address": "佐賀市水ヶ江２丁目６−７",
+      "phone": "0952-26-4930",
+      "lat": 33.249736,
+      "lng": 130.306786,
+      "url": "https://www.sagashi-insyoku.com/restaurants/aoi_tsuki",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "青い月",
+        "青い月",
+        "洋食",
+        "創作料理"
+      ]
+    },
+    {
+      "id": "okamoto",
+      "name": "味彩 おかもと",
+      "nameKana": "味彩 おかもと",
+      "genre": [
+        "海鮮料理",
+        "和食",
+        "居酒屋"
+      ],
+      "address": "佐賀市駅前中央１−１１−３０",
+      "phone": "0952-28-9430",
+      "lat": 33.263841,
+      "lng": 130.295801,
+      "tabelogUrl": "https://tabelog.com/saga/A4101/A410101/41003745/",
+      "url": "https://www.sagashi-insyoku.com/restaurants/okamoto",
+      "openingHours": {
+        "mon": {
+          "open": "11:30",
+          "close": "22:00"
+        },
+        "tue": null,
+        "wed": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "thu": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "fri": {
+          "open": "11:30",
+          "close": "22:00"
+        },
+        "sat": {
+          "open": "17:00",
+          "close": "22:00"
+        },
+        "sun": {
+          "open": "17:00",
+          "close": "21:00"
+        },
+        "holiday": {
+          "open": "17:00",
+          "close": "21:00"
+        }
+      },
+      "hoursText": "ランチ11：30～13：30（月～金のみ）17：00～22：00（月、水～土）17：00～21：00（日・祝）定休日：火曜日",
+      "closedDays": [
+        "tue",
+        "sun"
+      ],
+      "searchKeywords": [
+        "味彩 おかもと",
+        "味彩おかもと",
+        "海鮮料理",
+        "和食",
+        "居酒屋"
+      ]
+    },
+    {
+      "id": "ajimi",
+      "name": "あじみ",
+      "nameKana": "あじみ",
+      "genre": [
+        "居酒屋",
+        "海鮮料理"
+      ],
+      "address": "佐賀市大財１丁目４−６ K8ビル",
+      "phone": "0952-20-0919",
+      "lat": 33.257704,
+      "lng": 130.301377,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ajimi",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "あじみ",
+        "あじみ",
+        "居酒屋",
+        "海鮮料理"
+      ]
+    },
+    {
+      "id": "anniversary",
+      "name": "アニバーサリー",
+      "nameKana": "アニバーサリー",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市呉服元町３−７",
+      "phone": "0952-26-8568",
+      "lat": 33.254466,
+      "lng": 130.302182,
+      "url": "https://www.sagashi-insyoku.com/restaurants/anniversary",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "アニバーサリー",
+        "アニバーサリー",
+        "バー"
+      ]
+    },
+    {
+      "id": "izakaya_asuka",
+      "name": "いざかや飛鳥",
+      "nameKana": "いざかや飛鳥",
+      "genre": [
+        "居酒屋"
+      ],
+      "address": "佐賀市愛敬町４−１",
+      "phone": "",
+      "lat": 33.258971,
+      "lng": 130.301307,
+      "url": "https://www.sagashi-insyoku.com/restaurants/izakaya_asuka",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "いざかや飛鳥",
+        "いざかや飛鳥",
+        "居酒屋"
+      ]
+    },
+    {
+      "id": "irorigin_saga",
+      "name": "囲炉裏　吟",
+      "nameKana": "囲炉裏　吟",
+      "genre": [
+        "居酒屋",
+        "和食",
+        "焼肉"
+      ],
+      "address": "佐賀市呉服元町２−４　ＩＫＥビル１Ｆ",
+      "phone": "",
+      "lat": 33.25444,
+      "lng": 130.302999,
+      "url": "https://www.sagashi-insyoku.com/restaurants/irorigin_saga",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "囲炉裏　吟",
+        "囲炉裏吟",
+        "居酒屋",
+        "和食",
+        "焼肉"
+      ]
+    },
+    {
+      "id": "with",
+      "name": "WITH",
+      "nameKana": "WITH",
+      "genre": [],
+      "address": "佐賀市呉服元町２−４ 2f",
+      "phone": "0952-29-5665",
+      "lat": 33.25444,
+      "lng": 130.302999,
+      "url": "https://www.sagashi-insyoku.com/restaurants/with",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "with",
+        "WITH"
+      ]
+    },
+    {
+      "id": "ureshino_sushi_sagaeki",
+      "name": "嬉乃すし佐賀駅店",
+      "nameKana": "嬉乃すし佐賀駅店",
+      "genre": [
+        "寿司"
+      ],
+      "address": "佐賀市駅前中央１－１１－２０　JR佐賀駅サガハツ内",
+      "phone": "0120-30-1469",
+      "lat": 33.264012,
+      "lng": 130.297008,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ureshino_sushi_sagaeki",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "嬉乃すし佐賀駅店",
+        "嬉乃すし佐賀駅店",
+        "寿司"
+      ]
+    },
+    {
+      "id": "enya",
+      "name": "縁や",
+      "nameKana": "縁や",
+      "genre": [
+        "居酒屋",
+        "海鮮料理"
+      ],
+      "address": "佐賀市大財１丁目３−１０",
+      "phone": "0952-28-6131",
+      "lat": 33.257811,
+      "lng": 130.30105,
+      "url": "https://www.sagashi-insyoku.com/restaurants/enya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "縁や",
+        "縁や",
+        "居酒屋",
+        "海鮮料理"
+      ]
+    },
+    {
+      "id": "oshokujidokoro_marutoku",
+      "name": "お食事処 丸徳",
+      "nameKana": "お食事処 丸徳",
+      "genre": [
+        "ちゃんぽん",
+        "食堂"
+      ],
+      "address": "佐賀市川副町大字小々森１２４−５",
+      "phone": "0952-45-6860",
+      "lat": 33.202455,
+      "lng": 130.313924,
+      "url": "https://www.sagashi-insyoku.com/restaurants/oshokujidokoro_marutoku",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "お食事処 丸徳",
+        "お食事処丸徳",
+        "ちゃんぽん",
+        "食堂"
+      ]
+    },
+    {
+      "id": "omame",
+      "name": "お豆",
+      "nameKana": "お豆",
+      "genre": [
+        "和食",
+        "居酒屋"
+      ],
+      "address": "佐賀市松原２丁目１３−９",
+      "phone": "0952-38-2113",
+      "lat": 33.25281,
+      "lng": 130.303758,
+      "url": "https://www.sagashi-insyoku.com/restaurants/omame",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "お豆",
+        "お豆",
+        "和食",
+        "居酒屋"
+      ]
+    },
+    {
+      "id": "kase_shokudo",
+      "name": "かせ食堂",
+      "nameKana": "かせ食堂",
+      "genre": [
+        "ラーメン",
+        "食堂"
+      ],
+      "address": "佐賀市嘉瀬町中原１９７６",
+      "phone": "0952-25-0893",
+      "lat": 33.243373,
+      "lng": 130.258479,
+      "url": "https://www.sagashi-insyoku.com/restaurants/kase_shokudo",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "かせ食堂",
+        "かせ食堂",
+        "ラーメン",
+        "食堂"
+      ]
+    },
+    {
+      "id": "kabachi",
+      "name": "かばち",
+      "nameKana": "かばち",
+      "genre": [],
+      "address": "佐賀市白山２−６−３８, コアビル1階",
+      "phone": "0952-29-1881",
+      "lat": 33.255548,
+      "lng": 130.30184,
+      "url": "https://www.sagashi-insyoku.com/restaurants/kabachi",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "かばち",
+        "かばち"
+      ]
+    },
+    {
+      "id": "camino_izakaya",
+      "name": "カミーノ",
+      "nameKana": "カミーノ",
+      "genre": [
+        "居酒屋"
+      ],
+      "address": "佐賀市大財１−４−１９",
+      "phone": "0952-60-5934",
+      "lat": 33.257642,
+      "lng": 130.301622,
+      "url": "https://www.sagashi-insyoku.com/restaurants/camino_izakaya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "カミーノ",
+        "カミーノ",
+        "居酒屋"
+      ]
+    },
+    {
+      "id": "gyozasakaba_cape2024",
+      "name": "餃子酒場けぇぷ",
+      "nameKana": "餃子酒場けぇぷ",
+      "genre": [
+        "中華料理",
+        "居酒屋"
+      ],
+      "address": "佐賀市中央本町４−６​",
+      "phone": "",
+      "lat": 33.25414,
+      "lng": 130.301947,
+      "url": "https://www.sagashi-insyoku.com/restaurants/gyozasakaba_cape2024",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "餃子酒場けぇぷ",
+        "餃子酒場けぇぷ",
+        "中華料理",
+        "居酒屋"
+      ]
+    },
+    {
+      "id": "go_chan",
+      "name": "くいしんぼ茶屋 豪ちゃん",
+      "nameKana": "くいしんぼ茶屋 豪ちゃん",
+      "genre": [
+        "居酒屋",
+        "串焼き",
+        "和食"
+      ],
+      "address": "佐賀市松原３−２−２７",
+      "phone": "0952-37-8626",
+      "lat": 33.252095,
+      "lng": 130.305784,
+      "url": "https://www.sagashi-insyoku.com/restaurants/go_chan",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "くいしんぼ茶屋 豪ちゃん",
+        "くいしんぼ茶屋豪ちゃん",
+        "居酒屋",
+        "串焼き",
+        "和食"
+      ]
+    },
+    {
+      "id": "kokushu_karuma",
+      "name": "國酒 かるま",
+      "nameKana": "國酒 かるま",
+      "genre": [],
+      "address": "佐賀市兵庫北３丁目１−３",
+      "phone": "0952-20-5353",
+      "lat": 33.269686,
+      "lng": 130.301982,
+      "url": "https://www.sagashi-insyoku.com/restaurants/kokushu_karuma",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "國酒 かるま",
+        "國酒かるま"
+      ]
+    },
+    {
+      "id": "koryori_yoigokoro",
+      "name": "小料理 酔心",
+      "nameKana": "小料理 酔心",
+      "genre": [],
+      "address": "佐賀市愛敬町４−４",
+      "phone": "",
+      "lat": 33.259247,
+      "lng": 130.301267,
+      "url": "https://www.sagashi-insyoku.com/restaurants/koryori_yoigokoro",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "小料理 酔心",
+        "小料理酔心"
+      ]
+    },
+    {
+      "id": "sunny_place",
+      "name": "SUNNY PLACE",
+      "nameKana": "SUNNY PLACE",
+      "genre": [],
+      "address": "佐賀市松原３丁目３−７ 増田ビル1F",
+      "phone": "0952-23-1569",
+      "lat": 33.252838,
+      "lng": 130.304198,
+      "url": "https://www.sagashi-insyoku.com/restaurants/sunny_place",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "sunny place",
+        "SUNNYPLACE"
+      ]
+    },
+    {
+      "id": "rockheart",
+      "name": "The Rock Heart",
+      "nameKana": "The Rock Heart",
+      "genre": [],
+      "address": "佐賀市松原２−２−１０リゾートシティライオンビル1F",
+      "phone": "",
+      "lat": 33.252545,
+      "lng": 130.301785,
+      "url": "https://www.sagashi-insyoku.com/restaurants/rockheart",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "the rock heart",
+        "TheRockHeart"
+      ]
+    },
+    {
+      "id": "tempura_minematsu",
+      "name": "旬の料理 天ぷら みねまつ",
+      "nameKana": "旬の料理 天ぷら みねまつ",
+      "genre": [
+        "天ぷら"
+      ],
+      "address": "佐賀市兵庫北１丁目１０−４０",
+      "phone": "0952-41-5757",
+      "lat": 33.266312,
+      "lng": 130.310341,
+      "url": "https://www.sagashi-insyoku.com/restaurants/tempura_minematsu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "旬の料理 天ぷら みねまつ",
+        "旬の料理天ぷらみねまつ",
+        "天ぷら"
+      ]
+    },
+    {
+      "id": "jj",
+      "name": "JJ",
+      "nameKana": "JJ",
+      "genre": [],
+      "address": "佐賀市愛敬町２−２３ エンゼルビル",
+      "phone": "0952-77-9476",
+      "lat": 33.258678,
+      "lng": 130.301073,
+      "url": "https://www.sagashi-insyoku.com/restaurants/jj",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "jj",
+        "JJ"
+      ]
+    },
+    {
+      "id": "gin.kitchencar",
+      "name": "ジンのキッチンカー",
+      "nameKana": "ジンのキッチンカー",
+      "genre": [],
+      "address": "佐賀市城内二丁目1-41 こころざしのもり",
+      "phone": "",
+      "lat": 33.249624,
+      "lng": 130.301041,
+      "url": "https://www.sagashi-insyoku.com/restaurants/gin.kitchencar",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "毎週木曜日 平日はお弁当も販売",
+      "closedDays": [
+        "mon",
+        "tue",
+        "wed",
+        "fri",
+        "sat",
+        "sun"
+      ],
+      "searchKeywords": [
+        "ジンのキッチンカー",
+        "ジンのキッチンカー"
+      ]
+    },
+    {
+      "id": "suivie",
+      "name": "SUIVIE 酔美",
+      "nameKana": "SUIVIE 酔美",
+      "genre": [],
+      "address": "佐賀市中央本町１０−５ ＡＩビルディング",
+      "phone": "0952-26-4688",
+      "lat": 33.253486,
+      "lng": 130.303309,
+      "url": "https://www.sagashi-insyoku.com/restaurants/suivie",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "suivie 酔美",
+        "SUIVIE酔美"
+      ]
+    },
+    {
+      "id": "ginen",
+      "name": "鮨割烹ぎんえん 白山店",
+      "nameKana": "鮨割烹ぎんえん 白山店",
+      "genre": [
+        "寿司"
+      ],
+      "address": "佐賀市白山２－６－１",
+      "phone": "",
+      "lat": 33.255448,
+      "lng": 130.301673,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ginen",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "鮨割烹ぎんえん 白山店",
+        "鮨割烹ぎんえん白山店",
+        "寿司"
+      ]
+    },
+    {
+      "id": "sushi_tsubakiaburatempura_yatsuki",
+      "name": "鮨・椿油天ぷら 八木",
+      "nameKana": "鮨・椿油天ぷら 八木",
+      "genre": [
+        "寿司",
+        "天ぷら"
+      ],
+      "address": "佐賀市大和町大字尼寺２５００−２",
+      "phone": "0952-20-4170",
+      "lat": 33.308044,
+      "lng": 130.282016,
+      "url": "https://www.sagashi-insyoku.com/restaurants/sushi_tsubakiaburatempura_yatsuki",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "鮨・椿油天ぷら 八木",
+        "鮨・椿油天ぷら八木",
+        "寿司",
+        "天ぷら"
+      ]
+    },
+    {
+      "id": "snack_fuuka",
+      "name": "スナック 風花",
+      "nameKana": "スナック 風花",
+      "genre": [
+        "スナック"
+      ],
+      "address": "佐賀市白山２−６−５白山ビル２F",
+      "phone": "0952-25-1012",
+      "lat": 33.255803,
+      "lng": 130.301698,
+      "url": "https://www.sagashi-insyoku.com/restaurants/snack_fuuka",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "スナック 風花",
+        "スナック風花",
+        "スナック"
+      ]
+    },
+    {
+      "id": "yakiniku_gyugyu",
+      "name": "炭火焼肉 牛牛",
+      "nameKana": "炭火焼肉 牛牛",
+      "genre": [
+        "焼肉"
+      ],
+      "address": "佐賀市愛敬町１−１",
+      "phone": "",
+      "lat": 33.258085,
+      "lng": 130.301077,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakiniku_gyugyu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "炭火焼肉 牛牛",
+        "炭火焼肉牛牛",
+        "焼肉"
+      ]
+    },
+    {
+      "id": "seiryuken_takakiseten",
+      "name": "成竜軒 高木瀬店",
+      "nameKana": "成竜軒 高木瀬店",
+      "genre": [],
+      "address": "佐賀市高木瀬町長瀬１１８６",
+      "phone": "0952-31-5367",
+      "lat": 33.294142,
+      "lng": 130.284718,
+      "url": "https://www.sagashi-insyoku.com/restaurants/seiryuken_takakiseten",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "成竜軒 高木瀬店",
+        "成竜軒高木瀬店"
+      ]
+    },
+    {
+      "id": "suizuki_ramen",
+      "name": "鯛だしらぁめんすいづき",
+      "nameKana": "鯛だしらぁめんすいづき",
+      "genre": [
+        "ラーメン"
+      ],
+      "address": "佐賀市中央本町１−３１",
+      "phone": "0952-29-0770",
+      "lat": 33.252996,
+      "lng": 130.302,
+      "url": "https://www.sagashi-insyoku.com/restaurants/suizuki_ramen",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "鯛だしらぁめんすいづき",
+        "鯛だしらぁめんすいづき",
+        "ラーメン"
+      ]
+    },
+    {
+      "id": "takamotoya",
+      "name": "たかもとや",
+      "nameKana": "たかもとや",
+      "genre": [
+        "その他",
+        "食堂"
+      ],
+      "address": "佐賀市鍋島４丁目１−３６ 医大東ハイツ",
+      "phone": "0952-48-0584",
+      "lat": 33.282784,
+      "lng": 130.270213,
+      "url": "https://www.sagashi-insyoku.com/restaurants/takamotoya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "たかもとや",
+        "たかもとや",
+        "その他",
+        "食堂"
+      ]
+    },
+    {
+      "id": "tarutoya_sorari",
+      "name": "タルト屋そらり",
+      "nameKana": "タルト屋そらり",
+      "genre": [],
+      "address": "佐賀市鍋島３−４",
+      "phone": "0952-30-2115",
+      "lat": 33.281018,
+      "lng": 130.268726,
+      "url": "https://www.sagashi-insyoku.com/restaurants/tarutoya_sorari",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "タルト屋そらり",
+        "タルト屋そらり"
+      ]
+    },
+    {
+      "id": "daiyasu",
+      "name": "だいやす",
+      "nameKana": "だいやす",
+      "genre": [],
+      "address": "佐賀市大財１−４−１８",
+      "phone": "0952-29-9780",
+      "lat": 33.25745,
+      "lng": 130.301585,
+      "url": "https://www.sagashi-insyoku.com/restaurants/daiyasu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "だいやす",
+        "だいやす"
+      ]
+    },
+    {
+      "id": "eiji",
+      "name": "中国料理 栄志",
+      "nameKana": "中国料理 栄志",
+      "genre": [
+        "中華料理"
+      ],
+      "address": "佐賀市中央本町１０−１ セントラル パレス",
+      "phone": "0952-25-6070",
+      "lat": 33.253166,
+      "lng": 130.303398,
+      "url": "https://www.sagashi-insyoku.com/restaurants/eiji",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "中国料理 栄志",
+        "中国料理栄志",
+        "中華料理"
+      ]
+    },
+    {
+      "id": "tentoumushi",
+      "name": "てんとうむし",
+      "nameKana": "てんとうむし",
+      "genre": [],
+      "address": "佐賀市中央本町８−３",
+      "phone": "0952-28-4161",
+      "lat": 33.253782,
+      "lng": 130.302927,
+      "url": "https://www.sagashi-insyoku.com/restaurants/tentoumushi",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "てんとうむし",
+        "てんとうむし"
+      ]
+    },
+    {
+      "id": "shinseihanten_saga",
+      "name": "ニュー新生飯店",
+      "nameKana": "ニュー新生飯店",
+      "genre": [],
+      "address": "佐賀市中央本町４−８",
+      "phone": "0952-60-2360",
+      "lat": 33.254197,
+      "lng": 130.301925,
+      "url": "https://www.sagashi-insyoku.com/restaurants/shinseihanten_saga",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ニュー新生飯店",
+        "ニュー新生飯店"
+      ]
+    },
+    {
+      "id": "hashitomi_shidashiten",
+      "name": "はし冨 仕出し店",
+      "nameKana": "はし冨 仕出し店",
+      "genre": [],
+      "address": "佐賀市八丁畷町八丁畷町１−１３",
+      "phone": "0952-30-8115",
+      "lat": 33.272547,
+      "lng": 130.297852,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hashitomi_shidashiten",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "はし冨 仕出し店",
+        "はし冨仕出し店"
+      ]
+    },
+    {
+      "id": "hatoyaseimen",
+      "name": "鳩屋製麺",
+      "nameKana": "鳩屋製麺",
+      "genre": [],
+      "address": "佐賀市久保田町大字徳万２４１６−２",
+      "phone": "0952-68-5810",
+      "lat": 33.241808,
+      "lng": 130.237382,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hatoyaseimen",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "鳩屋製麺",
+        "鳩屋製麺"
+      ]
+    },
+    {
+      "id": "bar_ten_high_second",
+      "name": "BAR TEN HIGH second",
+      "nameKana": "BAR TEN HIGH second",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市白山２丁目４−２",
+      "phone": "",
+      "lat": 33.255753,
+      "lng": 130.300387,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bar_ten_high_second",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bar ten high second",
+        "BARTENHIGHsecond",
+        "バー"
+      ]
+    },
+    {
+      "id": "bar_wild_flower",
+      "name": "BAR Wild Flower",
+      "nameKana": "BAR Wild Flower",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市白山１丁目２−２２",
+      "phone": "0952-26-7335",
+      "lat": 33.255071,
+      "lng": 130.299157,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bar_wild_flower",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bar wild flower",
+        "BARWildFlower",
+        "バー"
+      ]
+    },
+    {
+      "id": "bar_obu",
+      "name": "Bar Obu",
+      "nameKana": "Bar Obu",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市中央本町３−１８ ALPHA318",
+      "phone": "",
+      "lat": 33.254297,
+      "lng": 130.301447,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bar_obu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bar obu",
+        "BarObu",
+        "バー"
+      ]
+    },
+    {
+      "id": "bar_puerto",
+      "name": "Bar Puerto",
+      "nameKana": "Bar Puerto",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市中央本町３−１８ アルファ３１８ビル",
+      "phone": "0952-24-1129",
+      "lat": 33.254297,
+      "lng": 130.301447,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bar_puerto",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bar puerto",
+        "BarPuerto",
+        "バー"
+      ]
+    },
+    {
+      "id": "pub_bratto",
+      "name": "PUB BRATTO",
+      "nameKana": "PUB BRATTO",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市白山町２丁目５",
+      "phone": "0952-25-3435",
+      "lat": 33.255688,
+      "lng": 130.301025,
+      "url": "https://www.sagashi-insyoku.com/restaurants/pub_bratto",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "pub bratto",
+        "PUBBRATTO",
+        "バー"
+      ]
+    },
+    {
+      "id": "hizenudon_shou",
+      "name": "肥前うどん 翔",
+      "nameKana": "肥前うどん 翔",
+      "genre": [
+        "うどん"
+      ],
+      "address": "佐賀市西田代１−１",
+      "phone": "0952-24-7779",
+      "lat": 33.249808,
+      "lng": 130.290054,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hizenudon_shou",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "肥前うどん 翔",
+        "肥前うどん翔",
+        "うどん"
+      ]
+    },
+    {
+      "id": "hyoukinyakata",
+      "name": "ひょうきん館",
+      "nameKana": "ひょうきん館",
+      "genre": [],
+      "address": "佐賀市白山２−５−５ エクレール白山3F",
+      "phone": "0952-23-7923",
+      "lat": 33.255529,
+      "lng": 130.300942,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hyoukinyakata",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ひょうきん館",
+        "ひょうきん館"
+      ]
+    },
+    {
+      "id": "b_point",
+      "name": "B-POINT",
+      "nameKana": "B-POINT",
+      "genre": [],
+      "address": "佐賀市中央本町１−１",
+      "phone": "0952-37-7559",
+      "lat": 33.252755,
+      "lng": 130.30028,
+      "url": "https://www.sagashi-insyoku.com/restaurants/b_point",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "b-point",
+        "B-POINT"
+      ]
+    },
+    {
+      "id": "blue_grass",
+      "name": "ブルーグラス",
+      "nameKana": "ブルーグラス",
+      "genre": [],
+      "address": "佐賀市中央本町３−１８ アルファ318",
+      "phone": "0952-26-3181",
+      "lat": 33.254297,
+      "lng": 130.301447,
+      "url": "https://www.sagashi-insyoku.com/restaurants/blue_grass",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ブルーグラス",
+        "ブルーグラス"
+      ]
+    },
+    {
+      "id": "bloom",
+      "name": "ぶるーむ",
+      "nameKana": "ぶるーむ",
+      "genre": [],
+      "address": "佐賀市愛敬町１−１ 中野マンション1F",
+      "phone": "0952-29-3509",
+      "lat": 33.260469,
+      "lng": 130.300456,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bloom",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ぶるーむ",
+        "ぶるーむ"
+      ]
+    },
+    {
+      "id": "veryvery",
+      "name": "Very Very",
+      "nameKana": "Very Very",
+      "genre": [],
+      "address": "佐賀市白山２丁目５−２ 第２白山ビル",
+      "phone": "0952-37-3252",
+      "lat": 33.255679,
+      "lng": 130.301278,
+      "url": "https://www.sagashi-insyoku.com/restaurants/veryvery",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "very very",
+        "VeryVery"
+      ]
+    },
+    {
+      "id": "honjo_unagi_honjo",
+      "name": "本庄うなぎ屋 本庄店",
+      "nameKana": "本庄うなぎ屋 本庄店",
+      "genre": [
+        "うなぎ"
+      ],
+      "address": "佐賀市本庄町末次３９４−７",
+      "phone": "0952-28-9160",
+      "lat": 33.2343,
+      "lng": 130.30124,
+      "url": "https://www.sagashi-insyoku.com/restaurants/honjo_unagi_honjo",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "本庄うなぎ屋 本庄店",
+        "本庄うなぎ屋本庄店",
+        "うなぎ"
+      ]
+    },
+    {
+      "id": "honjo_unagi_hokubu",
+      "name": "本庄うなぎ屋　北部店",
+      "nameKana": "本庄うなぎ屋　北部店",
+      "genre": [
+        "うなぎ"
+      ],
+      "address": "佐賀市大和町大字尼寺２９７９−３",
+      "phone": "0952-37-7001",
+      "lat": 33.29971,
+      "lng": 130.281057,
+      "url": "https://www.sagashi-insyoku.com/restaurants/honjo_unagi_hokubu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "本庄うなぎ屋　北部店",
+        "本庄うなぎ屋北部店",
+        "うなぎ"
+      ]
+    },
+    {
+      "id": "margaret",
+      "name": "Margaret",
+      "nameKana": "Margaret",
+      "genre": [],
+      "address": "佐賀市大財１丁目５−３",
+      "phone": "0952-28-5108",
+      "lat": 33.256395,
+      "lng": 130.301459,
+      "url": "https://www.sagashi-insyoku.com/restaurants/margaret",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "margaret",
+        "Margaret"
+      ]
+    },
+    {
+      "id": "meigetsukan",
+      "name": "明月館 大財店",
+      "nameKana": "明月館 大財店",
+      "genre": [
+        "焼肉",
+        "韓国料理"
+      ],
+      "address": "佐賀市大財１丁目３０９−１",
+      "phone": "0952-23-3335",
+      "lat": 33.257552,
+      "lng": 130.3028,
+      "url": "https://www.sagashi-insyoku.com/restaurants/meigetsukan",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "明月館 大財店",
+        "明月館大財店",
+        "焼肉",
+        "韓国料理"
+      ]
+    },
+    {
+      "id": "yakitori_kaizoku",
+      "name": "やきとり 海賊",
+      "nameKana": "やきとり 海賊",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市高木瀬東１−６−２２",
+      "phone": "0952-31-0438",
+      "lat": 33.281025,
+      "lng": 130.29858,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_kaizoku",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "やきとり 海賊",
+        "やきとり海賊",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakitori_taisei",
+      "name": "焼鳥 大成",
+      "nameKana": "焼鳥 大成",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市松原３−３−２９",
+      "phone": "0952-29-3900",
+      "lat": 33.252594,
+      "lng": 130.305657,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_taisei",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "焼鳥 大成",
+        "焼鳥大成",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakitori_torigiku",
+      "name": "焼鳥   鳥菊",
+      "nameKana": "焼鳥   鳥菊",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市呉服元町３−２０",
+      "phone": "0952-24-3041",
+      "lat": 33.254108,
+      "lng": 130.30282,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_torigiku",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "焼鳥   鳥菊",
+        "焼鳥鳥菊",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakitori_kakuuchi",
+      "name": "焼鳥居酒家 かくうち",
+      "nameKana": "焼鳥居酒家 かくうち",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市鍋島３丁目７−１ シャトレ鍋島 1",
+      "phone": "0952-32-8161",
+      "lat": 33.281245,
+      "lng": 130.266858,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_kakuuchi",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "焼鳥居酒家 かくうち",
+        "焼鳥居酒家かくうち",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakiniku_ryouma",
+      "name": "焼肉 竜馬",
+      "nameKana": "焼肉 竜馬",
+      "genre": [
+        "焼肉"
+      ],
+      "address": "佐賀市鍋島３丁目８ シルキー石田",
+      "phone": "0952-33-0660",
+      "lat": 33.280991,
+      "lng": 130.267708,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakiniku_ryouma",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "焼肉 竜馬",
+        "焼肉竜馬",
+        "焼肉"
+      ]
+    },
+    {
+      "id": "yumesakuya",
+      "name": "夢咲屋",
+      "nameKana": "夢咲屋",
+      "genre": [],
+      "address": "佐賀市兵庫北３丁目１−８",
+      "phone": "0952-32-4666",
+      "lat": 33.270091,
+      "lng": 130.301308,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yumesakuya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "夢咲屋",
+        "夢咲屋"
+      ]
+    },
+    {
+      "id": "lounge_endless",
+      "name": "ラウンジ ENDLESS",
+      "nameKana": "ラウンジ ENDLESS",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市白山２−６−３８",
+      "phone": "0952-26-5258",
+      "lat": 33.255555,
+      "lng": 130.301844,
+      "url": "https://www.sagashi-insyoku.com/restaurants/lounge_endless",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ラウンジ endless",
+        "ラウンジENDLESS",
+        "バー"
+      ]
+    },
+    {
+      "id": "lounge_ren",
+      "name": "Lounge 蓮",
+      "nameKana": "Lounge 蓮",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市白山２丁目５−２ Shirayama 2賀 bld",
+      "phone": "0952-28-5157",
+      "lat": 33.255898,
+      "lng": 130.301136,
+      "url": "https://www.sagashi-insyoku.com/restaurants/lounge_ren",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "lounge 蓮",
+        "Lounge蓮",
+        "バー"
+      ]
+    },
+    {
+      "id": "lounge_kirakira",
+      "name": "ラウンジスナック kirakira",
+      "nameKana": "ラウンジスナック kirakira",
+      "genre": [
+        "バー",
+        "スナック"
+      ],
+      "address": "佐賀市大財１丁目１−１０　いろはビル１階１０３​",
+      "phone": "",
+      "lat": 33.256711,
+      "lng": 130.301089,
+      "url": "https://www.sagashi-insyoku.com/restaurants/lounge_kirakira",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ラウンジスナック kirakira",
+        "ラウンジスナックkirakira",
+        "バー",
+        "スナック"
+      ]
+    },
+    {
+      "id": "lab",
+      "name": "lab",
+      "nameKana": "lab",
+      "genre": [],
+      "address": "佐賀市大財１−１−１７ 久我白山ビル5F",
+      "phone": "0952-25-5611",
+      "lat": 33.256212,
+      "lng": 130.301212,
+      "url": "https://www.sagashi-insyoku.com/restaurants/lab",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "lab",
+        "lab"
+      ]
+    },
+    {
+      "id": "restaurant_pub_gin",
+      "name": "レストラン＆パブ GIN",
+      "nameKana": "レストラン＆パブ GIN",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市唐人２丁目５ 唐人町(2)",
+      "phone": "0952-27-2017",
+      "lat": 33.425387,
+      "lng": 130.334028,
+      "url": "https://www.sagashi-insyoku.com/restaurants/restaurant_pub_gin",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "レストラン＆パブ gin",
+        "レストラン＆パブGIN",
+        "バー"
+      ]
+    },
+    {
+      "id": "renge",
+      "name": "れんげ",
+      "nameKana": "れんげ",
+      "genre": [],
+      "address": "佐賀市日の出１−１３−３１",
+      "phone": "0952-31-3790",
+      "lat": 33.278575,
+      "lng": 130.298295,
+      "url": "https://www.sagashi-insyoku.com/restaurants/renge",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "れんげ",
+        "れんげ"
+      ]
+    },
+    {
+      "id": "wazen_chikuma",
+      "name": "和膳 千曲",
+      "nameKana": "和膳 千曲",
+      "genre": [],
+      "address": "佐賀市田代２−１１",
+      "phone": "0952-24-8501",
+      "lat": 33.248464,
+      "lng": 130.314446,
+      "url": "https://www.sagashi-insyoku.com/restaurants/wazen_chikuma",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "和膳 千曲",
+        "和膳千曲"
+      ]
+    },
+    {
+      "id": "aoi_yon",
+      "name": "青いYON",
+      "nameKana": "青いYON",
+      "genre": [
+        "創作料理",
+        "韓国料理"
+      ],
+      "address": "佐賀市唐人１丁目５−１９　シティ唐人ビル１階​",
+      "phone": "",
+      "lat": 33.259279,
+      "lng": 130.298139,
+      "url": "https://www.sagashi-insyoku.com/restaurants/aoi_yon",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "青いyon",
+        "青いYON",
+        "創作料理",
+        "韓国料理"
+      ]
+    },
+    {
+      "id": "moyamon__saga",
+      "name": "味酒場　もやもん",
+      "nameKana": "味酒場　もやもん",
+      "genre": [],
+      "address": "佐賀市中央本町２−４",
+      "phone": "0952-22-1300",
+      "lat": 33.25382,
+      "lng": 130.301768,
+      "url": "https://www.sagashi-insyoku.com/restaurants/moyamon__saga",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "味酒場　もやもん",
+        "味酒場もやもん"
+      ]
+    },
+    {
+      "id": "up_schon",
+      "name": "アップシャン",
+      "nameKana": "アップシャン",
+      "genre": [],
+      "address": "佐賀市大財１丁目５−１１ ティファニービル",
+      "phone": "0952-28-3178",
+      "lat": 33.257117,
+      "lng": 130.301456,
+      "url": "https://www.sagashi-insyoku.com/restaurants/up_schon",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "アップシャン",
+        "アップシャン"
+      ]
+    },
+    {
+      "id": "aruru",
+      "name": "アルル",
+      "nameKana": "アルル",
+      "genre": [],
+      "address": "佐賀市八幡小路２−１",
+      "phone": "0952-22-4332",
+      "lat": 33.254603,
+      "lng": 130.29963,
+      "url": "https://www.sagashi-insyoku.com/restaurants/aruru",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "アルル",
+        "アルル"
+      ]
+    },
+    {
+      "id": "ichirakudo",
+      "name": "一楽堂",
+      "nameKana": "一楽堂",
+      "genre": [],
+      "address": "佐賀市兵庫南２丁目１４",
+      "phone": "0952-27-9250",
+      "lat": 33.26323,
+      "lng": 130.314845,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ichirakudo",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "一楽堂",
+        "一楽堂"
+      ]
+    },
+    {
+      "id": "k_style",
+      "name": "E.A.D",
+      "nameKana": "E.A.D",
+      "genre": [
+        "喫茶・カフェ",
+        "洋食"
+      ],
+      "address": "佐賀市駅南本町４−２４ スカイ アベニュー２階",
+      "phone": "0952-97-7081",
+      "lat": 33.260402,
+      "lng": 130.299196,
+      "url": "https://www.sagashi-insyoku.com/restaurants/k_style",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "e.a.d",
+        "E.A.D",
+        "喫茶・カフェ",
+        "洋食"
+      ]
+    },
+    {
+      "id": "ureshino_sushi",
+      "name": "嬉乃すし",
+      "nameKana": "嬉乃すし",
+      "genre": [
+        "寿司"
+      ],
+      "address": "佐賀市若宮１−７",
+      "phone": "0952-30-1469",
+      "lat": 33.273102,
+      "lng": 130.290034,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ureshino_sushi",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "嬉乃すし",
+        "嬉乃すし",
+        "寿司"
+      ]
+    },
+    {
+      "id": "landl",
+      "name": "L and L",
+      "nameKana": "L and L",
+      "genre": [],
+      "address": "佐賀市中央本町４−３ 美紀屋 中央ビル",
+      "phone": "0952-29-3322",
+      "lat": 33.25385,
+      "lng": 130.302004,
+      "url": "https://www.sagashi-insyoku.com/restaurants/landl",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "l and l",
+        "LandL"
+      ]
+    },
+    {
+      "id": "ureshino_osakanaya",
+      "name": "おさかな家嬉乃",
+      "nameKana": "おさかな家嬉乃",
+      "genre": [
+        "居酒屋",
+        "海鮮料理",
+        "和食"
+      ],
+      "address": "佐賀市駅前中央３－２－２１",
+      "phone": "0952-37-9535",
+      "lat": 33.266311,
+      "lng": 130.30612,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ureshino_osakanaya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "おさかな家嬉乃",
+        "おさかな家嬉乃",
+        "居酒屋",
+        "海鮮料理",
+        "和食"
+      ]
+    },
+    {
+      "id": "oseso",
+      "name": "夢食彩叶 おせそ",
+      "nameKana": "夢食彩叶 おせそ",
+      "genre": [
+        "居酒屋",
+        "創作料理"
+      ],
+      "address": "佐賀市鍋島町大字八戸溝１２２８−１",
+      "phone": "0952-31-9775",
+      "lat": 33.26132,
+      "lng": 130.272309,
+      "url": "https://www.sagashi-insyoku.com/restaurants/oseso",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "夢食彩叶 おせそ",
+        "夢食彩叶おせそ",
+        "居酒屋",
+        "創作料理"
+      ]
+    },
+    {
+      "id": "liebe-saga",
+      "name": "菓子工房　リーブ",
+      "nameKana": "菓子工房　リーブ",
+      "genre": [],
+      "address": "佐賀市東与賀町大字下古賀１３０４−４​​​",
+      "phone": "",
+      "lat": 33.202041,
+      "lng": 130.289074,
+      "url": "https://www.sagashi-insyoku.com/restaurants/liebe-saga",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "菓子工房　リーブ",
+        "菓子工房リーブ"
+      ]
+    },
+    {
+      "id": "genghiskhan",
+      "name": "活魚料理 和食処 じんぎすかん",
+      "nameKana": "活魚料理 和食処 じんぎすかん",
+      "genre": [
+        "和食"
+      ],
+      "address": "佐賀市大財１−３−７",
+      "phone": "0952-22-5076",
+      "lat": 33.257618,
+      "lng": 130.301058,
+      "url": "https://www.sagashi-insyoku.com/restaurants/genghiskhan",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "活魚料理 和食処 じんぎすかん",
+        "活魚料理和食処じんぎすかん",
+        "和食"
+      ]
+    },
+    {
+      "id": "cafe_aix",
+      "name": "カフェ エクス",
+      "nameKana": "カフェ エクス",
+      "genre": [
+        "カフェ"
+      ],
+      "address": "佐賀市唐人１−２−９",
+      "phone": "",
+      "lat": 33.257882,
+      "lng": 130.29907,
+      "url": "https://www.sagashi-insyoku.com/restaurants/cafe_aix",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "カフェ エクス",
+        "カフェエクス",
+        "カフェ"
+      ]
+    },
+    {
+      "id": "ochobo",
+      "name": "京風茶房 おちょぼ",
+      "nameKana": "京風茶房 おちょぼ",
+      "genre": [
+        "パン・スイーツ",
+        "ラーメン"
+      ],
+      "address": "佐賀市白山２−８−２",
+      "phone": "0952-26-9677",
+      "lat": 33.255197,
+      "lng": 130.302899,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ochobo",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "京風茶房 おちょぼ",
+        "京風茶房おちょぼ",
+        "パン・スイーツ",
+        "ラーメン"
+      ]
+    },
+    {
+      "id": "gyouzaya",
+      "name": "ぎょうざ屋",
+      "nameKana": "ぎょうざ屋",
+      "genre": [],
+      "address": "佐賀市呉服元町２−２",
+      "phone": "0952-29-5585",
+      "lat": 33.254109,
+      "lng": 130.303054,
+      "url": "https://www.sagashi-insyoku.com/restaurants/gyouzaya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ぎょうざ屋",
+        "ぎょうざ屋"
+      ]
+    },
+    {
+      "id": "kuraokatei",
+      "name": "くらおか亭",
+      "nameKana": "くらおか亭",
+      "genre": [],
+      "address": "佐賀市駅前中央１丁目２−３",
+      "phone": "0952-22-2087",
+      "lat": 33.262929,
+      "lng": 130.299916,
+      "url": "https://www.sagashi-insyoku.com/restaurants/kuraokatei",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "くらおか亭",
+        "くらおか亭"
+      ]
+    },
+    {
+      "id": "koto",
+      "name": "古都",
+      "nameKana": "古都",
+      "genre": [],
+      "address": "佐賀市白山２−５−５ エクレール3F",
+      "phone": "0952-29-7729",
+      "lat": 33.255747,
+      "lng": 130.301494,
+      "url": "https://www.sagashi-insyoku.com/restaurants/koto",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "古都",
+        "古都"
+      ]
+    },
+    {
+      "id": "sake_sumibiyaki_kiyo",
+      "name": "酒・炭焼 きよ",
+      "nameKana": "酒・炭焼 きよ",
+      "genre": [],
+      "address": "佐賀市大財１−４−８",
+      "phone": "0952-97-5339",
+      "lat": 33.257868,
+      "lng": 130.30136,
+      "url": "https://www.sagashi-insyoku.com/restaurants/sake_sumibiyaki_kiyo",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "酒・炭焼 きよ",
+        "酒・炭焼きよ"
+      ]
+    },
+    {
+      "id": "sanchi_chokuso_nakagaininchokueiten_kura",
+      "name": "産地直送仲買人直営店 蔵",
+      "nameKana": "産地直送仲買人直営店 蔵",
+      "genre": [
+        "居酒屋",
+        "海鮮料理"
+      ],
+      "address": "佐賀市大財１−３−１９",
+      "phone": "0952-24-3030",
+      "lat": 33.25738,
+      "lng": 130.301179,
+      "url": "https://www.sagashi-insyoku.com/restaurants/sanchi_chokuso_nakagaininchokueiten_kura",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "産地直送仲買人直営店 蔵",
+        "産地直送仲買人直営店蔵",
+        "居酒屋",
+        "海鮮料理"
+      ]
+    },
+    {
+      "id": "chateau_bunga",
+      "name": "シャトー文雅",
+      "nameKana": "シャトー文雅",
+      "genre": [],
+      "address": "佐賀市大和町大字久池井２５９２−１",
+      "phone": "0952-62-5444",
+      "lat": 33.317305,
+      "lng": 130.276984,
+      "googleMapUrl": "https://www.google.com/maps?cid=17293088088088813411",
+      "tabelogUrl": "https://tabelog.com/saga/A4101/A410101/41000015/",
+      "url": "https://www.sagashi-insyoku.com/restaurants/chateau_bunga",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "シャトー文雅",
+        "シャトー文雅"
+      ]
+    },
+    {
+      "id": "shiretto",
+      "name": "Shiretto",
+      "nameKana": "Shiretto",
+      "genre": [],
+      "address": "佐賀市白山２−５−５ エクレール白山4階",
+      "phone": "",
+      "lat": 33.255529,
+      "lng": 130.300942,
+      "url": "https://www.sagashi-insyoku.com/restaurants/shiretto",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "shiretto",
+        "Shiretto"
+      ]
+    },
+    {
+      "id": "juicy",
+      "name": "Juicy",
+      "nameKana": "Juicy",
+      "genre": [],
+      "address": "佐賀市白山２丁目６−１ ホワイトビル3F",
+      "phone": "0952-28-9533",
+      "lat": 33.255448,
+      "lng": 130.301671,
+      "url": "https://www.sagashi-insyoku.com/restaurants/juicy",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "juicy",
+        "Juicy"
+      ]
+    },
+    {
+      "id": "suizuki",
+      "name": "魚と串の酔月",
+      "nameKana": "魚と串の酔月",
+      "genre": [
+        "和食",
+        "海鮮料理"
+      ],
+      "address": "佐賀市松原３−２−２２",
+      "phone": "",
+      "lat": 33.25224,
+      "lng": 130.305655,
+      "url": "https://www.sagashi-insyoku.com/restaurants/suizuki",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "魚と串の酔月",
+        "魚と串の酔月",
+        "和食",
+        "海鮮料理"
+      ]
+    },
+    {
+      "id": "sushiei",
+      "name": "すし栄",
+      "nameKana": "すし栄",
+      "genre": [
+        "寿司"
+      ],
+      "address": "佐賀市大財１丁目１−１１",
+      "phone": "0952-23-7780",
+      "lat": 33.25653,
+      "lng": 130.30122,
+      "url": "https://www.sagashi-insyoku.com/restaurants/sushiei",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "すし栄",
+        "すし栄",
+        "寿司"
+      ]
+    },
+    {
+      "id": "sushimasa",
+      "name": "寿し政",
+      "nameKana": "寿し政",
+      "genre": [
+        "寿司"
+      ],
+      "address": "佐賀市大財１丁目１−１４",
+      "phone": "0952-23-6581",
+      "lat": 33.256317,
+      "lng": 130.30127,
+      "url": "https://www.sagashi-insyoku.com/restaurants/sushimasa",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "寿し政",
+        "寿し政",
+        "寿司"
+      ]
+    },
+    {
+      "id": "snack_koisan",
+      "name": "スナック 恋さん",
+      "nameKana": "スナック 恋さん",
+      "genre": [
+        "スナック"
+      ],
+      "address": "佐賀市愛敬町１−１",
+      "phone": "0952-26-7298",
+      "lat": 33.258085,
+      "lng": 130.301077,
+      "url": "https://www.sagashi-insyoku.com/restaurants/snack_koisan",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "スナック 恋さん",
+        "スナック恋さん",
+        "スナック"
+      ]
+    },
+    {
+      "id": "snack_momoe",
+      "name": "スナック 百絵",
+      "nameKana": "スナック 百絵",
+      "genre": [
+        "スナック"
+      ],
+      "address": "佐賀市白山２丁目６−１ ホワイトビル2F",
+      "phone": "0952-23-0624",
+      "lat": 33.255448,
+      "lng": 130.301671,
+      "url": "https://www.sagashi-insyoku.com/restaurants/snack_momoe",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "スナック 百絵",
+        "スナック百絵",
+        "スナック"
+      ]
+    },
+    {
+      "id": "seiryuken_ootakaraten",
+      "name": "成竜軒 大財店",
+      "nameKana": "成竜軒 大財店",
+      "genre": [],
+      "address": "佐賀市大財１丁目６−３１",
+      "phone": "0952-24-4520",
+      "lat": 33.258051,
+      "lng": 130.302899,
+      "url": "https://www.sagashi-insyoku.com/restaurants/seiryuken_ootakaraten",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "成竜軒 大財店",
+        "成竜軒大財店"
+      ]
+    },
+    {
+      "id": "sumibiyaki_happo",
+      "name": "大衆キッチン炭火屋ハッポウ",
+      "nameKana": "大衆キッチン炭火屋ハッポウ",
+      "genre": [],
+      "address": "佐賀市駅前中央１−１３",
+      "phone": "0952-33-7321",
+      "lat": 33.264816,
+      "lng": 130.298771,
+      "url": "https://www.sagashi-insyoku.com/restaurants/sumibiyaki_happo",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "大衆キッチン炭火屋ハッポウ",
+        "大衆キッチン炭火屋ハッポウ"
+      ]
+    },
+    {
+      "id": "takami",
+      "name": "たか美",
+      "nameKana": "たか美",
+      "genre": [],
+      "address": "佐賀市久保泉町川久保２１２２−１",
+      "phone": "0120-39-2688",
+      "lat": 33.323246,
+      "lng": 130.315702,
+      "url": "https://www.sagashi-insyoku.com/restaurants/takami",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "たか美",
+        "たか美"
+      ]
+    },
+    {
+      "id": "takara_udon",
+      "name": "宝うどん",
+      "nameKana": "宝うどん",
+      "genre": [
+        "うどん"
+      ],
+      "address": "佐賀市光３丁目１２−５",
+      "phone": "0952-26-9090",
+      "lat": 33.23414,
+      "lng": 130.275353,
+      "googleMapUrl": "https://www.google.com/maps?cid=11528852578954387429",
+      "tabelogUrl": "https://tabelog.com/saga/A4101/A410101/41005449/",
+      "url": "https://www.sagashi-insyoku.com/restaurants/takara_udon",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "宝うどん",
+        "宝うどん",
+        "うどん"
+      ]
+    },
+    {
+      "id": "ushihiko_umahiko",
+      "name": "タンしゃぶ処うし彦馬彦",
+      "nameKana": "タンしゃぶ処うし彦馬彦",
+      "genre": [
+        "和食",
+        "居酒屋"
+      ],
+      "address": "佐賀市駅前中央１−３−１１",
+      "phone": "",
+      "lat": 33.263184,
+      "lng": 130.298951,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ushihiko_umahiko",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "タンしゃぶ処うし彦馬彦",
+        "タンしゃぶ処うし彦馬彦",
+        "和食",
+        "居酒屋"
+      ]
+    },
+    {
+      "id": "da_gino",
+      "name": "ダ・ジーノ",
+      "nameKana": "ダ・ジーノ",
+      "genre": [],
+      "address": "佐賀市神野東３丁目７−１３",
+      "phone": "0952-30-8955",
+      "lat": 33.267272,
+      "lng": 130.293942,
+      "url": "https://www.sagashi-insyoku.com/restaurants/da_gino",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ダ・ジーノ",
+        "ダ・ジーノ"
+      ]
+    },
+    {
+      "id": "ching",
+      "name": "チング",
+      "nameKana": "チング",
+      "genre": [
+        "韓国料理",
+        "焼肉"
+      ],
+      "address": "佐賀市唐人１−２−７",
+      "phone": "",
+      "lat": 33.258113,
+      "lng": 130.29902,
+      "url": "https://www.sagashi-insyoku.com/restaurants/ching",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "チング",
+        "チング",
+        "韓国料理",
+        "焼肉"
+      ]
+    },
+    {
+      "id": "deeer",
+      "name": "Grill Dining deeer",
+      "nameKana": "Grill Dining deeer",
+      "genre": [
+        "創作料理",
+        "ハンバーグ・ハンバーガー"
+      ],
+      "address": "佐賀市大財1丁目4-8",
+      "phone": "0952-97-5922",
+      "lat": 33.257868,
+      "lng": 130.30136,
+      "url": "https://www.sagashi-insyoku.com/restaurants/deeer",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "grill dining deeer",
+        "GrillDiningdeeer",
+        "創作料理",
+        "ハンバーグ・ハンバーガー"
+      ]
+    },
+    {
+      "id": "hakataichibandori",
+      "name": "博多一番どり 佐賀鍋島店",
+      "nameKana": "博多一番どり 佐賀鍋島店",
+      "genre": [],
+      "address": "佐賀市鍋島３丁目２−１２",
+      "phone": "",
+      "lat": 33.281412,
+      "lng": 130.269614,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hakataichibandori",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "博多一番どり 佐賀鍋島店",
+        "博多一番どり佐賀鍋島店"
+      ]
+    },
+    {
+      "id": "hack_berry",
+      "name": "ハックベリー",
+      "nameKana": "ハックベリー",
+      "genre": [],
+      "address": "佐賀市中央本町５−１４",
+      "phone": "0952-25-0140",
+      "lat": 33.253175,
+      "lng": 130.302311,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hack_berry",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ハックベリー",
+        "ハックベリー"
+      ]
+    },
+    {
+      "id": "bal_tapas",
+      "name": "BAL TAPAS",
+      "nameKana": "BAL TAPAS",
+      "genre": [
+        "洋食",
+        "イタリアン",
+        "居酒屋"
+      ],
+      "address": "佐賀市大財１−３−１８",
+      "phone": "0952-37-7627",
+      "lat": 33.257512,
+      "lng": 130.30108,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bal_tapas",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bal tapas",
+        "BALTAPAS",
+        "洋食",
+        "イタリアン",
+        "居酒屋"
+      ]
+    },
+    {
+      "id": "bar_mistone",
+      "name": "Bar MIS TONE",
+      "nameKana": "Bar MIS TONE",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀県佐賀市白山１丁目２−２２",
+      "phone": "0952-29-9401",
+      "lat": 33.255071,
+      "lng": 130.299157,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bar_mistone",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bar mis tone",
+        "BarMISTONE",
+        "バー"
+      ]
+    },
+    {
+      "id": "bar_aroma",
+      "name": "BAR AROMA",
+      "nameKana": "BAR AROMA",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市松原２−１１−１７",
+      "phone": "0952-24-6262",
+      "lat": 33.252518,
+      "lng": 130.302328,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bar_aroma",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bar aroma",
+        "BARAROMA",
+        "バー"
+      ]
+    },
+    {
+      "id": "bar_babuchan",
+      "name": "Bar ばぶちゃん",
+      "nameKana": "Bar ばぶちゃん",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市大財１丁目４−２070-1298-0709​​",
+      "phone": "",
+      "lat": 33.2575,
+      "lng": 130.3015,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bar_babuchan",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bar ばぶちゃん",
+        "Barばぶちゃん",
+        "バー"
+      ]
+    },
+    {
+      "id": "pakka",
+      "name": "焼肉韓国家庭料理 朴家",
+      "nameKana": "焼肉韓国家庭料理 朴家",
+      "genre": [
+        "焼肉",
+        "韓国料理"
+      ],
+      "address": "佐賀市若宮２丁目１５−６ 福井ビル",
+      "phone": "0952-32-0522",
+      "lat": 33.269903,
+      "lng": 130.286211,
+      "url": "https://www.sagashi-insyoku.com/restaurants/pakka",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "焼肉韓国家庭料理 朴家",
+        "焼肉韓国家庭料理朴家",
+        "焼肉",
+        "韓国料理"
+      ]
+    },
+    {
+      "id": "hisabou",
+      "name": "御食事処 久坊",
+      "nameKana": "御食事処 久坊",
+      "genre": [
+        "和食",
+        "海鮮料理"
+      ],
+      "address": "佐賀市神野西１−８−１",
+      "phone": "0952-22-1134",
+      "lat": 33.263023,
+      "lng": 130.292043,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hisabou",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "御食事処 久坊",
+        "御食事処久坊",
+        "和食",
+        "海鮮料理"
+      ]
+    },
+    {
+      "id": "hideya",
+      "name": "秀屋",
+      "nameKana": "秀屋",
+      "genre": [],
+      "address": "佐賀市光１丁目１−１３ キープビル東棟",
+      "phone": "0952-26-6454",
+      "lat": 33.240879,
+      "lng": 130.279362,
+      "url": "https://www.sagashi-insyoku.com/restaurants/hideya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "秀屋",
+        "秀屋"
+      ]
+    },
+    {
+      "id": "bistro_fujiyoshi",
+      "name": "ビストロ藤吉",
+      "nameKana": "ビストロ藤吉",
+      "genre": [],
+      "address": "佐賀市高木瀬町大字長瀬９８２−８",
+      "phone": "0952-33-1070",
+      "lat": 33.291396,
+      "lng": 130.287268,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bistro_fujiyoshi",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ビストロ藤吉",
+        "ビストロ藤吉"
+      ]
+    },
+    {
+      "id": "fukagawashokudou",
+      "name": "深川食堂",
+      "nameKana": "深川食堂",
+      "genre": [],
+      "address": "佐賀市鍋島町森田２０２−１",
+      "phone": "0952-30-3970",
+      "lat": 33.272314,
+      "lng": 130.263292,
+      "googleMapUrl": "https://www.google.com/maps?cid=3962565068481052202",
+      "url": "https://www.sagashi-insyoku.com/restaurants/fukagawashokudou",
+      "openingHours": {
+        "mon": {
+          "open": "18:00",
+          "close": "23:00"
+        },
+        "tue": {
+          "open": "18:00",
+          "close": "23:00"
+        },
+        "wed": {
+          "open": "18:00",
+          "close": "23:00"
+        },
+        "thu": {
+          "open": "18:00",
+          "close": "23:00"
+        },
+        "fri": {
+          "open": "18:00",
+          "close": "23:00"
+        },
+        "sat": {
+          "open": "18:00",
+          "close": "23:00"
+        },
+        "sun": {
+          "open": "18:00",
+          "close": "23:00"
+        },
+        "holiday": null
+      },
+      "hoursText": "18:00 ～ 23:00 不定休",
+      "closedDays": [],
+      "searchKeywords": [
+        "深川食堂",
+        "深川食堂"
+      ]
+    },
+    {
+      "id": "bluevelvet",
+      "name": "ブルーベルベット",
+      "nameKana": "ブルーベルベット",
+      "genre": [],
+      "address": "佐賀市大財１丁目５−２",
+      "phone": "0952-25-4220",
+      "lat": 33.256327,
+      "lng": 130.301469,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bluevelvet",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ブルーベルベット",
+        "ブルーベルベット"
+      ]
+    },
+    {
+      "id": "bunga__village",
+      "name": "BUNGA VILLAGE",
+      "nameKana": "BUNGA VILLAGE",
+      "genre": [],
+      "address": "佐賀市大和町大字久池井２５９３−１２",
+      "phone": "0952-37-8376",
+      "lat": 33.317243,
+      "lng": 130.277201,
+      "url": "https://www.sagashi-insyoku.com/restaurants/bunga__village",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "bunga village",
+        "BUNGAVILLAGE"
+      ]
+    },
+    {
+      "id": "honoji",
+      "name": "ほのじ",
+      "nameKana": "ほのじ",
+      "genre": [],
+      "address": "佐賀市中央本町７−２",
+      "phone": "0952-24-4720",
+      "lat": 33.253318,
+      "lng": 130.302441,
+      "url": "https://www.sagashi-insyoku.com/restaurants/honoji",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ほのじ",
+        "ほのじ"
+      ]
+    },
+    {
+      "id": "honjo_unagi_toubu",
+      "name": "本庄うなぎ屋　東部店",
+      "nameKana": "本庄うなぎ屋　東部店",
+      "genre": [
+        "うなぎ"
+      ],
+      "address": "佐賀市兵庫南４丁目１−２３",
+      "phone": "0952-26-8820",
+      "lat": 33.261051,
+      "lng": 130.319089,
+      "url": "https://www.sagashi-insyoku.com/restaurants/honjo_unagi_toubu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "本庄うなぎ屋　東部店",
+        "本庄うなぎ屋東部店",
+        "うなぎ"
+      ]
+    },
+    {
+      "id": "matsushita",
+      "name": "松下",
+      "nameKana": "松下",
+      "genre": [
+        "寿司"
+      ],
+      "address": "佐賀市中央本町７−１３",
+      "phone": "0952-48-0371",
+      "lat": 33.253455,
+      "lng": 130.303014,
+      "url": "https://www.sagashi-insyoku.com/restaurants/matsushita",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "松下",
+        "松下",
+        "寿司"
+      ]
+    },
+    {
+      "id": "mutou",
+      "name": "むとう",
+      "nameKana": "むとう",
+      "genre": [
+        "バー・スナック",
+        "海鮮料理",
+        "和食"
+      ],
+      "address": "佐賀市唐人２丁目５−１",
+      "phone": "0952-25-8139",
+      "lat": 33.257861,
+      "lng": 130.299582,
+      "url": "https://www.sagashi-insyoku.com/restaurants/mutou",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "むとう",
+        "むとう",
+        "バー・スナック",
+        "海鮮料理",
+        "和食"
+      ]
+    },
+    {
+      "id": "members_chip_in",
+      "name": "member's chip IN",
+      "nameKana": "member's chip IN",
+      "genre": [],
+      "address": "佐賀市中央本町１０−５ ＡＩビルディング",
+      "phone": "",
+      "lat": 33.253486,
+      "lng": 130.303309,
+      "url": "https://www.sagashi-insyoku.com/restaurants/members_chip_in",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "member's chip in",
+        "member'schipIN"
+      ]
+    },
+    {
+      "id": "yakitori_kachigarasu",
+      "name": "焼とり かちがらす駅前店",
+      "nameKana": "焼とり かちがらす駅前店",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市駅前中央１−７−１",
+      "phone": "0952-26-8720",
+      "lat": 33.261877,
+      "lng": 130.297255,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_kachigarasu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "焼とり かちがらす駅前店",
+        "焼とりかちがらす駅前店",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakitori_tsuru",
+      "name": "やきとり 鶴",
+      "nameKana": "やきとり 鶴",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市八幡小路２−８",
+      "phone": "",
+      "lat": 33.2635,
+      "lng": 130.3,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_tsuru",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "やきとり 鶴",
+        "やきとり鶴",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakitori.aoiya",
+      "name": "やきとり葵屋",
+      "nameKana": "やきとり葵屋",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市唐人２丁目７－１７",
+      "phone": "0952-24-0776",
+      "lat": 33.258,
+      "lng": 130.2995,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori.aoiya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "やきとり葵屋",
+        "やきとり葵屋",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakitori_toriya",
+      "name": "やきとり鳥や",
+      "nameKana": "やきとり鳥や",
+      "genre": [
+        "焼鳥"
+      ],
+      "address": "佐賀市唐人１丁目５",
+      "phone": "0952-27-7069",
+      "lat": 33.258,
+      "lng": 130.2995,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_toriya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "やきとり鳥や",
+        "やきとり鳥や",
+        "焼鳥"
+      ]
+    },
+    {
+      "id": "yakimidokoro_rikyu",
+      "name": "焼味処 輪久",
+      "nameKana": "焼味処 輪久",
+      "genre": [],
+      "address": "佐賀市大財１丁目４−１１",
+      "phone": "0952-23-7299",
+      "lat": 33.2575,
+      "lng": 130.3015,
+      "url": "https://www.sagashi-insyoku.com/restaurants/yakimidokoro_rikyu",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "焼味処 輪久",
+        "焼味処輪久"
+      ]
+    },
+    {
+      "id": "livesnack_shiya",
+      "name": "ライブスナック シーヤ",
+      "nameKana": "ライブスナック シーヤ",
+      "genre": [
+        "スナック"
+      ],
+      "address": "佐賀市白山２−５−５ エクレール白山4F",
+      "phone": "0952-29-0087",
+      "lat": 33.2555,
+      "lng": 130.302,
+      "url": "https://www.sagashi-insyoku.com/restaurants/livesnack_shiya",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ライブスナック シーヤ",
+        "ライブスナックシーヤ",
+        "スナック"
+      ]
+    },
+    {
+      "id": "lounge_cherie",
+      "name": "Lounge CHERIE",
+      "nameKana": "Lounge CHERIE",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市中央本町４−９",
+      "phone": "0952-22-6885",
+      "lat": 33.254,
+      "lng": 130.302,
+      "url": "https://www.sagashi-insyoku.com/restaurants/lounge_cherie",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "lounge cherie",
+        "LoungeCHERIE",
+        "バー"
+      ]
+    },
+    {
+      "id": "lounge_revie",
+      "name": "Lounge Revie",
+      "nameKana": "Lounge Revie",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市白山２丁目５−５ エクレール白山",
+      "phone": "",
+      "lat": 33.2555,
+      "lng": 130.302,
+      "url": "https://www.sagashi-insyoku.com/restaurants/lounge_revie",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "lounge revie",
+        "LoungeRevie",
+        "バー"
+      ]
+    },
+    {
+      "id": "lagurus",
+      "name": "Lagurus",
+      "nameKana": "Lagurus",
+      "genre": [],
+      "address": "佐賀市中央本町５−１",
+      "phone": "",
+      "lat": 33.254,
+      "lng": 130.302,
+      "url": "https://www.sagashi-insyoku.com/restaurants/lagurus",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "lagurus",
+        "Lagurus"
+      ]
+    },
+    {
+      "id": "rin",
+      "name": "凛",
+      "nameKana": "凛",
+      "genre": [],
+      "address": "佐賀市中央本町４−７",
+      "phone": "0954-62-2774",
+      "lat": 33.254,
+      "lng": 130.302,
+      "url": "https://www.sagashi-insyoku.com/restaurants/rin",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "凛",
+        "凛"
+      ]
+    },
+    {
+      "id": "letsgo_teppei",
+      "name": "PUB Let’s go Teppei",
+      "nameKana": "PUB Let’s go Teppei",
+      "genre": [
+        "バー"
+      ],
+      "address": "佐賀市大財１丁目５−３",
+      "phone": "0952-22-7134",
+      "lat": 33.2575,
+      "lng": 130.3015,
+      "url": "https://www.sagashi-insyoku.com/restaurants/letsgo_teppei",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "pub let’s go teppei",
+        "PUBLet’sgoTeppei",
+        "バー"
+      ]
+    },
+    {
+      "id": "loretta",
+      "name": "ロレッタ",
+      "nameKana": "ロレッタ",
+      "genre": [],
+      "address": "佐賀市松原３−３",
+      "phone": "0952-37-5310",
+      "lat": 33.2525,
+      "lng": 130.3045,
+      "url": "https://www.sagashi-insyoku.com/restaurants/loretta",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "ロレッタ",
+        "ロレッタ"
+      ]
+    },
+    {
+      "id": "wanwan",
+      "name": "椀々",
+      "nameKana": "椀々",
+      "genre": [],
+      "address": "佐賀市八幡小路４−３３",
+      "phone": "0952-25-6774",
+      "lat": 33.2635,
+      "lng": 130.3,
+      "url": "https://www.sagashi-insyoku.com/restaurants/wanwan",
+      "openingHours": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "hoursText": "",
+      "closedDays": [],
+      "searchKeywords": [
+        "椀々",
+        "椀々"
+      ]
+    }
+  ],
+  "index": {
+    "genres": [
+      "うどん",
+      "うなぎ",
+      "その他",
+      "ちゃんぽん",
+      "イタリアン",
+      "カフェ",
+      "スナック",
+      "ハンバーグ・ハンバーガー",
+      "バー",
+      "バー・スナック",
+      "パン・スイーツ",
+      "ラーメン",
+      "中華料理",
+      "串焼き",
+      "創作料理",
+      "和食",
+      "喫茶・カフェ",
+      "天ぷら",
+      "寿司",
+      "居酒屋",
+      "洋食",
+      "海鮮料理",
+      "焼肉",
+      "焼鳥",
+      "韓国料理",
+      "食堂"
+    ],
+    "genreIndex": {
+      "洋食": [
+        0,
+        71,
+        103
+      ],
+      "創作料理": [
+        0,
+        66,
+        75,
+        100
+      ],
+      "海鮮料理": [
+        1,
+        2,
+        8,
+        74,
+        84,
+        88,
+        108,
+        117
+      ],
+      "和食": [
+        1,
+        5,
+        10,
+        15,
+        74,
+        77,
+        88,
+        97,
+        108,
+        117
+      ],
+      "居酒屋": [
+        1,
+        2,
+        4,
+        5,
+        8,
+        10,
+        13,
+        14,
+        15,
+        74,
+        75,
+        84,
+        97,
+        103
+      ],
+      "バー": [
+        3,
+        38,
+        39,
+        40,
+        41,
+        42,
+        59,
+        60,
+        61,
+        63,
+        104,
+        105,
+        106,
+        125,
+        126,
+        129
+      ],
+      "焼肉": [
+        5,
+        27,
+        52,
+        57,
+        99,
+        107
+      ],
+      "寿司": [
+        7,
+        24,
+        25,
+        72,
+        89,
+        90,
+        116
+      ],
+      "ちゃんぽん": [
+        9
+      ],
+      "食堂": [
+        9,
+        11,
+        30
+      ],
+      "ラーメン": [
+        11,
+        29,
+        79
+      ],
+      "中華料理": [
+        14,
+        33
+      ],
+      "串焼き": [
+        15
+      ],
+      "天ぷら": [
+        20,
+        25
+      ],
+      "スナック": [
+        26,
+        61,
+        91,
+        92,
+        124
+      ],
+      "その他": [
+        30
+      ],
+      "うどん": [
+        43,
+        96
+      ],
+      "うなぎ": [
+        49,
+        50,
+        115
+      ],
+      "韓国料理": [
+        52,
+        66,
+        99,
+        107
+      ],
+      "焼鳥": [
+        53,
+        54,
+        55,
+        56,
+        119,
+        120,
+        121,
+        122
+      ],
+      "喫茶・カフェ": [
+        71
+      ],
+      "カフェ": [
+        78
+      ],
+      "パン・スイーツ": [
+        79
+      ],
+      "ハンバーグ・ハンバーガー": [
+        100
+      ],
+      "イタリアン": [
+        103
+      ],
+      "バー・スナック": [
+        117
+      ]
+    },
+    "areas": [
+      "中央本町１−１",
+      "中央本町１−３１",
+      "中央本町１０−１ セントラル パレス",
+      "中央本町１０−５ ＡＩビルディング",
+      "中央本町２−４",
+      "中央本町３−１８ ALPHA",
+      "中央本町３−１８ アルファ",
+      "中央本町３−１８ アルファ３１８ビル",
+      "中央本町４−３ 美紀屋 中央ビル",
+      "中央本町４−６​",
+      "中央本町４−７",
+      "中央本町４−８",
+      "中央本町４−９",
+      "中央本町５−１",
+      "中央本町５−１４",
+      "中央本町７−１３",
+      "中央本町７−２",
+      "中央本町８−３",
+      "久保泉町川久保２１２２−１",
+      "久保田町大字徳万２４１６−２",
+      "光１丁目１−１３ キープビル東棟",
+      "光３丁目１２−５",
+      "八丁畷町八丁畷町１−１３",
+      "八幡小路２−１",
+      "八幡小路２−８",
+      "八幡小路４−３３",
+      "兵庫北１丁目１０−４０",
+      "兵庫北３丁目１−３",
+      "兵庫北３丁目１−８",
+      "兵庫南２丁目１４",
+      "兵庫南４丁目１−２３",
+      "呉服元町２−２",
+      "呉服元町２−４ ",
+      "呉服元町２−４　ＩＫＥビル１Ｆ",
+      "呉服元町３−２０",
+      "呉服元町３−７",
+      "唐人１−２−７",
+      "唐人１−２−９",
+      "唐人１丁目５",
+      "唐人１丁目５−１９　シティ唐人ビル１階​",
+      "唐人２丁目５ 唐人町(",
+      "唐人２丁目５−１",
+      "唐人２丁目７－１７",
+      "嘉瀬町中原１９７６",
+      "城内二丁目",
+      "大和町大字久池井２５９２−１",
+      "大和町大字久池井２５９３−１２",
+      "大和町大字尼寺２５００−２",
+      "大和町大字尼寺２９７９−３",
+      "大財",
+      "大財１−１−１７ 久我白山ビル",
+      "大財１−３−１８",
+      "大財１−３−１９",
+      "大財１−３−７",
+      "大財１−４−１８",
+      "大財１−４−１９",
+      "大財１−４−８",
+      "大財１丁目１−１０　いろはビル１階１０３​",
+      "大財１丁目１−１１",
+      "大財１丁目１−１４",
+      "大財１丁目３−１０",
+      "大財１丁目３０９−１",
+      "大財１丁目４−１１",
+      "大財１丁目４−２",
+      "大財１丁目４−６ K",
+      "大財１丁目５−１１ ティファニービル",
+      "大財１丁目５−２",
+      "大財１丁目５−３",
+      "大財１丁目６−３１",
+      "川副町大字小々森１２４−５",
+      "愛敬町１−１",
+      "愛敬町１−１ 中野マンション",
+      "愛敬町２−２３ エンゼルビル",
+      "愛敬町４−１",
+      "愛敬町４−４",
+      "日の出１−１３−３１",
+      "本庄町末次３９４−７",
+      "東与賀町大字下古賀１３０４−４​​​",
+      "松原２−１１−１７",
+      "松原２−２−１０リゾートシティライオンビル",
+      "松原２丁目１３−９",
+      "松原３−２−２２",
+      "松原３−２−２７",
+      "松原３−３",
+      "松原３−３−２９",
+      "松原３丁目３−７ 増田ビル",
+      "水ヶ江２丁目６−７",
+      "田代２−１１",
+      "白山町２丁目５",
+      "白山１丁目２−２２",
+      "白山２−５−５ エクレール",
+      "白山２−５−５ エクレール白山",
+      "白山２−６−３８",
+      "白山２−６−３８, コアビル",
+      "白山２−６−５白山ビル２F",
+      "白山２−８−２",
+      "白山２丁目４−２",
+      "白山２丁目５−２ Shirayama ",
+      "白山２丁目５−２ 第２白山ビル",
+      "白山２丁目５−５ エクレール白山",
+      "白山２丁目６−１ ホワイトビル",
+      "白山２－６－１",
+      "神野東３丁目７−１３",
+      "神野西１−８−１",
+      "若宮１−７",
+      "若宮２丁目１５−６ 福井ビル",
+      "西田代１−１",
+      "鍋島町大字八戸溝１２２８−１",
+      "鍋島町森田２０２−１",
+      "鍋島３−４",
+      "鍋島３丁目２−１２",
+      "鍋島３丁目７−１ シャトレ鍋島 ",
+      "鍋島３丁目８ シルキー石田",
+      "鍋島４丁目１−３６ 医大東ハイツ",
+      "駅前中央１−１１−３０",
+      "駅前中央１−１３",
+      "駅前中央１−３−１１",
+      "駅前中央１−７−１",
+      "駅前中央１丁目２−３",
+      "駅前中央１－１１－２０　JR佐賀駅サガハツ内",
+      "駅前中央３－２－２１",
+      "駅南本町４−２４ スカイ アベニュー２階",
+      "高木瀬東１−６−２２",
+      "高木瀬町大字長瀬９８２−８",
+      "高木瀬町長瀬１１８６"
+    ],
+    "areaIndex": {
+      "水ヶ江２丁目６−７": [
+        0
+      ],
+      "駅前中央１−１１−３０": [
+        1
+      ],
+      "大財１丁目４−６ K": [
+        2
+      ],
+      "呉服元町３−７": [
+        3
+      ],
+      "愛敬町４−１": [
+        4
+      ],
+      "呉服元町２−４　ＩＫＥビル１Ｆ": [
+        5
+      ],
+      "呉服元町２−４ ": [
+        6
+      ],
+      "駅前中央１－１１－２０　JR佐賀駅サガハツ内": [
+        7
+      ],
+      "大財１丁目３−１０": [
+        8
+      ],
+      "川副町大字小々森１２４−５": [
+        9
+      ],
+      "松原２丁目１３−９": [
+        10
+      ],
+      "嘉瀬町中原１９７６": [
+        11
+      ],
+      "白山２−６−３８, コアビル": [
+        12
+      ],
+      "大財１−４−１９": [
+        13
+      ],
+      "中央本町４−６​": [
+        14
+      ],
+      "松原３−２−２７": [
+        15
+      ],
+      "兵庫北３丁目１−３": [
+        16
+      ],
+      "愛敬町４−４": [
+        17
+      ],
+      "松原３丁目３−７ 増田ビル": [
+        18
+      ],
+      "松原２−２−１０リゾートシティライオンビル": [
+        19
+      ],
+      "兵庫北１丁目１０−４０": [
+        20
+      ],
+      "愛敬町２−２３ エンゼルビル": [
+        21
+      ],
+      "城内二丁目": [
+        22
+      ],
+      "中央本町１０−５ ＡＩビルディング": [
+        23,
+        118
+      ],
+      "白山２－６－１": [
+        24
+      ],
+      "大和町大字尼寺２５００−２": [
+        25
+      ],
+      "白山２−６−５白山ビル２F": [
+        26
+      ],
+      "愛敬町１−１": [
+        27,
+        91
+      ],
+      "高木瀬町長瀬１１８６": [
+        28
+      ],
+      "中央本町１−３１": [
+        29
+      ],
+      "鍋島４丁目１−３６ 医大東ハイツ": [
+        30
+      ],
+      "鍋島３−４": [
+        31
+      ],
+      "大財１−４−１８": [
+        32
+      ],
+      "中央本町１０−１ セントラル パレス": [
+        33
+      ],
+      "中央本町８−３": [
+        34
+      ],
+      "中央本町４−８": [
+        35
+      ],
+      "八丁畷町八丁畷町１−１３": [
+        36
+      ],
+      "久保田町大字徳万２４１６−２": [
+        37
+      ],
+      "白山２丁目４−２": [
+        38
+      ],
+      "白山１丁目２−２２": [
+        39,
+        104
+      ],
+      "中央本町３−１８ ALPHA": [
+        40
+      ],
+      "中央本町３−１８ アルファ３１８ビル": [
+        41
+      ],
+      "白山町２丁目５": [
+        42
+      ],
+      "西田代１−１": [
+        43
+      ],
+      "白山２−５−５ エクレール白山": [
+        44,
+        86,
+        124
+      ],
+      "中央本町１−１": [
+        45
+      ],
+      "中央本町３−１８ アルファ": [
+        46
+      ],
+      "愛敬町１−１ 中野マンション": [
+        47
+      ],
+      "白山２丁目５−２ 第２白山ビル": [
+        48
+      ],
+      "本庄町末次３９４−７": [
+        49
+      ],
+      "大和町大字尼寺２９７９−３": [
+        50
+      ],
+      "大財１丁目５−３": [
+        51,
+        129
+      ],
+      "大財１丁目３０９−１": [
+        52
+      ],
+      "高木瀬東１−６−２２": [
+        53
+      ],
+      "松原３−３−２９": [
+        54
+      ],
+      "呉服元町３−２０": [
+        55
+      ],
+      "鍋島３丁目７−１ シャトレ鍋島 ": [
+        56
+      ],
+      "鍋島３丁目８ シルキー石田": [
+        57
+      ],
+      "兵庫北３丁目１−８": [
+        58
+      ],
+      "白山２−６−３８": [
+        59
+      ],
+      "白山２丁目５−２ Shirayama ": [
+        60
+      ],
+      "大財１丁目１−１０　いろはビル１階１０３​": [
+        61
+      ],
+      "大財１−１−１７ 久我白山ビル": [
+        62
+      ],
+      "唐人２丁目５ 唐人町(": [
+        63
+      ],
+      "日の出１−１３−３１": [
+        64
+      ],
+      "田代２−１１": [
+        65
+      ],
+      "唐人１丁目５−１９　シティ唐人ビル１階​": [
+        66
+      ],
+      "中央本町２−４": [
+        67
+      ],
+      "大財１丁目５−１１ ティファニービル": [
+        68
+      ],
+      "八幡小路２−１": [
+        69
+      ],
+      "兵庫南２丁目１４": [
+        70
+      ],
+      "駅南本町４−２４ スカイ アベニュー２階": [
+        71
+      ],
+      "若宮１−７": [
+        72
+      ],
+      "中央本町４−３ 美紀屋 中央ビル": [
+        73
+      ],
+      "駅前中央３－２－２１": [
+        74
+      ],
+      "鍋島町大字八戸溝１２２８−１": [
+        75
+      ],
+      "東与賀町大字下古賀１３０４−４​​​": [
+        76
+      ],
+      "大財１−３−７": [
+        77
+      ],
+      "唐人１−２−９": [
+        78
+      ],
+      "白山２−８−２": [
+        79
+      ],
+      "呉服元町２−２": [
+        80
+      ],
+      "駅前中央１丁目２−３": [
+        81
+      ],
+      "白山２−５−５ エクレール": [
+        82
+      ],
+      "大財１−４−８": [
+        83
+      ],
+      "大財１−３−１９": [
+        84
+      ],
+      "大和町大字久池井２５９２−１": [
+        85
+      ],
+      "白山２丁目６−１ ホワイトビル": [
+        87,
+        92
+      ],
+      "松原３−２−２２": [
+        88
+      ],
+      "大財１丁目１−１１": [
+        89
+      ],
+      "大財１丁目１−１４": [
+        90
+      ],
+      "大財１丁目６−３１": [
+        93
+      ],
+      "駅前中央１−１３": [
+        94
+      ],
+      "久保泉町川久保２１２２−１": [
+        95
+      ],
+      "光３丁目１２−５": [
+        96
+      ],
+      "駅前中央１−３−１１": [
+        97
+      ],
+      "神野東３丁目７−１３": [
+        98
+      ],
+      "唐人１−２−７": [
+        99
+      ],
+      "大財": [
+        100
+      ],
+      "鍋島３丁目２−１２": [
+        101
+      ],
+      "中央本町５−１４": [
+        102
+      ],
+      "大財１−３−１８": [
+        103
+      ],
+      "松原２−１１−１７": [
+        105
+      ],
+      "大財１丁目４−２": [
+        106
+      ],
+      "若宮２丁目１５−６ 福井ビル": [
+        107
+      ],
+      "神野西１−８−１": [
+        108
+      ],
+      "光１丁目１−１３ キープビル東棟": [
+        109
+      ],
+      "高木瀬町大字長瀬９８２−８": [
+        110
+      ],
+      "鍋島町森田２０２−１": [
+        111
+      ],
+      "大財１丁目５−２": [
+        112
+      ],
+      "大和町大字久池井２５９３−１２": [
+        113
+      ],
+      "中央本町７−２": [
+        114
+      ],
+      "兵庫南４丁目１−２３": [
+        115
+      ],
+      "中央本町７−１３": [
+        116
+      ],
+      "唐人２丁目５−１": [
+        117
+      ],
+      "駅前中央１−７−１": [
+        119
+      ],
+      "八幡小路２−８": [
+        120
+      ],
+      "唐人２丁目７－１７": [
+        121
+      ],
+      "唐人１丁目５": [
+        122
+      ],
+      "大財１丁目４−１１": [
+        123
+      ],
+      "中央本町４−９": [
+        125
+      ],
+      "白山２丁目５−５ エクレール白山": [
+        126
+      ],
+      "中央本町５−１": [
+        127
+      ],
+      "中央本町４−７": [
+        128
+      ],
+      "松原３−３": [
+        130
+      ],
+      "八幡小路４−３３": [
+        131
+      ]
+    }
+  },
+  "metadata": {
+    "totalShops": 132,
+    "withCoords": 132,
+    "genres": [
+      "うどん",
+      "うなぎ",
+      "その他",
+      "ちゃんぽん",
+      "イタリアン",
+      "カフェ",
+      "スナック",
+      "ハンバーグ・ハンバーガー",
+      "バー",
+      "バー・スナック",
+      "パン・スイーツ",
+      "ラーメン",
+      "中華料理",
+      "串焼き",
+      "創作料理",
+      "和食",
+      "喫茶・カフェ",
+      "天ぷら",
+      "寿司",
+      "居酒屋",
+      "洋食",
+      "海鮮料理",
+      "焼肉",
+      "焼鳥",
+      "韓国料理",
+      "食堂"
+    ],
+    "areas": [
+      "中央本町１−１",
+      "中央本町１−３１",
+      "中央本町１０−１ セントラル パレス",
+      "中央本町１０−５ ＡＩビルディング",
+      "中央本町２−４",
+      "中央本町３−１８ ALPHA",
+      "中央本町３−１８ アルファ",
+      "中央本町３−１８ アルファ３１８ビル",
+      "中央本町４−３ 美紀屋 中央ビル",
+      "中央本町４−６​",
+      "中央本町４−７",
+      "中央本町４−８",
+      "中央本町４−９",
+      "中央本町５−１",
+      "中央本町５−１４",
+      "中央本町７−１３",
+      "中央本町７−２",
+      "中央本町８−３",
+      "久保泉町川久保２１２２−１",
+      "久保田町大字徳万２４１６−２",
+      "光１丁目１−１３ キープビル東棟",
+      "光３丁目１２−５",
+      "八丁畷町八丁畷町１−１３",
+      "八幡小路２−１",
+      "八幡小路２−８",
+      "八幡小路４−３３",
+      "兵庫北１丁目１０−４０",
+      "兵庫北３丁目１−３",
+      "兵庫北３丁目１−８",
+      "兵庫南２丁目１４",
+      "兵庫南４丁目１−２３",
+      "呉服元町２−２",
+      "呉服元町２−４ ",
+      "呉服元町２−４　ＩＫＥビル１Ｆ",
+      "呉服元町３−２０",
+      "呉服元町３−７",
+      "唐人１−２−７",
+      "唐人１−２−９",
+      "唐人１丁目５",
+      "唐人１丁目５−１９　シティ唐人ビル１階​",
+      "唐人２丁目５ 唐人町(",
+      "唐人２丁目５−１",
+      "唐人２丁目７－１７",
+      "嘉瀬町中原１９７６",
+      "城内二丁目",
+      "大和町大字久池井２５９２−１",
+      "大和町大字久池井２５９３−１２",
+      "大和町大字尼寺２５００−２",
+      "大和町大字尼寺２９７９−３",
+      "大財",
+      "大財１−１−１７ 久我白山ビル",
+      "大財１−３−１８",
+      "大財１−３−１９",
+      "大財１−３−７",
+      "大財１−４−１８",
+      "大財１−４−１９",
+      "大財１−４−８",
+      "大財１丁目１−１０　いろはビル１階１０３​",
+      "大財１丁目１−１１",
+      "大財１丁目１−１４",
+      "大財１丁目３−１０",
+      "大財１丁目３０９−１",
+      "大財１丁目４−１１",
+      "大財１丁目４−２",
+      "大財１丁目４−６ K",
+      "大財１丁目５−１１ ティファニービル",
+      "大財１丁目５−２",
+      "大財１丁目５−３",
+      "大財１丁目６−３１",
+      "川副町大字小々森１２４−５",
+      "愛敬町１−１",
+      "愛敬町１−１ 中野マンション",
+      "愛敬町２−２３ エンゼルビル",
+      "愛敬町４−１",
+      "愛敬町４−４",
+      "日の出１−１３−３１",
+      "本庄町末次３９４−７",
+      "東与賀町大字下古賀１３０４−４​​​",
+      "松原２−１１−１７",
+      "松原２−２−１０リゾートシティライオンビル",
+      "松原２丁目１３−９",
+      "松原３−２−２２",
+      "松原３−２−２７",
+      "松原３−３",
+      "松原３−３−２９",
+      "松原３丁目３−７ 増田ビル",
+      "水ヶ江２丁目６−７",
+      "田代２−１１",
+      "白山町２丁目５",
+      "白山１丁目２−２２",
+      "白山２−５−５ エクレール",
+      "白山２−５−５ エクレール白山",
+      "白山２−６−３８",
+      "白山２−６−３８, コアビル",
+      "白山２−６−５白山ビル２F",
+      "白山２−８−２",
+      "白山２丁目４−２",
+      "白山２丁目５−２ Shirayama ",
+      "白山２丁目５−２ 第２白山ビル",
+      "白山２丁目５−５ エクレール白山",
+      "白山２丁目６−１ ホワイトビル",
+      "白山２－６－１",
+      "神野東３丁目７−１３",
+      "神野西１−８−１",
+      "若宮１−７",
+      "若宮２丁目１５−６ 福井ビル",
+      "西田代１−１",
+      "鍋島町大字八戸溝１２２８−１",
+      "鍋島町森田２０２−１",
+      "鍋島３−４",
+      "鍋島３丁目２−１２",
+      "鍋島３丁目７−１ シャトレ鍋島 ",
+      "鍋島３丁目８ シルキー石田",
+      "鍋島４丁目１−３６ 医大東ハイツ",
+      "駅前中央１−１１−３０",
+      "駅前中央１−１３",
+      "駅前中央１−３−１１",
+      "駅前中央１−７−１",
+      "駅前中央１丁目２−３",
+      "駅前中央１－１１－２０　JR佐賀駅サガハツ内",
+      "駅前中央３－２－２１",
+      "駅南本町４−２４ スカイ アベニュー２階",
+      "高木瀬東１−６−２２",
+      "高木瀬町大字長瀬９８２−８",
+      "高木瀬町長瀬１１８６"
+    ],
+    "updatedAt": "2025-12-24T15:47:45.210Z"
+  }
+}

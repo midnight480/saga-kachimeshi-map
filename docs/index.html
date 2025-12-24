@@ -4,9 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="佐賀かちめしマップ - 佐賀の飲食店を地図で検索">
+    <meta name="description" content="Saga Kachimeshi Map - 佐賀の飲食店を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
     <meta name="theme-color" content="#d32f2f">
-    <title>Saga Kachimeshi Map</title>
+    <meta name="keywords" content="佐賀,飲食店,地図,検索,かちめし,レストラン,居酒屋">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saga-kachimeshi-map.midnight480.com/">
+    <meta property="og:title" content="Saga Kachimeshi Map - 佐賀の飲食店を地図で検索">
+    <meta property="og:description" content="佐賀の飲食店を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
+    <meta property="og:locale" content="ja_JP">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://saga-kachimeshi-map.midnight480.com/">
+    <meta property="twitter:title" content="Saga Kachimeshi Map - 佐賀の飲食店を地図で検索">
+    <meta property="twitter:description" content="佐賀の飲食店を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data/kachimeshi.png">
+    
+    <title>Saga Kachimeshi Map - 佐賀の飲食店を地図で検索</title>
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
@@ -31,7 +49,7 @@
             <div id="filters">
                 <input type="text" id="filter-text" placeholder="店舗名で検索">
                 <select id="filter-category">
-                    <option value="">カテゴリー</option>
+                    <option value="">ジャンル</option>
                 </select>
                 <select id="filter-day">
                     <option value="">曜日</option>

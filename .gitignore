@@ -1,2 +1,9 @@
 node_modules/
 .DS_Store
+*.log
+*.pid
+.env
+.env.local
+.wrangler/
+dist/
+build/

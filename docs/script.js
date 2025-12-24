@@ -40,29 +40,44 @@ fetch('data/shops.json')
         }
     });
 
-// Populate category filter dropdown
+// Populate genre filter dropdown
 function populateCategoryFilter(shops) {
     const categorySelect = document.getElementById('filter-category');
     if (!categorySelect) return;
     
-    // Extract unique categories
-    const categories = [...new Set(shops
-        .map(s => s.category)
-        .filter(c => c && c.trim())
-    )].sort();
+    // Extract unique genres from genre arrays
+    const genres = new Set();
+    shops.forEach(shop => {
+        if (Array.isArray(shop.genre)) {
+            shop.genre.forEach(g => {
+                if (g && g.trim()) {
+                    genres.add(g.trim());
+                }
+            });
+        }
+        // Also check category field for backward compatibility
+        if (shop.category) {
+            shop.category.split(/[,，、]/).forEach(c => {
+                const trimmed = c.trim();
+                if (trimmed) {
+                    genres.add(trimmed);
+                }
+            });
+        }
+    });
     
     // Clear existing options (except the first "カテゴリー" option)
-    categorySelect.innerHTML = '<option value="">カテゴリー</option>';
+    categorySelect.innerHTML = '<option value="">ジャンル</option>';
     
-    // Add category options
-    categories.forEach(category => {
+    // Add genre options
+    [...genres].sort().forEach(genre => {
         const option = document.createElement('option');
-        option.value = category;
-        option.textContent = category;
+        option.value = genre;
+        option.textContent = genre;
         categorySelect.appendChild(option);
     });
     
-    console.log(`Populated ${categories.length} categories:`, categories);
+    console.log(`Populated ${genres.size} genres:`, [...genres].sort());
 }
 
 // Check if coordinates are in Saga area (rough bounds)
@@ -101,9 +116,12 @@ async function renderMap() {
             if (!allTermsMatch) return false;
         }
 
-        // Category Filter
+        // Genre Filter
         if (filterCategory) {
-            if (!shop.category || shop.category !== filterCategory) return false;
+            const shopGenres = Array.isArray(shop.genre) ? shop.genre : [];
+            const categoryGenres = shop.category ? shop.category.split(/[,，、]/).map(c => c.trim()) : [];
+            const allGenres = [...shopGenres, ...categoryGenres];
+            if (!allGenres.includes(filterCategory)) return false;
         }
 
         // Day/Time Filter
@@ -196,9 +214,12 @@ function renderList() {
             if (!allTermsMatch) return false;
         }
 
-        // Category Filter
+        // Genre Filter
         if (filterCategory) {
-            if (!shop.category || shop.category !== filterCategory) return false;
+            const shopGenres = Array.isArray(shop.genre) ? shop.genre : [];
+            const categoryGenres = shop.category ? shop.category.split(/[,，、]/).map(c => c.trim()) : [];
+            const allGenres = [...shopGenres, ...categoryGenres];
+            if (!allGenres.includes(filterCategory)) return false;
         }
 
         // Day/Time Filter
@@ -335,7 +356,8 @@ function showShopModal(shop) {
                 <h3>リンク</h3>
                 <div class="links-grid">
                     <a href="${shop.url}" target="_blank" class="link-button">詳細ページ</a>
-                    ${shop.tabelogUrl && shop.tabelogUrl.trim() ? `<a href="${shop.tabelogUrl}" target="_blank" class="link-button tabelog">食べログで見る</a>` : ''}
+                    ${(shop.tabelogUrl && shop.tabelogUrl.trim()) || (shop.tabelog && shop.tabelog.trim()) ? `<a href="${shop.tabelogUrl || shop.tabelog}" target="_blank" class="link-button tabelog">食べログで見る</a>` : ''}
+                    ${(shop.googleMapUrl && shop.googleMapUrl.trim()) || (shop.google_map && shop.google_map.trim()) ? `<a href="${shop.googleMapUrl || shop.google_map}" target="_blank" class="link-button google-map">Googleマップで見る</a>` : ''}
                 </div>
             </div>
             ${(shop.sns && (shop.sns.twitter || shop.sns.instagram || shop.sns.facebook)) ? `
@@ -368,12 +390,14 @@ function updateShopCount(displayed, total) {
 
 // Helper to check openness
 function isShopOpen(shop, day, time) {
+    // Use structured hours if available
+    if (shop.hours_structured && shop.hours_structured.parsed) {
+        return isShopOpenStructured(shop, day, time);
+    }
+    
+    // Fallback to text parsing
     const hoursText = shop.hours || "";
-    if (!hoursText) return true; // If unknown, keep visible? Or hide? Usually keep visible.
-
-    // Normalize text
-    // "月・火..." -> "月火..." for easier matching?
-    // "月～金" -> need range expansion.
+    if (!hoursText) return true; // If unknown, keep visible
 
     // 1. Check Day
     if (day) {
@@ -385,6 +409,61 @@ function isShopOpen(shop, day, time) {
         if (!checkTime(hoursText, time)) return false;
     }
 
+    return true;
+}
+
+// Check openness using structured hours data
+function isShopOpenStructured(shop, day, time) {
+    const parsed = shop.hours_structured.parsed;
+    if (!parsed || Object.keys(parsed).length === 0) return true;
+    
+    // Day mapping: Mon -> mon, etc.
+    const dayMap = {
+        'Mon': 'mon', 'Tue': 'tue', 'Wed': 'wed', 'Thu': 'thu',
+        'Fri': 'fri', 'Sat': 'sat', 'Sun': 'sun'
+    };
+    
+    // 1. Check Day
+    if (day) {
+        const dayKey = dayMap[day];
+        if (!dayKey) return true; // Unknown day, keep visible
+        
+        // Check if shop is closed on this day
+        if (shop.hours_structured.closed) {
+            const closedDays = shop.hours_structured.closed;
+            const closedDayMap = {
+                '月': 'mon', '火': 'tue', '水': 'wed', '木': 'thu',
+                '金': 'fri', '土': 'sat', '日': 'sun', '祝': 'holiday'
+            };
+            for (const [jp, en] of Object.entries(closedDayMap)) {
+                if (closedDays.includes(jp) && dayKey === en) {
+                    return false; // Shop is closed on this day
+                }
+            }
+        }
+        
+        // Check if shop has hours for this day
+        if (!parsed[dayKey] && !parsed.holiday) {
+            // If no specific hours for this day, check if it's a general schedule
+            // (applies to all days)
+            const hasGeneralSchedule = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'].some(d => parsed[d]);
+            if (!hasGeneralSchedule) return true; // No schedule info, keep visible
+            return false; // Has schedule but not for this day
+        }
+    }
+    
+    // 2. Check Time
+    if (time) {
+        const dayKey = day ? dayMap[day] : null;
+        const timeStr = dayKey && parsed[dayKey] ? parsed[dayKey] : 
+                       parsed.holiday ? parsed.holiday :
+                       Object.values(parsed)[0]; // Use first available time
+        
+        if (!timeStr) return true; // No time info, keep visible
+        
+        if (!checkTime(timeStr, time)) return false;
+    }
+    
     return true;
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "Saga Kachimeshi Map",
-  "short_name": "かちめしマップ",
+  "short_name": "Kachimeshi Map",
   "description": "佐賀の飲食店を地図で検索できるアプリ",
   "start_url": "/",
   "display": "standalone",

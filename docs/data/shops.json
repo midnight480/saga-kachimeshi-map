@@ -911,13 +911,13 @@
       "バー",
       "スナック"
     ],
-    "address": "佐賀市大財１丁目１−１０　いろはビル１階１０３​20:00 ～ 2:00​-",
+    "address": "佐賀市大財１丁目１−１０　いろはビル１階１０３​",
     "phone": "",
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=佐賀市大財１丁目１−１０",
-    "lat": 33.260118,
-    "lng": 130.298482,
+    "lat": 33.291465,
+    "lng": 130.285299,
     "hours_structured": null
   },
   {
@@ -1774,7 +1774,7 @@
     "genre": [
       "焼鳥"
     ],
-    "address": "佐賀市八幡小路２−８",
+    "address": "佐賀市八幡小路２−８050-5485-7867月 ～ 土、祝前日：18:00 ～ 24:00（L.O.22:45、ドリンクL.O.23:25）日、祝日：18:00 ～ 22:00（L.O.21:15、ドリンクL.O.21:30）定休日：火曜日公式HP",
     "phone": "",
     "hours": "",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002669/",
@@ -1862,7 +1862,7 @@
     "genre": [
       "バー"
     ],
-    "address": "佐賀市白山２丁目５−５ エクレール白山",
+    "address": "佐賀市白山２丁目５−５ エクレール白山080-1534-011721:00 ～ 1:00定休日：日曜日公式HP",
     "phone": "",
     "hours": "",
     "tabelog": "",
@@ -1875,7 +1875,7 @@
     "name": "Lagurus",
     "url": "https://www.sagashi-insyoku.com/restaurants/lagurus",
     "genre": null,
-    "address": "佐賀市中央本町５−１",
+    "address": "佐賀市中央本町５−１080-8906-147820:00 ～ 01:00定休日：日曜日、祝日-",
     "phone": "",
     "hours": "",
     "tabelog": "",

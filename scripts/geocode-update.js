@@ -1,8 +1,10 @@
 const fs = require('fs');
 const https = require('https');
+const path = require('path');
 const { parseString } = require('xml2js');
 
-const shops = require('./data/shops.json');
+const shopsPath = path.join(__dirname, '../docs/data/shops.json');
+const shops = JSON.parse(fs.readFileSync(shopsPath, 'utf8'));
 
 // Geocoding.jp APIで住所から座標を取得
 function geocode(address) {
@@ -42,23 +44,22 @@ function geocode(address) {
 }
 
 async function updateCoordinates() {
+  const startFrom = parseInt(process.argv[2] || '0');
+  
   console.log('Geocoding.jp APIで座標を更新します');
-  console.log('制約: 10秒に1回のペースで実行します\n');
+  console.log('制約: 10秒に1回のペースで実行します');
+  if (startFrom > 0) {
+    console.log(`開始位置: ${startFrom + 1}店舗目から\n`);
+  } else {
+    console.log('');
+  }
   
   let updated = 0;
+  let failed = 0;
   let skipped = 0;
   
-  for (let i = 0; i < shops.length; i++) {
+  for (let i = startFrom; i < shops.length; i++) {
     const shop = shops[i];
-    
-    // 既に正確な座標がある場合はスキップ
-    if (shop.lat && shop.lng && 
-        shop.lat >= 33.0 && shop.lat <= 33.5 && 
-        shop.lng >= 129.8 && shop.lng <= 130.5) {
-      console.log(`[${i+1}/${shops.length}] ${shop.name} - スキップ（座標あり）`);
-      skipped++;
-      continue;
-    }
     
     if (!shop.address) {
       console.log(`[${i+1}/${shops.length}] ${shop.name} - スキップ（住所なし）`);
@@ -68,16 +69,18 @@ async function updateCoordinates() {
     
     console.log(`[${i+1}/${shops.length}] ${shop.name}`);
     console.log(`  住所: ${shop.address}`);
+    console.log(`  現在: ${shop.lat}, ${shop.lng}`);
     
     const coords = await geocode(shop.address);
     
     if (coords) {
       shop.lat = coords.lat;
       shop.lng = coords.lng;
-      console.log(`  ✓ 取得: ${coords.lat}, ${coords.lng}`);
+      console.log(`  ✓ 更新: ${coords.lat}, ${coords.lng}`);
       updated++;
     } else {
       console.log(`  ✗ 取得失敗`);
+      failed++;
     }
     
     // 10秒待機（API制約）
@@ -87,10 +90,11 @@ async function updateCoordinates() {
     }
   }
   
-  fs.writeFileSync('./data/shops.json', JSON.stringify(shops, null, 2));
+  fs.writeFileSync(shopsPath, JSON.stringify(shops, null, 2));
   
   console.log('\n✓ 完了');
   console.log(`  更新: ${updated}件`);
+  console.log(`  失敗: ${failed}件`);
   console.log(`  スキップ: ${skipped}件`);
   console.log(`  座標あり: ${shops.filter(s => s.lat && s.lng).length}/${shops.length}件`);
 }

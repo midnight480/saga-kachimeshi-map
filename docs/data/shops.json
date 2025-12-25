@@ -582,9 +582,9 @@
     "phone": "",
     "hours": "",
     "tabelog": "",
-    "google_map": "https://www.google.com/maps?cid=16216074944429150953",
-    "lat": 33.261513,
-    "lng": 130.304653,
+    "google_map": "https://www.google.com/maps/place/%E3%80%92840-0826+%E4%BD%90%E8%B3%80%E7%9C%8C%E4%BD%90%E8%B3%80%E5%B8%82%E7%99%BD%E5%B1%B1%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%94%E2%88%92%EF%BC%92/@33.2577707,130.2966759,17z/data=!4m20!1m13!4m12!1m4!2m2!1d130.29806!2d33.2601738!4e1!1m6!1m2!1s0x3541ca7189ba1dd7:0x1e15cf437e99c8d!2z44CSODQwLTA4MjYg5L2Q6LOA55yM5L2Q6LOA5biC55m95bGx77yS5LiB55uu77yU4oiS77yS!2m2!1d130.3003867!2d33.2557526!3m5!1s0x3541ca7189ba1dd7:0x1e15cf437e99c8d!8m2!3d33.2557526!4d130.3003867!16s%2Fg%2F11cln6dqwq?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 33.2557526,
+    "lng": 130.3003867,
     "hours_structured": null
   },
   {

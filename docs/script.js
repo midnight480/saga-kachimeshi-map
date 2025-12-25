@@ -272,9 +272,17 @@ function renderList() {
             }
         };
 
+        // Get genre display text
+        let genreDisplay = '';
+        if (Array.isArray(shop.genre) && shop.genre.length > 0) {
+            genreDisplay = shop.genre.join('、');
+        } else if (shop.category) {
+            genreDisplay = shop.category;
+        }
+        
         card.innerHTML = `
             <div class="shop-name">${shop.name}</div>
-            ${shop.category ? `<div class="shop-category">${shop.category}</div>` : ''}
+            ${genreDisplay ? `<div class="shop-category">${genreDisplay}</div>` : ''}
             <div class="shop-info">
                 <div class="shop-hours">${shop.hours || '営業時間不明'}</div>
                 <div class="shop-address">${shop.address || '住所不明'}</div>
@@ -320,10 +328,18 @@ function switchToListView() {
 }
 
 function createShopModalContent(shop) {
+    // Get genre display text
+    let genreDisplay = '';
+    if (Array.isArray(shop.genre) && shop.genre.length > 0) {
+        genreDisplay = shop.genre.join('、');
+    } else if (shop.category) {
+        genreDisplay = shop.category;
+    }
+    
     return `
         <div class="shop-popup-content">
             <div class="shop-name">${shop.name}</div>
-            ${shop.category ? `<div class="shop-category">${shop.category}</div>` : ''}
+            ${genreDisplay ? `<div class="shop-category">${genreDisplay}</div>` : ''}
             <div class="shop-hours">${shop.hours || '営業時間不明'}</div>
             <div class="shop-address">${shop.address || '住所不明'}</div>
             <div class="shop-links">
@@ -337,14 +353,26 @@ function showShopModal(shop) {
     const modal = document.getElementById('shop-modal');
     const modalContent = document.getElementById('shop-modal-content');
     
+    // Get genre display text
+    let genreDisplay = '';
+    if (Array.isArray(shop.genre) && shop.genre.length > 0) {
+        genreDisplay = shop.genre.join('、');
+    } else if (shop.category) {
+        genreDisplay = shop.category;
+    }
+    
     modalContent.innerHTML = `
         <div class="modal-header">
             <h2>${shop.name}</h2>
             <button class="modal-close" onclick="closeShopModal()">&times;</button>
         </div>
         <div class="modal-body">
-            ${shop.category ? `<div class="shop-category">${shop.category}</div>` : ''}
             <div class="shop-info">
+                ${genreDisplay ? `
+                <div class="info-item">
+                    <strong>ジャンル:</strong> ${genreDisplay}
+                </div>
+                ` : ''}
                 <div class="info-item">
                     <strong>営業時間:</strong> ${shop.hours || '営業時間不明'}
                 </div>

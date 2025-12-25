@@ -1,6 +1,6 @@
 {
-  "name": "Saga Kachimeshi Map",
-  "short_name": "Kachimeshi Map",
+  "name": "（非公式）佐賀カチメシPay2マップ",
+  "short_name": "（非公式）佐賀カチメシPay2マップ",
   "description": "佐賀の飲食店を地図で検索できるアプリ",
   "start_url": "/",
   "display": "standalone",

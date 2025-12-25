@@ -651,16 +651,108 @@ document.querySelectorAll('.view-tab').forEach(tab => {
     });
 });
 
-// Close modal when clicking outside
-window.onclick = function(event) {
-    const modal = document.getElementById('shop-modal');
-    if (event.target == modal) {
-        closeShopModal();
-    }
-}
 
 // Make closeShopModal available globally
 window.closeShopModal = closeShopModal;
+
+// Info Modal Functions
+function showInfoModal(title, content) {
+    const modal = document.getElementById('info-modal');
+    const titleElement = document.getElementById('info-modal-title');
+    const bodyElement = document.getElementById('info-modal-body');
+    
+    titleElement.textContent = title;
+    bodyElement.innerHTML = content;
+    modal.style.display = 'block';
+}
+
+function closeInfoModal() {
+    const modal = document.getElementById('info-modal');
+    modal.style.display = 'none';
+}
+
+// Make closeInfoModal available globally
+window.closeInfoModal = closeInfoModal;
+
+// Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menu-toggle');
+    const headerNav = document.getElementById('header-nav');
+    
+    if (menuToggle && headerNav) {
+        menuToggle.addEventListener('click', function() {
+            menuToggle.classList.toggle('active');
+            headerNav.classList.toggle('active');
+        });
+    }
+
+    // Info modal links
+    const aboutLink = document.getElementById('about-link');
+    const privacyLink = document.getElementById('privacy-link');
+    const contactLink = document.getElementById('contact-link');
+
+    if (aboutLink) {
+        aboutLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            showInfoModal('このサイトについて', `
+                <p>このサイトは、<strong>佐賀カチメシPay2</strong>の対象店舗を地図上で確認できる非公式のマップサイトです。</p>
+                <p><strong>非公式サイトであること</strong></p>
+                <p>このサイトは個人が運営する非公式のサイトです。佐賀市や佐賀カチメシPay事務局とは一切関係ありません。</p>
+                <p>店舗情報は公式サイト（<a href="https://www.sagashi-insyoku.com/kachimeshi" target="_blank" rel="noopener noreferrer">https://www.sagashi-insyoku.com/kachimeshi</a>）を参考にしていますが、最新の情報については公式サイトをご確認ください。</p>
+                <p>店舗の営業時間や定休日などの情報が変更されている可能性があります。実際にご利用の際は、各店舗に直接お問い合わせください。</p>
+            `);
+            menuToggle.classList.remove('active');
+            headerNav.classList.remove('active');
+        });
+    }
+
+    if (privacyLink) {
+        privacyLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            showInfoModal('プライバシーポリシー', `
+                <p><strong>アクセスログについて</strong></p>
+                <p>このサイトでは、サイトの運営・改善のため、アクセスログを取得しています。</p>
+                <p>取得する情報には以下のようなものがあります：</p>
+                <ul>
+                    <li>アクセスした日時</li>
+                    <li>アクセス元のIPアドレス</li>
+                    <li>使用しているブラウザの種類</li>
+                    <li>アクセスしたページのURL</li>
+                </ul>
+                <p>これらの情報は、サイトの利用状況の分析や、問題の解決のためにのみ使用されます。個人を特定できる情報の収集は行っておりません。</p>
+            `);
+            menuToggle.classList.remove('active');
+            headerNav.classList.remove('active');
+        });
+    }
+
+    if (contactLink) {
+        contactLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            showInfoModal('お問い合わせ先', `
+                <p>このサイトに関するお問い合わせは、以下のGoogleフォームからお願いいたします。</p>
+                <p style="text-align: center; margin: 20px 0;">
+                    <a href="#" class="link-button" style="display: inline-block;">お問い合わせフォーム（準備中）</a>
+                </p>
+                <p><small>※Googleフォームは現在準備中です。しばらくお待ちください。</small></p>
+            `);
+            menuToggle.classList.remove('active');
+            headerNav.classList.remove('active');
+        });
+    }
+});
+
+// Close info modal when clicking outside
+window.onclick = function(event) {
+    const shopModal = document.getElementById('shop-modal');
+    const infoModal = document.getElementById('info-modal');
+    if (event.target == shopModal) {
+        closeShopModal();
+    }
+    if (event.target == infoModal) {
+        closeInfoModal();
+    }
+}
 
 // Current Location Control
 const locateControl = L.Control.extend({

@@ -4,27 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Saga Kachimeshi Map - 佐賀の飲食店を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
+    <meta name="description" content="（非公式）佐賀カチメシPay2マップ - 佐賀カチメシPay2の対象店舗を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
     <meta name="theme-color" content="#d32f2f">
     <meta name="keywords" content="佐賀,飲食店,地図,検索,かちめし,レストラン,居酒屋">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://saga-kachimeshi-map.midnight480.com/">
-    <meta property="og:title" content="Saga Kachimeshi Map - 佐賀の飲食店を地図で検索">
-    <meta property="og:description" content="佐賀の飲食店を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
+    <meta property="og:title" content="（非公式）佐賀カチメシPay2マップ">
+    <meta property="og:description" content="佐賀カチメシPay2の対象店舗を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
     <meta property="og:locale" content="ja_JP">
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://saga-kachimeshi-map.midnight480.com/">
-    <meta property="twitter:title" content="Saga Kachimeshi Map - 佐賀の飲食店を地図で検索">
-    <meta property="twitter:description" content="佐賀の飲食店を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
+    <meta property="twitter:title" content="（非公式）佐賀カチメシPay2マップ">
+    <meta property="twitter:description" content="佐賀カチメシPay2の対象店舗を地図で検索。ジャンル、曜日、営業時間で絞り込み検索が可能です。">
     
     <!-- Favicon -->
-    <!-- <link rel="icon" type="image/png" href="data/kachimeshi.png"> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍴</text></svg>">
     
-    <title>Saga Kachimeshi Map - 佐賀の飲食店を地図で検索</title>
+    <title>（非公式）佐賀カチメシPay2マップ</title>
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json">
@@ -41,7 +41,20 @@
 
     <div id="app">
         <header>
-            <h1>Saga Kachimeshi Map</h1>
+            <div class="header-top">
+                <h1>（非公式）佐賀カチメシPay2マップ</h1>
+                <button id="menu-toggle" class="menu-toggle" aria-label="メニュー">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav id="header-nav" class="header-nav">
+                <a href="https://www.sagashi-insyoku.com/kachimeshi" target="_blank" rel="noopener noreferrer" class="nav-link">公式サイト</a>
+                <a href="#" id="about-link" class="nav-link">このサイトについて</a>
+                <a href="#" id="privacy-link" class="nav-link">プライバシーポリシー</a>
+                <a href="#" id="contact-link" class="nav-link">お問い合わせ先</a>
+            </nav>
             <div id="view-tabs">
                 <button class="view-tab active" data-view="map">地図で見る</button>
                 <button class="view-tab" data-view="list">一覧で見る</button>
@@ -75,6 +88,18 @@
     <!-- Shop Modal -->
     <div id="shop-modal" class="modal">
         <div class="modal-content" id="shop-modal-content">
+        </div>
+    </div>
+
+    <!-- Info Modal -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="info-modal-title"></h2>
+                <button class="modal-close" onclick="closeInfoModal()">&times;</button>
+            </div>
+            <div class="modal-body" id="info-modal-body">
+            </div>
         </div>
     </div>
 

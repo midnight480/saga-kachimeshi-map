@@ -8,12 +8,25 @@
     ],
     "address": "佐賀市水ヶ江２丁目６−７",
     "phone": "0952-26-4930",
-    "hours": "",
+    "hours": "■ 営業時間予約の時間に合わせてくれます■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003391/",
     "google_map": "https://www.google.com/maps?cid=18209624366433153606",
     "lat": 33.249736,
     "lng": 130.306786,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "■ 営業時間予約の時間に合わせてくれます■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "味彩 おかもと",
@@ -31,15 +44,15 @@
     "lat": 33.263841,
     "lng": 130.295801,
     "hours_structured": {
-      "text": "ランチ11：30～13：30（月～金のみ）17：00～22：00（月、水～土）17：00～21：00（日・祝）",
+      "text": "ランチ11：30～13：30（月～金のみ）17：00～22：00（月、水～土）17：00～21：00（日・祝）定休日：火曜日",
       "parsed": {
         "mon": "11:30～13:30 / 17:00～22:00",
         "tue": null,
-        "wed": "17:00～22:00",
-        "thu": "17:00～22:00",
+        "wed": "11:30～13:30 / 17:00～22:00",
+        "thu": "11:30～13:30 / 17:00～22:00",
         "fri": "11:30～13:30 / 17:00～22:00",
         "sat": "17:00～22:00",
-        "sun": "17:00～21:00",
+        "sun": null,
         "holiday": "17:00～21:00"
       },
       "closed": "火曜日"
@@ -51,31 +64,61 @@
     "url": "https://www.sagashi-insyoku.com/restaurants/ajimi",
     "genre": [
       "居酒屋",
-      "海鮮料理"
+      "海鮮料理",
+      "海鮮",
+      "鍋"
     ],
     "address": "佐賀市大財１丁目４−６ K8ビル",
     "phone": "0952-20-0919",
-    "hours": "",
+    "hours": "18:00 - 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007345/",
     "google_map": "https://www.google.com/maps?cid=824397259682972131",
     "lat": 33.257704,
     "lng": 130.301377,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 - 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "18:00～23:00",
+        "tue": "18:00～23:00",
+        "wed": "18:00～23:00",
+        "thu": "18:00～23:00",
+        "fri": "18:00～23:00",
+        "sat": "18:00～23:00",
+        "sun": "18:00～23:00",
+        "holiday": "18:00～23:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "アニバーサリー",
     "url": "https://www.sagashi-insyoku.com/restaurants/anniversary",
     "genre": [
-      "バー"
+      "バー",
+      "フルーツパーラー",
+      "カフェ"
     ],
     "address": "佐賀市呉服元町３−７",
     "phone": "0952-26-8568",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 17:00 - 01:00 日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000166/",
     "google_map": "https://www.google.com/maps?cid=13150280012692832443",
     "lat": 33.254466,
     "lng": 130.302182,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 17:00 - 01:00 日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "17:00～01:00",
+        "tue": "17:00～01:00",
+        "wed": "17:00～01:00",
+        "thu": "17:00～01:00",
+        "fri": "17:00～01:00",
+        "sat": "17:00～01:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "いざかや飛鳥",
@@ -98,16 +141,30 @@
     "genre": [
       "居酒屋",
       "和食",
-      "焼肉"
+      "焼肉",
+      "もつ鍋"
     ],
     "address": "佐賀市呉服元町２−４　ＩＫＥビル１Ｆ",
     "phone": "",
-    "hours": "",
+    "hours": "月・火・木・金・土・日・祝前日 18:00 - 00:00 L.O. 23:30 水 定休日 ■ 営業時間最終入店 23:00■ 定休日水曜日定休・祝前日の場合営業■年始1月1日は店休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007582/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=囲炉裏　吟&query_place_id=ChIJP0E8sa7LQTURXO_D2C_hbws",
     "lat": 33.254401,
     "lng": 130.303023,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・木・金・土・日・祝前日 18:00 - 00:00 L.O. 23:30 水 定休日 ■ 営業時間最終入店 23:00■ 定休日水曜日定休・祝前日の場合営業■年始1月1日は店休日",
+      "parsed": {
+        "mon": "18:00～00:00",
+        "tue": "18:00～00:00",
+        "wed": null,
+        "thu": "18:00～00:00",
+        "fri": "18:00～00:00",
+        "sat": "18:00～00:00",
+        "sun": "18:00～00:00",
+        "holiday": "18:00～00:00"
+      },
+      "closed": "水"
+    }
   },
   {
     "name": "WITH",
@@ -142,7 +199,9 @@
     "url": "https://www.sagashi-insyoku.com/restaurants/enya",
     "genre": [
       "居酒屋",
-      "海鮮料理"
+      "海鮮料理",
+      "海鮮",
+      "パスタ"
     ],
     "address": "佐賀市大財１丁目３−１０",
     "phone": "0952-28-6131",
@@ -158,39 +217,66 @@
     "url": "https://www.sagashi-insyoku.com/restaurants/oshokujidokoro_marutoku",
     "genre": [
       "ちゃんぽん",
-      "食堂"
+      "かつ丼"
     ],
     "address": "佐賀市川副町大字小々森１２４−５",
     "phone": "0952-45-6860",
-    "hours": "",
+    "hours": "月・火・水・土・日 11:00 - 20:30 L.O. 20:00 木・金 11:00 - 15:30 L.O. 15:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002758/",
     "google_map": "https://www.google.com/maps?cid=3854228713986524475",
     "lat": 33.202455,
     "lng": 130.313924,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・土・日 11:00 - 20:30 L.O. 20:00 木・金 11:00 - 15:30 L.O. 15:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "11:00～20:30 / 11:00～15:30",
+        "tue": "11:00～20:30 / 11:00～15:30",
+        "wed": "11:00～20:30 / 11:00～15:30",
+        "thu": null,
+        "fri": null,
+        "sat": "11:00～20:30 / 11:00～15:30",
+        "sun": "11:00～20:30 / 11:00～15:30",
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "お豆",
     "url": "https://www.sagashi-insyoku.com/restaurants/omame",
     "genre": [
       "和食",
-      "居酒屋"
+      "居酒屋",
+      "日本料理",
+      "おでん"
     ],
     "address": "佐賀市松原２丁目１３−９",
     "phone": "0952-38-2113",
-    "hours": "",
+    "hours": "■ 営業時間-■ 定休日ー",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005900/",
     "google_map": "https://www.google.com/maps?cid=16875831664437575048",
     "lat": 33.25281,
     "lng": 130.303758,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "■ 営業時間-■ 定休日ー",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "かせ食堂",
     "url": "https://www.sagashi-insyoku.com/restaurants/kase_shokudo",
     "genre": [
-      "ラーメン",
-      "食堂"
+      "ラーメン"
     ],
     "address": "佐賀市嘉瀬町中原１９７６",
     "phone": "0952-25-0893",
@@ -207,27 +293,55 @@
     "genre": null,
     "address": "佐賀市白山２−６−３８, コアビル1階",
     "phone": "0952-29-1881",
-    "hours": "",
+    "hours": "18:00 - 00:00 L.O. 23:00 ■ 定休日不定休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000416/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=かばち&query_place_id=ChIJgeT_2XPKQTURDtXjujD7yeE",
     "lat": 33.255548,
     "lng": 130.30184,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 - 00:00 L.O. 23:00 ■ 定休日不定休",
+      "parsed": {
+        "mon": "18:00～00:00",
+        "tue": "18:00～00:00",
+        "wed": "18:00～00:00",
+        "thu": "18:00～00:00",
+        "fri": "18:00～00:00",
+        "sat": "18:00～00:00",
+        "sun": "18:00～00:00",
+        "holiday": "18:00～00:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "カミーノ",
     "url": "https://www.sagashi-insyoku.com/restaurants/camino_izakaya",
     "genre": [
-      "居酒屋"
+      "居酒屋",
+      "創作料理",
+      "鳥料理"
     ],
     "address": "佐賀市大財１−４−１９",
     "phone": "0952-60-5934",
-    "hours": "",
+    "hours": "月・水・木 18:00 - 22:00 L.O. 21:30 金・土・祝前日 18:00 - 23:00 L.O. 22:30 日・祝日 17:00 - 21:00 L.O. 20:30 火 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005454/",
     "google_map": "https://www.google.com/maps?cid=13516833276794885674",
     "lat": 33.257642,
     "lng": 130.301622,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木 18:00 - 22:00 L.O. 21:30 金・土・祝前日 18:00 - 23:00 L.O. 22:30 日・祝日 17:00 - 21:00 L.O. 20:30 火 定休日",
+      "parsed": {
+        "mon": "18:00～22:00 / 18:00～23:00 / 17:00～21:00",
+        "tue": null,
+        "wed": "18:00～22:00 / 18:00～23:00 / 17:00～21:00",
+        "thu": "18:00～22:00 / 18:00～23:00 / 17:00～21:00",
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "餃子酒場けぇぷ",
@@ -251,16 +365,31 @@
     "genre": [
       "居酒屋",
       "串焼き",
-      "和食"
+      "和食",
+      "焼き鳥",
+      "もつ鍋"
     ],
     "address": "佐賀市松原３−２−２７",
     "phone": "0952-37-8626",
-    "hours": "",
+    "hours": "月・水・木・日・祝日・祝後日 16:00 - 22:00 L.O. 料理21:15 ドリンク21:30 金・土・祝前日 17:00 - 23:00 L.O. 料理22:15 ドリンク22:30 火 定休日 店休日ー火曜日 ※但し、営業の都合上不定期の休み有り",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003402/",
     "google_map": "https://www.google.com/maps?cid=1280796185844319668",
     "lat": 33.252095,
     "lng": 130.305784,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・日・祝日・祝後日 16:00 - 22:00 L.O. 料理21:15 ドリンク21:30 金・土・祝前日 17:00 - 23:00 L.O. 料理22:15 ドリンク22:30 火 定休日 店休日ー火曜日 ※但し、営業の都合上不定期の休み有り",
+      "parsed": {
+        "mon": "16:00～22:00 / 17:00～23:00",
+        "tue": null,
+        "wed": "16:00～22:00 / 17:00～23:00",
+        "thu": "16:00～22:00 / 17:00～23:00",
+        "fri": null,
+        "sat": null,
+        "sun": "16:00～22:00 / 17:00～23:00",
+        "holiday": "16:00～22:00 / 17:00～23:00"
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "國酒 かるま",
@@ -281,12 +410,25 @@
     "genre": null,
     "address": "佐賀市愛敬町４−４",
     "phone": "",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 17:00 - 22:00 日 定休日 基本日曜お休みですが、祝日は開ける日もあります。詳しい情報は公式アカウントinstagramをご覧ください!お気軽にお問い合わせください!",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007188/",
     "google_map": "https://www.google.com/maps?cid=9514782124956056211",
     "lat": 33.257753,
     "lng": 130.301622,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 17:00 - 22:00 日 定休日 基本日曜お休みですが、祝日は開ける日もあります。詳しい情報は公式アカウントinstagramをご覧ください!お気軽にお問い合わせください!",
+      "parsed": {
+        "mon": "17:00～22:00",
+        "tue": "17:00～22:00",
+        "wed": "17:00～22:00",
+        "thu": "17:00～22:00",
+        "fri": "17:00～22:00",
+        "sat": "17:00～22:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "SUNNY PLACE",
@@ -294,12 +436,25 @@
     "genre": null,
     "address": "佐賀市松原３丁目３−７ 増田ビル1F",
     "phone": "0952-23-1569",
-    "hours": "",
+    "hours": "11:30 - 01:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41004914/",
     "google_map": "https://www.google.com/maps?cid=5471759882956488006",
     "lat": 33.252838,
     "lng": 130.304198,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:30 - 01:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "11:30～01:00",
+        "tue": "11:30～01:00",
+        "wed": "11:30～01:00",
+        "thu": "11:30～01:00",
+        "fri": "11:30～01:00",
+        "sat": "11:30～01:00",
+        "sun": "11:30～01:00",
+        "holiday": "11:30～01:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "The Rock Heart",
@@ -354,11 +509,18 @@
     "lat": 33.249624,
     "lng": 130.301041,
     "hours_structured": {
-      "text": "毎週木曜日",
+      "text": "毎週木曜日 平日はお弁当も販売",
       "parsed": {
-        "thu": "営業日"
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
       },
-      "closed": "月・火・水・金・土・日"
+      "closed": null
     }
   },
   {
@@ -441,12 +603,25 @@
     "genre": null,
     "address": "佐賀市高木瀬町長瀬１１８６",
     "phone": "0952-31-5367",
-    "hours": "",
+    "hours": "09:00 - 20:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000810/",
     "google_map": "https://www.google.com/maps?cid=6133228369399057632",
     "lat": 33.294142,
     "lng": 130.284718,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "09:00 - 20:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "09:00～20:00",
+        "tue": "09:00～20:00",
+        "wed": "09:00～20:00",
+        "thu": "09:00～20:00",
+        "fri": "09:00～20:00",
+        "sat": "09:00～20:00",
+        "sun": "09:00～20:00",
+        "holiday": "09:00～20:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "鯛だしらぁめんすいづき",
@@ -467,8 +642,8 @@
     "name": "たかもとや",
     "url": "https://www.sagashi-insyoku.com/restaurants/takamotoya",
     "genre": [
-      "その他",
-      "食堂"
+      "鳥料理",
+      "弁当"
     ],
     "address": "佐賀市鍋島４丁目１−３６ 医大東ハイツ",
     "phone": "0952-48-0584",
@@ -498,12 +673,25 @@
     "genre": null,
     "address": "佐賀市大財１−４−１８",
     "phone": "0952-29-9780",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 17:00 - 00:00 日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002728/",
     "google_map": "https://www.google.com/maps?cid=373348596286420159",
     "lat": 33.25745,
     "lng": 130.301585,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 17:00 - 00:00 日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "17:00～00:00",
+        "tue": "17:00～00:00",
+        "wed": "17:00～00:00",
+        "thu": "17:00～00:00",
+        "fri": "17:00～00:00",
+        "sat": "17:00～00:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "中国料理 栄志",
@@ -565,12 +753,25 @@
     "genre": null,
     "address": "佐賀市久保田町大字徳万２４１６−２",
     "phone": "0952-68-5810",
-    "hours": "",
+    "hours": "■ 営業時間日曜日以外は11:00～14:30 (うどん店として)17:00～21:00(饂飩前居酒屋として営業)日曜日は11時〜14時30分、17時〜20時の営業となります。祝日の営業は���後8時までです。■ 定休日お正月は3日までお休みいたします。また4日の営業はお昼のみとなります。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005889/",
     "google_map": "https://www.google.com/maps?cid=93906908143568483",
     "lat": 33.241808,
     "lng": 130.237382,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "■ 営業時間日曜日以外は11:00～14:30 (うどん店として)17:00～21:00(饂飩前居酒屋として営業)日曜日は11時〜14時30分、17時〜20時の営業となります。祝日の営業は���後8時までです。■ 定休日お正月は3日までお休みいたします。また4日の営業はお昼のみとなります。",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": "11:00～14:30 / 17:00～21:00",
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "BAR TEN HIGH second",
@@ -625,12 +826,25 @@
     ],
     "address": "佐賀市中央本町３−１８ アルファ３１８ビル",
     "phone": "0952-24-1129",
-    "hours": "",
+    "hours": "月・火・水・木 19:00 - 01:00 L.O. 00:30 金・土 19:00 - 02:00 L.O. 01:30 日・祝日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003331/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=Bar Puerto&query_place_id=ChIJIf_GdHHKQTURNHC6eChkT1Q",
     "lat": 33.254297,
     "lng": 130.301447,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木 19:00 - 01:00 L.O. 00:30 金・土 19:00 - 02:00 L.O. 01:30 日・祝日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "19:00～01:00 / 19:00～02:00",
+        "tue": "19:00～01:00 / 19:00～02:00",
+        "wed": "19:00～01:00 / 19:00～02:00",
+        "thu": "19:00～01:00 / 19:00～02:00",
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "PUB BRATTO",
@@ -651,16 +865,31 @@
     "name": "肥前うどん 翔",
     "url": "https://www.sagashi-insyoku.com/restaurants/hizenudon_shou",
     "genre": [
-      "うどん"
+      "うどん",
+      "そば",
+      "丼"
     ],
     "address": "佐賀市西田代１−１",
     "phone": "0952-24-7779",
-    "hours": "",
+    "hours": "月・火・木・金・土・日 11:00 - 15:30 17:30 - 20:45 水 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000064/",
     "google_map": "https://www.google.com/maps?cid=11483716716955656975",
     "lat": 33.249808,
     "lng": 130.290054,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・木・金・土・日 11:00 - 15:30 17:30 - 20:45 水 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "11:00～15:30 / 17:30～20:45",
+        "tue": "11:00～15:30 / 17:30～20:45",
+        "wed": null,
+        "thu": "11:00～15:30 / 17:30～20:45",
+        "fri": "11:00～15:30 / 17:30～20:45",
+        "sat": "11:00～15:30 / 17:30～20:45",
+        "sun": "11:00～15:30 / 17:30～20:45",
+        "holiday": null
+      },
+      "closed": "水"
+    }
   },
   {
     "name": "ひょうきん館",
@@ -681,12 +910,25 @@
     "genre": null,
     "address": "佐賀市中央本町１−１",
     "phone": "0952-37-7559",
-    "hours": "",
+    "hours": "月・火・水・木 17:30 - 02:00 L.O. 01:00 金・土 17:30 - 03:00 L.O. 02:00 日 18:00 - 01:00 L.O. 00:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005681/",
     "google_map": "https://www.google.com/maps?cid=13163332196486638640",
     "lat": 33.252755,
     "lng": 130.30028,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木 17:30 - 02:00 L.O. 01:00 金・土 17:30 - 03:00 L.O. 02:00 日 18:00 - 01:00 L.O. 00:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "17:30～02:00 / 17:30～03:00 / 18:00～01:00",
+        "tue": "17:30～02:00 / 17:30～03:00 / 18:00～01:00",
+        "wed": "17:30～02:00 / 17:30～03:00 / 18:00～01:00",
+        "thu": "17:30～02:00 / 17:30～03:00 / 18:00～01:00",
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "ブルーグラス",
@@ -750,12 +992,25 @@
     ],
     "address": "佐賀市大和町大字尼寺２９７９−３",
     "phone": "0952-37-7001",
-    "hours": "",
+    "hours": "月・水・木・金・土・日 11:00 - 21:00 火 定休日 不定休日ありホームページでカレンダー参照",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006197/",
     "google_map": "https://www.google.com/maps?cid=11190227914663309472",
     "lat": 33.29971,
     "lng": 130.281057,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金・土・日 11:00 - 21:00 火 定休日 不定休日ありホームページでカレンダー参照",
+      "parsed": {
+        "mon": "11:00～21:00",
+        "tue": null,
+        "wed": "11:00～21:00",
+        "thu": "11:00～21:00",
+        "fri": "11:00～21:00",
+        "sat": "11:00～21:00",
+        "sun": "11:00～21:00",
+        "holiday": null
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "Margaret",
@@ -775,76 +1030,148 @@
     "url": "https://www.sagashi-insyoku.com/restaurants/meigetsukan",
     "genre": [
       "焼肉",
-      "韓国料理"
+      "韓国料理",
+      "ホルモン"
     ],
     "address": "佐賀市大財１丁目３０９−１",
     "phone": "0952-23-3335",
-    "hours": "",
+    "hours": "月・火・水・金・土 17:00 - 02:00 L.O. 01:00 木・日・祝日 17:00 - 00:00 L.O. 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000296/",
     "google_map": "https://www.google.com/maps?cid=12253302679115372284",
     "lat": 33.257552,
     "lng": 130.3028,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・金・土 17:00 - 02:00 L.O. 01:00 木・日・祝日 17:00 - 00:00 L.O. 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "17:00～02:00 / 17:00～00:00",
+        "tue": "17:00～02:00 / 17:00～00:00",
+        "wed": "17:00～02:00 / 17:00～00:00",
+        "thu": null,
+        "fri": "17:00～02:00 / 17:00～00:00",
+        "sat": "17:00～02:00 / 17:00～00:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "やきとり 海賊",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_kaizoku",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "居酒屋"
     ],
     "address": "佐賀市高木瀬東１−６−２２",
     "phone": "0952-31-0438",
-    "hours": "",
+    "hours": "火・水・木・金・土 11:30 - 14:00 17:00 - 23:30 L.O. 23:00 日 11:30 - 14:00 17:00 - 23:00 L.O. 22:30 月 定休日 ■営業時間ランチ 11:30～14:00■ 定休日第３火曜日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002399/",
     "google_map": "https://www.google.com/maps?cid=2659809049074887785",
     "lat": 33.281025,
     "lng": 130.29858,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金・土 11:30 - 14:00 17:00 - 23:30 L.O. 23:00 日 11:30 - 14:00 17:00 - 23:00 L.O. 22:30 月 定休日 ■営業時間ランチ 11:30～14:00■ 定休日第３火曜日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": null,
+        "tue": "11:30～14:00 / 17:00～23:30 / 11:30～14:00 / 17:00～23:00",
+        "wed": "11:30～14:00 / 17:00～23:30 / 11:30～14:00 / 17:00～23:00",
+        "thu": "11:30～14:00 / 17:00～23:30 / 11:30～14:00 / 17:00～23:00",
+        "fri": "11:30～14:00 / 17:00～23:30 / 11:30～14:00 / 17:00～23:00",
+        "sat": "11:30～14:00 / 17:00～23:30 / 11:30～14:00 / 17:00～23:00",
+        "sun": "11:30～14:00",
+        "holiday": "11:30～14:00"
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "焼鳥 大成",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_taisei",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "焼き鳥",
+      "居酒屋",
+      "ホルモン"
     ],
     "address": "佐賀市松原３−３−２９",
     "phone": "0952-29-3900",
-    "hours": "",
+    "hours": "月・水・木・金・土・日 17:00 - 22:30 L.O. 21:45 火 定休日 ■ 定休日不定休あり",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002401/",
     "google_map": "https://www.google.com/maps?cid=14260757517989343896",
     "lat": 33.252594,
     "lng": 130.305657,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金・土・日 17:00 - 22:30 L.O. 21:45 火 定休日 ■ 定休日不定休あり",
+      "parsed": {
+        "mon": "17:00～22:30",
+        "tue": null,
+        "wed": "17:00～22:30",
+        "thu": "17:00～22:30",
+        "fri": "17:00～22:30",
+        "sat": "17:00～22:30",
+        "sun": "17:00～22:30",
+        "holiday": null
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "焼鳥   鳥菊",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_torigiku",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "焼き鳥"
     ],
     "address": "佐賀市呉服元町３−２０",
     "phone": "0952-24-3041",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 18:00 - 23:30 日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001993/",
     "google_map": "https://www.google.com/maps?cid=4537282528841936369",
     "lat": 33.254108,
     "lng": 130.30282,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 18:00 - 23:30 日 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "18:00～23:30",
+        "tue": "18:00～23:30",
+        "wed": "18:00～23:30",
+        "thu": "18:00～23:30",
+        "fri": "18:00～23:30",
+        "sat": "18:00～23:30",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "焼鳥居酒家 かくうち",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_kakuuchi",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "居酒屋"
     ],
     "address": "佐賀市鍋島３丁目７−１ シャトレ鍋島 1",
     "phone": "0952-32-8161",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 17:30 - 00:00 L.O. 23:30 日 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006634/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=焼鳥居酒家 かくうち&query_place_id=ChIJ8YapgVjLQTURF2g2xr4zvcM",
     "lat": 33.281245,
     "lng": 130.266858,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 17:30 - 00:00 L.O. 23:30 日 定休日",
+      "parsed": {
+        "mon": "17:30～00:00",
+        "tue": "17:30～00:00",
+        "wed": "17:30～00:00",
+        "thu": "17:30～00:00",
+        "fri": "17:30～00:00",
+        "sat": "17:30～00:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "焼肉 竜馬",
@@ -937,7 +1264,8 @@
     "name": "レストラン＆パブ GIN",
     "url": "https://www.sagashi-insyoku.com/restaurants/restaurant_pub_gin",
     "genre": [
-      "バー"
+      "バー",
+      "パブ"
     ],
     "address": "佐賀市唐人２丁目５",
     "phone": "0952-27-2017",
@@ -954,12 +1282,25 @@
     "genre": null,
     "address": "佐賀市日の出１−１３−３１",
     "phone": "0952-31-3790",
-    "hours": "",
+    "hours": "月・水・木・金・土・日 11:00 - 17:00 火 定休日 ■ 定休日大晦日・元旦",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002747/",
     "google_map": "https://www.google.com/maps?cid=9026249147527887323",
     "lat": 33.278575,
     "lng": 130.298295,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金・土・日 11:00 - 17:00 火 定休日 ■ 定休日大晦日・元旦",
+      "parsed": {
+        "mon": "11:00～17:00",
+        "tue": null,
+        "wed": "11:00～17:00",
+        "thu": "11:00～17:00",
+        "fri": "11:00～17:00",
+        "sat": "11:00～17:00",
+        "sun": "11:00～17:00",
+        "holiday": null
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "和膳 千曲",
@@ -967,12 +1308,25 @@
     "genre": null,
     "address": "佐賀市田代２−１１",
     "phone": "0952-24-8501",
-    "hours": "",
+    "hours": "月・火・木・金・土・日 11:00 - 14:30 L.O. 14:00 17:00 - 21:00 L.O. 20:00 水 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006511/",
     "google_map": "https://www.google.com/maps?cid=8797773529347557703",
     "lat": 33.248464,
     "lng": 130.314446,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・木・金・土・日 11:00 - 14:30 L.O. 14:00 17:00 - 21:00 L.O. 20:00 水 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "11:00～14:30 / 17:00～21:00",
+        "tue": "11:00～14:30 / 17:00～21:00",
+        "wed": null,
+        "thu": "11:00～14:30 / 17:00～21:00",
+        "fri": "11:00～14:30 / 17:00～21:00",
+        "sat": "11:00～14:30 / 17:00～21:00",
+        "sun": "11:00～14:30 / 17:00～21:00",
+        "holiday": null
+      },
+      "closed": "水"
+    }
   },
   {
     "name": "青いYON",
@@ -983,12 +1337,25 @@
     ],
     "address": "佐賀市唐人１丁目５−１９　シティ唐人ビル１階​",
     "phone": "",
-    "hours": "",
+    "hours": "17:00～23:00 定休日：水曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=青いYON&query_place_id=ChIJh_tdfm3KQTURk5oov8uqLbM",
     "lat": 33.259279,
     "lng": 130.298139,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:00～23:00 定休日：水曜日",
+      "parsed": {
+        "mon": "17:00～23:00",
+        "tue": "17:00～23:00",
+        "wed": null,
+        "thu": "17:00～23:00",
+        "fri": "17:00～23:00",
+        "sat": "17:00～23:00",
+        "sun": "17:00～23:00",
+        "holiday": "17:00～23:00"
+      },
+      "closed": "水曜日"
+    }
   },
   {
     "name": "味酒場　もやもん",
@@ -1035,43 +1402,87 @@
     "genre": null,
     "address": "佐賀市兵庫南２丁目１４",
     "phone": "0952-27-9250",
-    "hours": "",
+    "hours": "11:00 - 22:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002630/",
     "google_map": "https://www.google.com/maps?cid=3128734377381502097",
     "lat": 33.26323,
     "lng": 130.314845,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 - 22:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "11:00～22:00",
+        "tue": "11:00～22:00",
+        "wed": "11:00～22:00",
+        "thu": "11:00～22:00",
+        "fri": "11:00～22:00",
+        "sat": "11:00～22:00",
+        "sun": "11:00～22:00",
+        "holiday": "11:00～22:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "E.A.D",
     "url": "https://www.sagashi-insyoku.com/restaurants/k_style",
     "genre": [
       "喫茶・カフェ",
-      "洋食"
+      "洋食",
+      "カフェ",
+      "ダイニングバー",
+      "イタリアン"
     ],
     "address": "佐賀市駅南本町４−２４ スカイ アベニュー２階",
     "phone": "0952-97-7081",
-    "hours": "",
+    "hours": "月・水・木・金 11:30 - 15:00 17:00 - 22:00 L.O. 21:00 土・日 11:30 - 22:00 L.O. 21:00 火 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007094/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=E.A.D&query_place_id=ChIJU17qD0nLQTUR6PHs3nCOkKc",
     "lat": 33.260402,
     "lng": 130.299196,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金 11:30 - 15:00 17:00 - 22:00 L.O. 21:00 土・日 11:30 - 22:00 L.O. 21:00 火 定休日",
+      "parsed": {
+        "mon": "11:30～15:00 / 17:00～22:00 / 11:30～22:00",
+        "tue": null,
+        "wed": "11:30～15:00 / 17:00～22:00 / 11:30～22:00",
+        "thu": "11:30～15:00 / 17:00～22:00 / 11:30～22:00",
+        "fri": "11:30～15:00 / 17:00～22:00 / 11:30～22:00",
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "嬉乃すし",
     "url": "https://www.sagashi-insyoku.com/restaurants/ureshino_sushi",
     "genre": [
-      "寿司"
+      "寿司",
+      "日本料理",
+      "郷土料理"
     ],
     "address": "佐賀市若宮１−７",
     "phone": "0952-30-1469",
-    "hours": "",
+    "hours": "火・水・木・土・日・祝日・祝前日 11:00 - 14:30 L.O. 14:00 17:00 - 21:30 L.O. 20:30 金 17:00 - 21:30 L.O. 20:30 月 定休日 ■ 定休日第1・第3火曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001087/",
     "google_map": "https://www.google.com/maps?cid=11098931943101262812",
     "lat": 33.273102,
     "lng": 130.290034,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・土・日・祝日・祝前日 11:00 - 14:30 L.O. 14:00 17:00 - 21:30 L.O. 20:30 金 17:00 - 21:30 L.O. 20:30 月 定休日 ■ 定休日第1・第3火曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "11:00～14:30 / 17:00～21:30 / 17:00～21:30",
+        "wed": "11:00～14:30 / 17:00～21:30 / 17:00～21:30",
+        "thu": "11:00～14:30 / 17:00～21:30 / 17:00～21:30",
+        "fri": null,
+        "sat": "11:00～14:30 / 17:00～21:30 / 17:00～21:30",
+        "sun": "11:00～14:30 / 17:00～21:30 / 17:00～21:30",
+        "holiday": "11:00～14:30 / 17:00～21:30 / 17:00～21:30"
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "L and L",
@@ -1092,23 +1503,38 @@
     "genre": [
       "居酒屋",
       "海鮮料理",
-      "和食"
+      "和食",
+      "日本料理"
     ],
     "address": "佐賀市駅前中央３－２－２１",
     "phone": "0952-37-9535",
-    "hours": "",
+    "hours": "火・水・木 11:00 - 14:30 L.O. 14:00 金・土・日 11:00 - 14:30 L.O. 14:00 17:30 - 20:30 L.O. 20:00 月 定休日 宴会・団体様予約承っております。店舗へご相談下さいませ。（平日夜宴会可：要相談）",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41004050/",
     "google_map": "https://www.google.com/maps?cid=5162619723911071767",
     "lat": 33.266311,
     "lng": 130.30612,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木 11:00 - 14:30 L.O. 14:00 金・土・日 11:00 - 14:30 L.O. 14:00 17:30 - 20:30 L.O. 20:00 月 定休日 宴会・団体様予約承っております。店舗へご相談下さいませ。（平日夜宴会可：要相談）",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": "11:00～14:30 / 11:00～14:30 / 17:30～20:30",
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "夢食彩叶 おせそ",
     "url": "https://www.sagashi-insyoku.com/restaurants/oseso",
     "genre": [
       "居酒屋",
-      "創作料理"
+      "創作料理",
+      "日本料理"
     ],
     "address": "佐賀市鍋島町大字八戸溝１２２８−１",
     "phone": "0952-31-9775",
@@ -1136,31 +1562,61 @@
     "name": "活魚料理 和食処 じんぎすかん",
     "url": "https://www.sagashi-insyoku.com/restaurants/genghiskhan",
     "genre": [
-      "和食"
+      "和食",
+      "海鮮",
+      "日本料理",
+      "居酒屋"
     ],
     "address": "佐賀市大財１−３−７",
     "phone": "0952-22-5076",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 18:00 - 00:00 日・祝日 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002712/",
     "google_map": "https://www.google.com/maps?cid=12450916714091982152",
     "lat": 33.257618,
     "lng": 130.301058,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 18:00 - 00:00 日・祝日 定休日",
+      "parsed": {
+        "mon": "18:00～00:00",
+        "tue": "18:00～00:00",
+        "wed": "18:00～00:00",
+        "thu": "18:00～00:00",
+        "fri": "18:00～00:00",
+        "sat": "18:00～00:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "カフェ エクス",
     "url": "https://www.sagashi-insyoku.com/restaurants/cafe_aix",
     "genre": [
-      "カフェ"
+      "カフェ",
+      "ワインバー"
     ],
     "address": "佐賀市唐人１−２−９",
     "phone": "",
-    "hours": "",
+    "hours": "13:00 - 00:00 L.O. 23:30 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005035/",
     "google_map": "https://www.google.com/maps?cid=272798436742724867",
     "lat": 33.257882,
     "lng": 130.29907,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "13:00 - 00:00 L.O. 23:30 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "13:00～00:00",
+        "tue": "13:00～00:00",
+        "wed": "13:00～00:00",
+        "thu": "13:00～00:00",
+        "fri": "13:00～00:00",
+        "sat": "13:00～00:00",
+        "sun": "13:00～00:00",
+        "holiday": "13:00～00:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "京風茶房 おちょぼ",
@@ -1223,12 +1679,25 @@
     "genre": null,
     "address": "佐賀市大財１−４−８",
     "phone": "0952-97-5339",
-    "hours": "",
+    "hours": "月・水・木・金 17:00 - 23:00 土・日・祝日 16:00 - 23:00 火 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007987/",
     "google_map": "https://www.google.com/maps?cid=17694722821378341332",
     "lat": 33.257868,
     "lng": 130.30136,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金 17:00 - 23:00 土・日・祝日 16:00 - 23:00 火 定休日",
+      "parsed": {
+        "mon": "17:00～23:00 / 16:00～23:00",
+        "tue": null,
+        "wed": "17:00～23:00 / 16:00～23:00",
+        "thu": "17:00～23:00 / 16:00～23:00",
+        "fri": "17:00～23:00 / 16:00～23:00",
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "産地直送仲買人直営店 蔵",
@@ -1252,12 +1721,25 @@
     "genre": null,
     "address": "佐賀市大和町大字久池井２５９２−１",
     "phone": "0952-62-5444",
-    "hours": "",
+    "hours": "水・木・金・土・日・祝日・祝前日・祝後日 11:30 - 15:30 L.O. 料理14:30 17:30 - 21:30 L.O. 料理20:00 月・火 定休日 ■ 営業時間11:30～14:30(ラストイン）17:30～20:00（ラストイン）■ 定休日毎週/月・火曜（祝日の場合は翌日休）",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000015/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=シャトー文雅&query_place_id=ChIJpTBOjK_JQTURY3_WWCRSdvA",
     "lat": 33.317305,
     "lng": 130.276984,
-    "hours_structured": null,
+    "hours_structured": {
+      "text": "水・木・金・土・日・祝日・祝前日・祝後日 11:30 - 15:30 L.O. 料理14:30 17:30 - 21:30 L.O. 料理20:00 月・火 定休日 ■ 営業時間11:30～14:30(ラストイン）17:30～20:00（ラストイン）■ 定休日毎週/月・火曜（祝日の場合は翌日休）",
+      "parsed": {
+        "mon": "17:30～20:00",
+        "tue": null,
+        "wed": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
+        "thu": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
+        "fri": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
+        "sat": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
+        "sun": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
+        "holiday": "17:30～20:00 / 11:30～15:30 / 17:30～21:30"
+      },
+      "closed": "火"
+    },
     "website": "https://www.bunga.jp/",
     "tabelogUrl": "https://tabelog.com/saga/A4101/A410101/41000015/",
     "googleMapUrl": "https://www.google.com/maps?cid=17293088088088813411"
@@ -1312,12 +1794,25 @@
     ],
     "address": "佐賀市大財１丁目１−１１",
     "phone": "0952-23-7780",
-    "hours": "",
+    "hours": "17:00 - 22:30 L.O. 22:00 ■ 定休日第一、第三、第五日曜日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002458/",
     "google_map": "https://www.google.com/maps?cid=15022472759894902963",
     "lat": 33.25653,
     "lng": 130.30122,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:00 - 22:30 L.O. 22:00 ■ 定休日第一、第三、第五日曜日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "17:00～22:30",
+        "tue": "17:00～22:30",
+        "wed": "17:00～22:30",
+        "thu": "17:00～22:30",
+        "fri": "17:00～22:30",
+        "sat": "17:00～22:30",
+        "sun": "17:00～22:30",
+        "holiday": "17:00～22:30"
+      },
+      "closed": null
+    }
   },
   {
     "name": "寿し政",
@@ -1370,12 +1865,25 @@
     "genre": null,
     "address": "佐賀市大財１丁目６−３１",
     "phone": "0952-24-4520",
-    "hours": "",
+    "hours": "09:00 - 20:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000810/",
     "google_map": "https://www.google.com/maps?cid=4589397079483707030",
     "lat": 33.258051,
     "lng": 130.302899,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "09:00 - 20:00 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "09:00～20:00",
+        "tue": "09:00～20:00",
+        "wed": "09:00～20:00",
+        "thu": "09:00～20:00",
+        "fri": "09:00～20:00",
+        "sat": "09:00～20:00",
+        "sun": "09:00～20:00",
+        "holiday": "09:00～20:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "大衆キッチン炭火屋ハッポウ",
@@ -1383,12 +1891,25 @@
     "genre": null,
     "address": "佐賀市駅前中央１−１３",
     "phone": "0952-33-7321",
-    "hours": "",
+    "hours": "月・火・水・木・土・祝日・祝前日・祝後日 17:30 - 23:30 金 17:30 - 00:30 日 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006649/",
     "google_map": "https://www.google.com/maps?cid=2786188233850062064",
     "lat": 33.264816,
     "lng": 130.298771,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・土・祝日・祝前日・祝後日 17:30 - 23:30 金 17:30 - 00:30 日 定休日",
+      "parsed": {
+        "mon": "17:30～23:30 / 17:30～00:30",
+        "tue": "17:30～23:30 / 17:30～00:30",
+        "wed": "17:30～23:30 / 17:30～00:30",
+        "thu": "17:30～23:30 / 17:30～00:30",
+        "fri": null,
+        "sat": "17:30～23:30 / 17:30～00:30",
+        "sun": null,
+        "holiday": "17:30～23:30 / 17:30～00:30"
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "たか美",
@@ -1396,12 +1917,25 @@
     "genre": null,
     "address": "佐賀市久保泉町川久保２１２２−１",
     "phone": "0120-39-2688",
-    "hours": "",
+    "hours": "11:30 - 14:00 17:30 - 21:30 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003817/",
     "google_map": "https://www.google.com/maps?cid=10939346570865640992",
     "lat": 33.323246,
     "lng": 130.315702,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:30 - 14:00 17:30 - 21:30 ■ 定休日不定休 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "11:30～14:00 / 17:30～21:30",
+        "tue": "11:30～14:00 / 17:30～21:30",
+        "wed": "11:30～14:00 / 17:30～21:30",
+        "thu": "11:30～14:00 / 17:30～21:30",
+        "fri": "11:30～14:00 / 17:30～21:30",
+        "sat": "11:30～14:00 / 17:30～21:30",
+        "sun": "11:30～14:00 / 17:30～21:30",
+        "holiday": "11:30～14:00 / 17:30～21:30"
+      },
+      "closed": null
+    }
   },
   {
     "name": "宝うどん",
@@ -1426,7 +1960,8 @@
     "url": "https://www.sagashi-insyoku.com/restaurants/ushihiko_umahiko",
     "genre": [
       "和食",
-      "居酒屋"
+      "居酒屋",
+      "しゃぶしゃぶ"
     ],
     "address": "佐賀市駅前中央１−３−１１",
     "phone": "",
@@ -1443,44 +1978,87 @@
     "genre": null,
     "address": "佐賀市神野東３丁目７−１３",
     "phone": "0952-30-8955",
-    "hours": "",
+    "hours": "火・水・木・金・日 11:00 - 15:00 L.O. 14:30 18:00 - 21:00 L.O. 20:30 土・祝前日 11:00 - 15:00 L.O. 14:30 18:00 - 22:00 L.O. 21:30 祝日 11:00 - 15:00 L.O. 14:30 18:00 - 21:00 L.O. 料理20:30 ドリンク20:15 月 定休日 ■ 営業時間 平日 ランチ 11:00〜15:00 14:30(L.O) ディナー 18:00〜21:00 20:30(L.O) 土曜日• ランチ 11:00〜15:00 14:30(L.O) 祝前日 ディナー 18:00〜22:00 21:30(L.O) 日曜・祝日 ランチ 11:00〜15:00 14:30(L.O) ディナー 18:00〜21:00 20:30(L.O) とさせていただきます。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005106/",
     "google_map": "https://www.google.com/maps?cid=10624857745508060514",
     "lat": 33.267272,
     "lng": 130.293942,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金・日 11:00 - 15:00 L.O. 14:30 18:00 - 21:00 L.O. 20:30 土・祝前日 11:00 - 15:00 L.O. 14:30 18:00 - 22:00 L.O. 21:30 祝日 11:00 - 15:00 L.O. 14:30 18:00 - 21:00 L.O. 料理20:30 ドリンク20:15 月 定休日 ■ 営業時間 平日 ランチ 11:00〜15:00 14:30(L.O) ディナー 18:00〜21:00 20:30(L.O) 土曜日• ランチ 11:00〜15:00 14:30(L.O) 祝前日 ディナー 18:00〜22:00 21:30(L.O) 日曜・祝日 ランチ 11:00〜15:00 14:30(L.O) ディナー 18:00〜21:00 20:30(L.O) とさせていただきます。",
+      "parsed": {
+        "mon": null,
+        "tue": "11:00～15:00 / 18:00～21:00 / 11:00～15:00 / 18:00～22:00 / 11:00～15:00 / 18:00～21:00",
+        "wed": "11:00～15:00 / 18:00～21:00 / 11:00～15:00 / 18:00～22:00 / 11:00～15:00 / 18:00～21:00",
+        "thu": "11:00～15:00 / 18:00～21:00 / 11:00～15:00 / 18:00～22:00 / 11:00～15:00 / 18:00～21:00",
+        "fri": "11:00～15:00 / 18:00～21:00 / 11:00～15:00 / 18:00～22:00 / 11:00～15:00 / 18:00～21:00",
+        "sat": null,
+        "sun": "11:00～15:00 / 18:00～21:00 / 11:00～15:00 / 18:00～22:00 / 11:00～15:00 / 18:00～21:00",
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "チング",
     "url": "https://www.sagashi-insyoku.com/restaurants/ching",
     "genre": [
       "韓国料理",
-      "焼肉"
+      "焼肉",
+      "居酒屋"
     ],
     "address": "佐賀市唐人１−２−７",
     "phone": "",
-    "hours": "",
+    "hours": "■ 営業時間平日 17:00～23:00（LO22:00）日、祝日 17:00～22:00（LO21:00）閉店時間はその日のお客様の来店状況で多少早まる場合もございます。■ 定休日火曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003525/",
     "google_map": "https://www.google.com/maps?cid=5905138209073723256",
     "lat": 33.258113,
     "lng": 130.29902,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "■ 営業時間平日 17:00～23:00（LO22:00）日、祝日 17:00～22:00（LO21:00）閉店時間はその日のお客様の来店状況で多少早まる場合もございます。■ 定休日火曜日",
+      "parsed": {
+        "mon": "17:00～23:00",
+        "tue": null,
+        "wed": "17:00～23:00",
+        "thu": "17:00～23:00",
+        "fri": "17:00～23:00",
+        "sat": "17:00～23:00",
+        "sun": "17:00～23:00",
+        "holiday": "17:00～23:00"
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "Grill Dining deeer",
     "url": "https://www.sagashi-insyoku.com/restaurants/deeer",
     "genre": [
       "創作料理",
-      "ハンバーグ・ハンバーガー"
+      "ハンバーグ・ハンバーガー",
+      "ステーキ",
+      "ビストロ",
+      "バル"
     ],
     "address": "佐賀市大財1丁目4-8",
     "phone": "0952-97-5922",
-    "hours": "",
+    "hours": "17:00 - 01:00 L.O. 00:00 ■ 定休日不定休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005667/",
     "google_map": "",
     "lat": 33.257868,
     "lng": 130.30136,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:00 - 01:00 L.O. 00:00 ■ 定休日不定休",
+      "parsed": {
+        "mon": "17:00～01:00",
+        "tue": "17:00～01:00",
+        "wed": "17:00～01:00",
+        "thu": "17:00～01:00",
+        "fri": "17:00～01:00",
+        "sat": "17:00～01:00",
+        "sun": "17:00～01:00",
+        "holiday": "17:00～01:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "博多一番どり 佐賀鍋島店",
@@ -1488,12 +2066,25 @@
     "genre": null,
     "address": "佐賀市鍋島３丁目２−１２",
     "phone": "",
-    "hours": "",
+    "hours": "16:00 - 00:00 年中無休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003657/",
     "google_map": "https://www.google.com/maps?cid=10976546013094873846",
     "lat": 33.281412,
     "lng": 130.269614,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "16:00 - 00:00 年中無休",
+      "parsed": {
+        "mon": "16:00～00:00",
+        "tue": "16:00～00:00",
+        "wed": "16:00～00:00",
+        "thu": "16:00～00:00",
+        "fri": "16:00～00:00",
+        "sat": "16:00～00:00",
+        "sun": "16:00～00:00",
+        "holiday": "16:00～00:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "ハックベリー",
@@ -1501,12 +2092,25 @@
     "genre": null,
     "address": "佐賀市中央本町５−１４",
     "phone": "0952-25-0140",
-    "hours": "",
+    "hours": "火・水・木・金・土 19:00 - 03:00 L.O. 02:00 日 19:00 - 00:00 月 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002576/",
     "google_map": "https://www.google.com/maps?cid=6735671780312801195",
     "lat": 33.253175,
     "lng": 130.302311,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金・土 19:00 - 03:00 L.O. 02:00 日 19:00 - 00:00 月 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": null,
+        "tue": "19:00～03:00 / 19:00～00:00",
+        "wed": "19:00～03:00 / 19:00～00:00",
+        "thu": "19:00～03:00 / 19:00～00:00",
+        "fri": "19:00～03:00 / 19:00～00:00",
+        "sat": "19:00～03:00 / 19:00～00:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "BAL TAPAS",
@@ -1514,16 +2118,30 @@
     "genre": [
       "洋食",
       "イタリアン",
-      "居酒屋"
+      "居酒屋",
+      "バル"
     ],
     "address": "佐賀市大財１−３−１８",
     "phone": "0952-37-7627",
-    "hours": "",
+    "hours": "月・水・木・金・土・日・祝日・祝前日・祝後日 18:00 - 01:00 L.O. 料理00:00 ドリンク00:30 火 定休日 イベント出店などにより定休日以外もお休みになる場合がございますのでご了承ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006415/",
     "google_map": "https://www.google.com/maps?cid=15376783018921906076",
     "lat": 33.257512,
     "lng": 130.30108,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金・土・日・祝日・祝前日・祝後日 18:00 - 01:00 L.O. 料理00:00 ドリンク00:30 火 定休日 イベント出店などにより定休日以外もお休みになる場合がございますのでご了承ください。",
+      "parsed": {
+        "mon": "18:00～01:00",
+        "tue": null,
+        "wed": "18:00～01:00",
+        "thu": "18:00～01:00",
+        "fri": "18:00～01:00",
+        "sat": "18:00～01:00",
+        "sun": "18:00～01:00",
+        "holiday": "18:00～01:00"
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "Bar MIS TONE",
@@ -1548,12 +2166,25 @@
     ],
     "address": "佐賀市松原２−１１−１７",
     "phone": "0952-24-6262",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 20:00 - 07:00 L.O. 06:00 日 20:00 - 05:00 L.O. 04:00 ■ 定休日無休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41004046/",
     "google_map": "https://www.google.com/maps?cid=11214064802676834066",
     "lat": 33.252518,
     "lng": 130.302328,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 20:00 - 07:00 L.O. 06:00 日 20:00 - 05:00 L.O. 04:00 ■ 定休日無休",
+      "parsed": {
+        "mon": "20:00～07:00 / 20:00～05:00",
+        "tue": "20:00～07:00 / 20:00～05:00",
+        "wed": "20:00～07:00 / 20:00～05:00",
+        "thu": "20:00～07:00 / 20:00～05:00",
+        "fri": "20:00～07:00 / 20:00～05:00",
+        "sat": "20:00～07:00 / 20:00～05:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "Bar ばぶちゃん",
@@ -1579,28 +2210,56 @@
     ],
     "address": "佐賀市若宮２丁目１５−６ 福井ビル",
     "phone": "0952-32-0522",
-    "hours": "",
+    "hours": "火・水・木・金・土・日 17:00 - 23:00 月 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002556/",
     "google_map": "https://www.google.com/maps?cid=9618098101865819527",
     "lat": 33.269903,
     "lng": 130.286211,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金・土・日 17:00 - 23:00 月 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": null,
+        "tue": "17:00～23:00",
+        "wed": "17:00～23:00",
+        "thu": "17:00～23:00",
+        "fri": "17:00～23:00",
+        "sat": "17:00～23:00",
+        "sun": "17:00～23:00",
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "御食事処 久坊",
     "url": "https://www.sagashi-insyoku.com/restaurants/hisabou",
     "genre": [
       "和食",
-      "海鮮料理"
+      "海鮮料理",
+      "海鮮",
+      "日本料理"
     ],
     "address": "佐賀市神野西１−８−１",
     "phone": "0952-22-1134",
-    "hours": "",
+    "hours": "月・水・木・金・土・祝日 11:30 - 14:00 L.O. 13:30 17:00 - 21:00 L.O. 20:30 日 17:00 - 21:00 L.O. 20:30 火 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001873/",
     "google_map": "https://www.google.com/maps?cid=4325371115554978700",
     "lat": 33.263023,
     "lng": 130.292043,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金・土・祝日 11:30 - 14:00 L.O. 13:30 17:00 - 21:00 L.O. 20:30 日 17:00 - 21:00 L.O. 20:30 火 定休日",
+      "parsed": {
+        "mon": "11:30～14:00 / 17:00～21:00 / 17:00～21:00",
+        "tue": null,
+        "wed": "11:30～14:00 / 17:00～21:00 / 17:00～21:00",
+        "thu": "11:30～14:00 / 17:00～21:00 / 17:00～21:00",
+        "fri": "11:30～14:00 / 17:00～21:00 / 17:00～21:00",
+        "sat": "11:30～14:00 / 17:00～21:00 / 17:00～21:00",
+        "sun": "11:30～14:00 / 17:00～21:00 / 17:00～21:00",
+        "holiday": "11:30～14:00 / 17:00～21:00 / 17:00～21:00"
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "秀屋",
@@ -1608,12 +2267,25 @@
     "genre": null,
     "address": "佐賀市光１丁目１−１３ キープビル東棟",
     "phone": "0952-26-6454",
-    "hours": "",
+    "hours": "火・水・木・金 11:00 - 15:00 L.O. 14:00 17:30 - 20:30 L.O. 20:00 土・日・祝日 11:00 - 14:30 L.O. 14:00 17:00 - 20:30 L.O. 20:00 月 定休日 ■ 定休日第2 or 第3火曜日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001007/",
     "google_map": "https://www.google.com/maps?cid=15275744735331036316",
     "lat": 33.240879,
     "lng": 130.279362,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金 11:00 - 15:00 L.O. 14:00 17:30 - 20:30 L.O. 20:00 土・日・祝日 11:00 - 14:30 L.O. 14:00 17:00 - 20:30 L.O. 20:00 月 定休日 ■ 定休日第2 or 第3火曜日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": null,
+        "tue": "11:00～15:00 / 17:30～20:30 / 11:00～14:30 / 17:00～20:30",
+        "wed": "11:00～15:00 / 17:30～20:30 / 11:00～14:30 / 17:00～20:30",
+        "thu": "11:00～15:00 / 17:30～20:30 / 11:00～14:30 / 17:00～20:30",
+        "fri": "11:00～15:00 / 17:30～20:30 / 11:00～14:30 / 17:00～20:30",
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "ビストロ藤吉",
@@ -1621,12 +2293,25 @@
     "genre": null,
     "address": "佐賀市高木瀬町大字長瀬９８２−８",
     "phone": "0952-33-1070",
-    "hours": "",
+    "hours": "11:30 - 14:00 17:00 - 20:00 ■ 定休日不定休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001645/",
     "google_map": "https://www.google.com/maps?cid=17056872432783415994",
     "lat": 33.291396,
     "lng": 130.287268,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:30 - 14:00 17:00 - 20:00 ■ 定休日不定休",
+      "parsed": {
+        "mon": "11:30～14:00 / 17:00～20:00",
+        "tue": "11:30～14:00 / 17:00～20:00",
+        "wed": "11:30～14:00 / 17:00～20:00",
+        "thu": "11:30～14:00 / 17:00～20:00",
+        "fri": "11:30～14:00 / 17:00～20:00",
+        "sat": "11:30～14:00 / 17:00～20:00",
+        "sun": "11:30～14:00 / 17:00～20:00",
+        "holiday": "11:30～14:00 / 17:00～20:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "深川食堂",
@@ -1634,23 +2319,24 @@
     "genre": null,
     "address": "佐賀市鍋島町森田２０２−１",
     "phone": "0952-30-3970",
-    "hours": "18:00 ～ 23:00 不定休",
+    "hours": "18:00 - 00:00 L.O. 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001950/",
     "google_map": "https://www.google.com/maps?cid=3963565068481052202",
     "lat": 33.272314,
     "lng": 130.263292,
     "hours_structured": {
-      "text": "18:00 ～ 23:00",
+      "text": "18:00 - 00:00 L.O. 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
       "parsed": {
-        "mon": "18:00～23:00",
-        "tue": "18:00～23:00",
-        "wed": "18:00～23:00",
-        "thu": "18:00～23:00",
-        "fri": "18:00～23:00",
-        "sat": "18:00～23:00",
-        "sun": "18:00～23:00"
+        "mon": "18:00～00:00",
+        "tue": "18:00～00:00",
+        "wed": "18:00～00:00",
+        "thu": "18:00～00:00",
+        "fri": "18:00～00:00",
+        "sat": "18:00～00:00",
+        "sun": "18:00～00:00",
+        "holiday": "18:00～00:00"
       },
-      "closed": "不定休"
+      "closed": null
     },
     "googleMapUrl": "https://www.google.com/maps?cid=3962565068481052202"
   },
@@ -1665,19 +2351,6 @@
     "google_map": "https://www.google.com/maps?cid=12446754691524094026",
     "lat": 33.256327,
     "lng": 130.301469,
-    "hours_structured": null
-  },
-  {
-    "name": "BUNGA VILLAGE",
-    "url": "https://www.sagashi-insyoku.com/restaurants/bunga__village",
-    "genre": null,
-    "address": "佐賀市大和町大字久池井２５９３−１２",
-    "phone": "0952-37-8376",
-    "hours": "",
-    "tabelog": "",
-    "google_map": "https://www.google.com/maps/search/?api=1&query=BUNGA VILLAGE&query_place_id=ChIJVzerdXzJQTURo8CjHklwxfI",
-    "lat": 33.317243,
-    "lng": 130.277201,
     "hours_structured": null
   },
   {
@@ -1701,18 +2374,33 @@
     ],
     "address": "佐賀市兵庫南４丁目１−２３",
     "phone": "0952-26-8820",
-    "hours": "",
+    "hours": "火・水・木・金・土・日 11:00 - 20:30 月 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000019/",
     "google_map": "https://www.google.com/maps?cid=10394571146557512006",
     "lat": 33.261051,
     "lng": 130.319089,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金・土・日 11:00 - 20:30 月 定休日 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": null,
+        "tue": "11:00～20:30",
+        "wed": "11:00～20:30",
+        "thu": "11:00～20:30",
+        "fri": "11:00～20:30",
+        "sat": "11:00～20:30",
+        "sun": "11:00～20:30",
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "松下",
     "url": "https://www.sagashi-insyoku.com/restaurants/matsushita",
     "genre": [
-      "寿司"
+      "寿司",
+      "ステーキ",
+      "牛タン"
     ],
     "address": "佐賀市中央本町７−１３",
     "phone": "0952-48-0371",
@@ -1727,18 +2415,35 @@
     "name": "むとう",
     "url": "https://www.sagashi-insyoku.com/restaurants/mutou",
     "genre": [
-      "バー・スナック",
+      "バー",
+      "スナック",
       "海鮮料理",
-      "和食"
+      "和食",
+      "ダイニングバー",
+      "海鮮",
+      "もつ鍋"
     ],
     "address": "佐賀市唐人２丁目５−１",
     "phone": "0952-25-8139",
-    "hours": "",
+    "hours": "火・水・木・金・土 18:00 - 00:00 L.O. 23:30 日 18:00 - 23:00 L.O. 23:00 月 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000149/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=むとう&query_place_id=ChIJed4bb3LKQTUROd-B6mXMQ2U",
     "lat": 33.257861,
     "lng": 130.299582,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金・土 18:00 - 00:00 L.O. 23:30 日 18:00 - 23:00 L.O. 23:00 月 定休日",
+      "parsed": {
+        "mon": null,
+        "tue": "18:00～00:00 / 18:00～23:00",
+        "wed": "18:00～00:00 / 18:00～23:00",
+        "thu": "18:00～00:00 / 18:00～23:00",
+        "fri": "18:00～00:00 / 18:00～23:00",
+        "sat": "18:00～00:00 / 18:00～23:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "member's chip IN",
@@ -1757,61 +2462,120 @@
     "name": "焼とり かちがらす駅前店",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_kachigarasu",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "焼き鳥"
     ],
     "address": "佐賀市駅前中央１−７−１",
     "phone": "0952-26-8720",
-    "hours": "",
+    "hours": "17:30 - 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41001204/",
     "google_map": "https://www.google.com/maps?cid=8663115713892142179",
     "lat": 33.261877,
     "lng": 130.297255,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:30 - 23:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "parsed": {
+        "mon": "17:30～23:00",
+        "tue": "17:30～23:00",
+        "wed": "17:30～23:00",
+        "thu": "17:30～23:00",
+        "fri": "17:30～23:00",
+        "sat": "17:30～23:00",
+        "sun": "17:30～23:00",
+        "holiday": "17:30～23:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "やきとり 鶴",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_tsuru",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "焼き鳥"
     ],
     "address": "佐賀市八幡小路２−８",
     "phone": "",
-    "hours": "",
+    "hours": "18:00 - 00:00 L.O. 23:00 ■ 定休日不定休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002669/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=やきとり 鶴&query_place_id=ChIJ61kwznHKQTURv09NK9yDGa8",
     "lat": 33.254317,
     "lng": 130.29921,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 - 00:00 L.O. 23:00 ■ 定休日不定休",
+      "parsed": {
+        "mon": "18:00～00:00",
+        "tue": "18:00～00:00",
+        "wed": "18:00～00:00",
+        "thu": "18:00～00:00",
+        "fri": "18:00～00:00",
+        "sat": "18:00～00:00",
+        "sun": "18:00～00:00",
+        "holiday": "18:00～00:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "やきとり葵屋",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori.aoiya",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "居酒屋",
+      "焼き鳥",
+      "海鮮"
     ],
     "address": "佐賀市唐人２丁目７－１７",
     "phone": "0952-24-0776",
-    "hours": "",
+    "hours": "■ 営業時間.■ 定休日.",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005474/",
     "google_map": "https://www.google.com/maps?cid=13009490268639435019",
     "lat": 33.259691,
     "lng": 130.29902,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "■ 営業時間.■ 定休日.",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": null
+    }
   },
   {
     "name": "やきとり鳥や",
     "url": "https://www.sagashi-insyoku.com/restaurants/yakitori_toriya",
     "genre": [
-      "焼鳥"
+      "焼鳥",
+      "焼き鳥",
+      "居酒屋"
     ],
     "address": "佐賀市唐人１丁目５",
     "phone": "0952-27-7069",
-    "hours": "",
+    "hours": "月・火・水・木・金・土 18:00 - 00:00 L.O. 23:00 日 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006698/",
     "google_map": "https://www.google.com/maps?cid=13944303133581624791",
     "lat": 33.259081,
     "lng": 130.298492,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木・金・土 18:00 - 00:00 L.O. 23:00 日 定休日",
+      "parsed": {
+        "mon": "18:00～00:00",
+        "tue": "18:00～00:00",
+        "wed": "18:00～00:00",
+        "thu": "18:00～00:00",
+        "fri": "18:00～00:00",
+        "sat": "18:00～00:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "焼味処 輪久",
@@ -1819,12 +2583,25 @@
     "genre": null,
     "address": "佐賀市大財１丁目４−１１",
     "phone": "0952-23-7299",
-    "hours": "",
+    "hours": "火・水・木・金・土 18:00 - 03:00 L.O. 料理02:00 ドリンク02:30 日 18:00 - 00:00 L.O. 料理23:00 ドリンク23:30 祝日 18:00 - 00:00 月 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006731/",
     "google_map": "https://www.google.com/maps?cid=16910431398603202869",
     "lat": 33.257929,
     "lng": 130.30162,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火・水・木・金・土 18:00 - 03:00 L.O. 料理02:00 ドリンク02:30 日 18:00 - 00:00 L.O. 料理23:00 ドリンク23:30 祝日 18:00 - 00:00 月 定休日",
+      "parsed": {
+        "mon": null,
+        "tue": "18:00～03:00 / 18:00～00:00 / 18:00～00:00",
+        "wed": "18:00～03:00 / 18:00～00:00 / 18:00～00:00",
+        "thu": "18:00～03:00 / 18:00～00:00 / 18:00～00:00",
+        "fri": "18:00～03:00 / 18:00～00:00 / 18:00～00:00",
+        "sat": "18:00～03:00 / 18:00～00:00 / 18:00～00:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "月"
+    }
   },
   {
     "name": "ライブスナック シーヤ",
@@ -1918,12 +2695,25 @@
     "genre": null,
     "address": "佐賀市松原３−３",
     "phone": "0952-37-5310",
-    "hours": "",
+    "hours": "18:00 - 00:00 ■ 定休日不定休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005057/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=ロレッタ&query_place_id=ChIJa5Mfw3bKQTUR02LDtlDJBME",
     "lat": 33.252949,
     "lng": 130.304185,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 - 00:00 ■ 定休日不定休",
+      "parsed": {
+        "mon": "18:00～00:00",
+        "tue": "18:00～00:00",
+        "wed": "18:00～00:00",
+        "thu": "18:00～00:00",
+        "fri": "18:00～00:00",
+        "sat": "18:00～00:00",
+        "sun": "18:00～00:00",
+        "holiday": "18:00～00:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "椀々",
@@ -1931,11 +2721,24 @@
     "genre": null,
     "address": "佐賀市八幡小路４−３３",
     "phone": "0952-25-6774",
-    "hours": "",
+    "hours": "月・火・水・木 18:00 - 01:00 L.O. 00:30 金・土・祝前日 18:00 - 02:00 L.O. 01:30 日 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41000160/",
     "google_map": "https://www.google.com/maps?cid=7261011068018277914",
     "lat": 33.254053,
     "lng": 130.298719,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・火・水・木 18:00 - 01:00 L.O. 00:30 金・土・祝前日 18:00 - 02:00 L.O. 01:30 日 定休日",
+      "parsed": {
+        "mon": "18:00～01:00 / 18:00～02:00",
+        "tue": "18:00～01:00 / 18:00～02:00",
+        "wed": "18:00～01:00 / 18:00～02:00",
+        "thu": "18:00～01:00 / 18:00～02:00",
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日"
+    }
   }
 ]

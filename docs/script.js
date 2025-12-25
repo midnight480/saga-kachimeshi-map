@@ -830,9 +830,10 @@ document.addEventListener('DOMContentLoaded', function() {
             showInfoModal('お問い合わせ先', `
                 <p>このサイトに関するお問い合わせは、以下のGoogleフォームからお願いいたします。</p>
                 <p style="text-align: center; margin: 20px 0;">
-                    <a href="#" class="link-button" style="display: inline-block;">お問い合わせフォーム（準備中）</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXiwsfg34vKjdj8vVjlQZf1qYnyuAlhRM7Iim0cB66oGHI9Q/viewform" target="_blank" rel="noopener noreferrer" class="link-button" style="display: inline-block;">お問い合わせフォーム</a>
                 </p>
-                <p><small>※Googleフォームは現在準備中です。しばらくお待ちください。</small></p>
+                <p><small>※GitHubのIssueに直接記載頂いても構いません。<br>
+                <a href="https://github.com/midnight480/saga-kachimeshi-map/issues/new" target="_blank" rel="noopener noreferrer">https://github.com/midnight480/saga-kachimeshi-map/issues/new</a></small></p>
             `);
             menuToggle.classList.remove('active');
             headerNav.classList.remove('active');

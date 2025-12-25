@@ -351,6 +351,17 @@ function showShopModal(shop) {
                 <div class="info-item">
                     <strong>住所:</strong> ${shop.address || '住所不明'}
                 </div>
+                ${shop.phone && shop.phone.trim() ? `
+                <div class="info-item phone-item">
+                    <strong>電話番号:</strong>
+                    <div class="phone-container">
+                        <span class="phone-number">${shop.phone}</span>
+                        <button class="copy-phone-btn" onclick="copyPhoneNumber('${shop.phone.replace(/'/g, "\\'")}')" title="電話番号をコピー">
+                            📋 コピー
+                        </button>
+                    </div>
+                </div>
+                ` : ''}
             </div>
             <div class="shop-links-section">
                 <h3>リンク</h3>
@@ -373,6 +384,64 @@ function showShopModal(shop) {
     `;
     
     modal.style.display = 'block';
+}
+
+function copyPhoneNumber(phoneNumber) {
+    // Remove any HTML entities and clean the phone number
+    const cleanPhone = phoneNumber.replace(/&#39;/g, "'").trim();
+    
+    // Use Clipboard API if available
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(cleanPhone).then(() => {
+            showCopyFeedback();
+        }).catch(err => {
+            console.error('Failed to copy:', err);
+            fallbackCopyTextToClipboard(cleanPhone);
+        });
+    } else {
+        // Fallback for older browsers
+        fallbackCopyTextToClipboard(cleanPhone);
+    }
+}
+
+function fallbackCopyTextToClipboard(text) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";
+    textArea.style.left = "-999999px";
+    textArea.style.top = "-999999px";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            showCopyFeedback();
+        } else {
+            alert('コピーに失敗しました。手動でコピーしてください: ' + text);
+        }
+    } catch (err) {
+        console.error('Fallback copy failed:', err);
+        alert('コピーに失敗しました。手動でコピーしてください: ' + text);
+    }
+    
+    document.body.removeChild(textArea);
+}
+
+function showCopyFeedback() {
+    // Find the copy button and show feedback
+    const copyBtn = document.querySelector('.copy-phone-btn');
+    if (copyBtn) {
+        const originalText = copyBtn.textContent;
+        copyBtn.textContent = '✓ コピーしました';
+        copyBtn.style.backgroundColor = '#4caf50';
+        
+        setTimeout(() => {
+            copyBtn.textContent = originalText;
+            copyBtn.style.backgroundColor = '';
+        }, 2000);
+    }
 }
 
 function closeShopModal() {
@@ -652,8 +721,9 @@ document.querySelectorAll('.view-tab').forEach(tab => {
 });
 
 
-// Make closeShopModal available globally
+// Make closeShopModal and copyPhoneNumber available globally
 window.closeShopModal = closeShopModal;
+window.copyPhoneNumber = copyPhoneNumber;
 
 // Info Modal Functions
 function showInfoModal(title, content) {

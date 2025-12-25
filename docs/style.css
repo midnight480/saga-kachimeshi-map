@@ -442,6 +442,44 @@ header h1 {
     color: #333;
 }
 
+.phone-item {
+    position: relative;
+}
+
+.phone-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.phone-number {
+    font-size: 1em;
+    color: #333;
+    flex: 1;
+}
+
+.copy-phone-btn {
+    padding: 6px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+}
+
+.copy-phone-btn:hover {
+    background-color: #45a049;
+}
+
+.copy-phone-btn:active {
+    transform: scale(0.95);
+}
+
 .shop-links-section,
 .sns-section {
     margin-top: 20px;

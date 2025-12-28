@@ -284,7 +284,7 @@ function renderList() {
             <div class="shop-name">${shop.name}</div>
             ${genreDisplay ? `<div class="shop-category">${genreDisplay}</div>` : ''}
             <div class="shop-info">
-                <div class="shop-hours">${shop.hours || '営業時間不明'}</div>
+                <div class="shop-hours">${getFormattedHours(shop)}</div>
                 <div class="shop-address">${shop.address || '住所不明'}</div>
             </div>
             <div class="shop-links">
@@ -327,6 +327,79 @@ function switchToListView() {
     renderList();
 }
 
+// Format closed day text
+function formatClosedDay(closed) {
+    // closed が null の場合は不定休または無休を表す
+    if (closed === null || closed === undefined || closed === '') {
+        return '不定休';
+    }
+    
+    let formatted = closed.toString();
+    
+    // "月曜日" → "月", "火曜日" → "火" など、曜日を削除して統一
+    // "第1火曜日" → "第1火", "第3火曜日" → "第3火" などのパターンにも対応
+    // "日曜日、祝日" → "日、祝日" のように複数の定休日にも対応
+    formatted = formatted.replace(/([月火水木金土日])曜日/g, '$1');
+    
+    return formatted;
+}
+
+// Format hours string for display (convert 00:00 → 24:00, 01:00 → 25:00, etc.)
+// これは古い hours テキスト用（後方互換性のため）
+function formatHoursForDisplay(hours) {
+    if (!hours) return hours;
+    
+    // Match time ranges like "17:00～00:00" or "18:00～01:00" or "20:00～05:00"
+    // Only convert the end time (after ～) if it's 00:00-05:59
+    return hours.replace(/(\d{1,2}):(\d{2})\s*[～~-]\s*(\d{1,2}):(\d{2})/g, (match, startH, startM, endH, endM) => {
+        const startHour = parseInt(startH, 10);
+        const endHour = parseInt(endH, 10);
+        
+        // Convert end time to 24+ hour format if it's 00:00-05:59
+        // This indicates late night closing (next day)
+        if (endHour >= 0 && endHour <= 5) {
+            const newEndHour = 24 + endHour;
+            return `${startH}:${startM}～${newEndHour}:${endM}`;
+        }
+        
+        return match;
+    });
+}
+
+// Format hours_structured data for display (convert 24:00 → 00:00, 25:00 → 01:00, etc.)
+// hours_structured のデータは 24:00 表記だが、表示時は 00:00 表記に戻す
+function formatHoursFromStructured(hoursStr) {
+    if (!hoursStr) return hoursStr;
+    
+    // Match time ranges like "17:00～24:00" or "18:00～25:00" or "20:00～29:00"
+    // 複数の時間帯がある場合（例: "10:00～15:00 / 18:00～22:00"）にも対応
+    return hoursStr.replace(/(\d{1,2}):(\d{2})\s*[～~-]\s*(\d{1,2}):(\d{2})/g, (match, startH, startM, endH, endM) => {
+        const startHour = parseInt(startH, 10);
+        const endHour = parseInt(endH, 10);
+        
+        // Convert 24+ hour format back to 00:00-05:59 format
+        // 24:00 → 00:00, 25:00 → 01:00, 26:00 → 02:00, etc.
+        if (endHour >= 24 && endHour <= 29) {
+            const newEndHour = endHour - 24;
+            const newEndHourStr = newEndHour.toString().padStart(2, '0');
+            return `${startH}:${startM}～${newEndHourStr}:${endM}`;
+        }
+        
+        return match;
+    });
+}
+
+// Get formatted hours for display from shop data
+// hours_structured がある場合はそれを使用し、ない場合は hours テキストを使用
+function getFormattedHours(shop) {
+    if (shop.hours_structured && shop.hours_structured.text) {
+        // hours_structured の text を使用（これは元の hours テキストと同じ）
+        return formatHoursForDisplay(shop.hours_structured.text);
+    }
+    // フォールバック: hours テキストを使用
+    return formatHoursForDisplay(shop.hours || '営業時間不明');
+}
+
 function createShopModalContent(shop) {
     // Get genre display text
     let genreDisplay = '';
@@ -336,11 +409,18 @@ function createShopModalContent(shop) {
         genreDisplay = shop.category;
     }
     
+    const closedDay = shop.hours_structured && shop.hours_structured.closed !== undefined 
+        ? formatClosedDay(shop.hours_structured.closed) 
+        : null;
+    
+    const displayHours = getFormattedHours(shop);
+    
     return `
         <div class="shop-popup-content">
             <div class="shop-name">${shop.name}</div>
             ${genreDisplay ? `<div class="shop-category">${genreDisplay}</div>` : ''}
-            <div class="shop-hours">${shop.hours || '営業時間不明'}</div>
+            <div class="shop-hours">${displayHours}</div>
+            ${closedDay ? `<div class="shop-closed">定休日: ${closedDay}</div>` : ''}
             <div class="shop-address">${shop.address || '住所不明'}</div>
             <div class="shop-links">
                 <a href="${shop.url}" target="_blank" class="shop-link">詳細を見る</a>
@@ -374,8 +454,13 @@ function showShopModal(shop) {
                 </div>
                 ` : ''}
                 <div class="info-item">
-                    <strong>営業時間:</strong> ${shop.hours || '営業時間不明'}
+                    <strong>営業時間:</strong> ${getFormattedHours(shop)}
                 </div>
+                ${(shop.hours_structured && shop.hours_structured.closed !== undefined) ? `
+                <div class="info-item">
+                    <strong>定休日:</strong> ${formatClosedDay(shop.hours_structured.closed)}
+                </div>
+                ` : ''}
                 <div class="info-item">
                     <strong>住所:</strong> ${shop.address || '住所不明'}
                 </div>
@@ -551,11 +636,14 @@ function isShopOpenStructured(shop, day, time) {
     // 2. Check Time
     if (time) {
         const dayKey = day ? dayMap[day] : null;
-        const timeStr = dayKey && parsed[dayKey] ? parsed[dayKey] : 
+        let timeStr = dayKey && parsed[dayKey] ? parsed[dayKey] : 
                        parsed.holiday ? parsed.holiday :
                        Object.values(parsed)[0]; // Use first available time
         
         if (!timeStr) return true; // No time info, keep visible
+        
+        // hours_structured のデータは既に 24:00 表記になっているので、そのまま使用
+        // 検索時間（01:00 など）は checkTime 内で 25:00 形式に変換される
         
         if (!checkTime(timeStr, time)) return false;
     }
@@ -658,36 +746,47 @@ function isDayInText(text, jaDay, daysOrder) {
 
 function checkTime(text, timeStr) {
     if (!timeStr) return true;
-    // timeStr: "19:00"
-    // text: "17:00 ～ 23:30"
-
-    // Extract ranges
-    const timeRanges = text.match(/(\d{1,2}:\d{2})\s*[～~-]\s*(\d{1,2}:\d{2})/g);
+    // timeStr: "19:00" or "01:00" (user input)
+    // text: "17:00～24:00" or "18:00～25:00" (hours_structured は既に 24:00 表記)
+    
+    // hours_structured のデータは既に 24:00 表記になっているので、そのまま使用
+    // ただし、古いデータ（hours テキスト）の場合は formatHoursForDisplay で変換
+    const formattedText = text.includes('～') || text.includes('~') || text.includes('-') 
+        ? text 
+        : formatHoursForDisplay(text);
+    
+    // Extract ranges (supports 24:00, 25:00, etc.)
+    // 複数の時間帯がある場合（例: "10:00～15:00 / 18:00～22:00"）に対応
+    const timeRanges = formattedText.match(/(\d{1,2}):(\d{2})\s*[～~-]\s*(\d{1,2}):(\d{2})/g);
     if (!timeRanges) return true; // No time info found, assume open?
 
     const [h, m] = timeStr.split(':').map(Number);
-    const targetMins = h * 60 + m;
+    let targetMins = h * 60 + m;
+    
+    // 検索時間が深夜時間（00:00-05:59）の場合、24+ 時間形式に変換
+    // 例: 01:00 → 25:00 (1500分)、02:00 → 26:00 (1560分)
+    if (h >= 0 && h <= 5) {
+        targetMins = (24 + h) * 60 + m;
+    }
 
     for (const range of timeRanges) {
         const parts = range.split(/[～~-]/);
         if (parts.length < 2) continue;
 
-        const start = parseTime(parts[0]);
-        let end = parseTime(parts[1]);
+        const start = parseTime(parts[0].trim());
+        const end = parseTime(parts[1].trim());
 
         if (start === null || end === null) continue;
 
-        // Handle Late night: 26:00 or 02:00 (next day)
-        // If end < start, add 24h?
-        // Usually 17:00 - 02:00
-        if (end < start) end += 24 * 60;
-
-        // Check if target matches normal
+        // start と end は分単位（24:00 = 1440分、25:00 = 1500分など）
+        // hours_structured のデータは既に 24:00 表記なので、そのまま比較
+        
+        // 検索時間が営業時間範囲内かチェック
         if (targetMins >= start && targetMins < end) return true;
-
-        // Check if target is late night (e.g. searching for 01:00)
-        // 01:00 becomes 25:00
-        if ((targetMins + 24 * 60) >= start && (targetMins + 24 * 60) < end) return true;
+        
+        // 通常形式（00:00-23:59）でもチェック（後方互換性のため）
+        const normalTargetMins = h * 60 + m;
+        if (normalTargetMins >= start && normalTargetMins < end) return true;
     }
 
     return false;
@@ -697,6 +796,7 @@ function parseTime(tStr) {
     tStr = tStr.trim();
     const [h, m] = tStr.split(':').map(Number);
     if (isNaN(h) || isNaN(m)) return null;
+    // Support 24+ hour format (24:00 = 1440, 25:00 = 1500, etc.)
     return h * 60 + m;
 }
 

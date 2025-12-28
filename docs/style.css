@@ -337,6 +337,13 @@ header h1 {
     margin-bottom: 8px;
 }
 
+.shop-closed {
+    font-size: 0.9em;
+    color: #d32f2f;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
 .shop-link {
     display: inline-block;
     margin-top: 5px;

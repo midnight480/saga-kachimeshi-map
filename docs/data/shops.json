@@ -25,7 +25,7 @@
         "sun": null,
         "holiday": null
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -52,7 +52,7 @@
         "thu": "11:30～13:30 / 17:00～22:00",
         "fri": "11:30～13:30 / 17:00～22:00",
         "sat": "17:00～22:00",
-        "sun": null,
+        "sun": "17:00～21:00",
         "holiday": "17:00～21:00"
       },
       "closed": "火曜日"
@@ -127,13 +127,26 @@
       "居酒屋"
     ],
     "address": "佐賀市愛敬町４−１",
-    "phone": "",
-    "hours": "",
+    "phone": "050-5485-6196",
+    "hours": "17:00 ～ 23:00 定休日：火曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=13376450891247167243",
     "lat": 33.261067,
     "lng": 130.300566,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:00 ～ 23:00 定休日：火曜日",
+      "parsed": {
+        "mon": "17:00～23:00",
+        "tue": null,
+        "wed": "17:00～23:00",
+        "thu": "17:00～23:00",
+        "fri": "17:00～23:00",
+        "sat": "17:00～23:00",
+        "sun": "17:00～23:00",
+        "holiday": "17:00～23:00"
+      },
+      "closed": "火曜日"
+    }
   },
   {
     "name": "囲炉裏　吟",
@@ -172,12 +185,25 @@
     "genre": null,
     "address": "佐賀市呉服元町２−４ 2f",
     "phone": "0952-29-5665",
-    "hours": "",
+    "hours": "20:00 ～ 1:00 定休日：日曜日、祝日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=WITH&query_place_id=ChIJlyhRYjnLQTURIHbbxJsmUUA",
     "lat": 33.25444,
     "lng": 130.302999,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 1:00 定休日：日曜日、祝日",
+      "parsed": {
+        "mon": "20:00～1:00",
+        "tue": "20:00～1:00",
+        "wed": "20:00～1:00",
+        "thu": "20:00～1:00",
+        "fri": "20:00～1:00",
+        "sat": "20:00～1:00",
+        "sun": null,
+        "holiday": "20:00～1:00"
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "嬉乃すし佐賀駅店",
@@ -187,7 +213,7 @@
     ],
     "address": "佐賀市駅前中央１－１１－２０　JR佐賀駅サガハツ内",
     "phone": "0120-30-1469",
-    "hours": "",
+    "hours": "11:00 ～ 20:00 1/1、1/2（その他はJRに準ずる）",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=嬉乃すし佐賀駅店&query_place_id=ChIJZ69mlK7LQTURwIBH8-s90Mw",
     "lat": 33.264012,
@@ -205,12 +231,25 @@
     ],
     "address": "佐賀市大財１丁目３−１０",
     "phone": "0952-28-6131",
-    "hours": "",
+    "hours": "18:00 ～ 0:00 定休日：月曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006905/",
     "google_map": "https://www.google.com/maps?cid=3457041713619684340",
     "lat": 33.257811,
     "lng": 130.30105,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 0:00 定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "18:00～0:00",
+        "wed": "18:00～0:00",
+        "thu": "18:00～0:00",
+        "fri": "18:00～0:00",
+        "sat": "18:00～0:00",
+        "sun": "18:00～0:00",
+        "holiday": "18:00～0:00"
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "お食事処 丸徳",
@@ -252,24 +291,24 @@
     ],
     "address": "佐賀市松原２丁目１３−９",
     "phone": "0952-38-2113",
-    "hours": "■ 営業時間-■ 定休日ー",
+    "hours": "17:00 ～ 23:00 定休日：水曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005900/",
     "google_map": "https://www.google.com/maps?cid=16875831664437575048",
     "lat": 33.25281,
     "lng": 130.303758,
     "hours_structured": {
-      "text": "■ 営業時間-■ 定休日ー",
+      "text": "17:00 ～ 23:00 定休日：水曜日",
       "parsed": {
-        "mon": null,
-        "tue": null,
+        "mon": "17:00～23:00",
+        "tue": "17:00～23:00",
         "wed": null,
-        "thu": null,
-        "fri": null,
-        "sat": null,
-        "sun": null,
-        "holiday": null
+        "thu": "17:00～23:00",
+        "fri": "17:00～23:00",
+        "sat": "17:00～23:00",
+        "sun": "17:00～23:00",
+        "holiday": "17:00～23:00"
       },
-      "closed": null
+      "closed": "水曜日"
     }
   },
   {
@@ -280,12 +319,25 @@
     ],
     "address": "佐賀市嘉瀬町中原１９７６",
     "phone": "0952-25-0893",
-    "hours": "",
+    "hours": "11:00 ～ 15:00 定休日：水曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=11330283611008741973",
     "lat": 33.243373,
     "lng": 130.258479,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 ～ 15:00 定休日：水曜日",
+      "parsed": {
+        "mon": "11:00～15:00",
+        "tue": "11:00～15:00",
+        "wed": null,
+        "thu": "11:00～15:00",
+        "fri": "11:00～15:00",
+        "sat": "11:00～15:00",
+        "sun": "11:00～15:00",
+        "holiday": "11:00～15:00"
+      },
+      "closed": "水曜日"
+    }
   },
   {
     "name": "かばち",
@@ -310,7 +362,7 @@
         "sun": "18:00～00:00",
         "holiday": "18:00～00:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -352,12 +404,25 @@
     ],
     "address": "佐賀市中央本町４−６​",
     "phone": "",
-    "hours": "",
+    "hours": "19:00 ～ 3:00 定休日：木曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=11947930083402930541",
     "lat": 33.25414,
     "lng": 130.301947,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "19:00 ～ 3:00 定休日：木曜日",
+      "parsed": {
+        "mon": "19:00～3:00",
+        "tue": "19:00～3:00",
+        "wed": "19:00～3:00",
+        "thu": null,
+        "fri": "19:00～3:00",
+        "sat": "19:00～3:00",
+        "sun": "19:00～3:00",
+        "holiday": "19:00～3:00"
+      },
+      "closed": "木曜日"
+    }
   },
   {
     "name": "くいしんぼ茶屋 豪ちゃん",
@@ -397,12 +462,25 @@
     "genre": null,
     "address": "佐賀市兵庫北３丁目１−３",
     "phone": "0952-20-5353",
-    "hours": "",
+    "hours": "18:00 ～ 0:00 定休日：日曜日、祝日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=12919849042821848973",
     "lat": 33.269686,
     "lng": 130.301982,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 0:00 定休日：日曜日、祝日",
+      "parsed": {
+        "mon": "18:00～0:00",
+        "tue": "18:00～0:00",
+        "wed": "18:00～0:00",
+        "thu": "18:00～0:00",
+        "fri": "18:00～0:00",
+        "sat": "18:00～0:00",
+        "sun": null,
+        "holiday": "18:00～0:00"
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "小料理 酔心",
@@ -453,7 +531,7 @@
         "sun": "11:30～01:00",
         "holiday": "11:30～01:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -462,12 +540,25 @@
     "genre": null,
     "address": "佐賀市松原２−２−１０ リゾートシティライオンビル1F",
     "phone": "",
-    "hours": "",
+    "hours": "月・水・木・金・土・日 21:00 - 04:00 火 定休日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006049/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=The Rock Heart&query_place_id=ChIJRfhF-3DKQTURxZjKPVCOJUg",
     "lat": 33.308992,
     "lng": 130.253648,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月・水・木・金・土・日 21:00 - 04:00 火 定休日",
+      "parsed": {
+        "mon": "21:00～04:00",
+        "tue": null,
+        "wed": "21:00～04:00",
+        "thu": "21:00～04:00",
+        "fri": "21:00～04:00",
+        "sat": "21:00～04:00",
+        "sun": "21:00～04:00",
+        "holiday": null
+      },
+      "closed": "火"
+    }
   },
   {
     "name": "旬の料理 天ぷら みねまつ",
@@ -477,12 +568,25 @@
     ],
     "address": "佐賀市兵庫北１丁目１０−４０",
     "phone": "0952-41-5757",
-    "hours": "",
+    "hours": "17:30 〜 22:30 定休日：水曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41003320/",
     "google_map": "https://www.google.com/maps?cid=412427786884532641",
     "lat": 33.266312,
     "lng": 130.310341,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:30 〜 22:30 定休日：水曜日",
+      "parsed": {
+        "mon": "17:30～22:30",
+        "tue": "17:30～22:30",
+        "wed": null,
+        "thu": "17:30～22:30",
+        "fri": "17:30～22:30",
+        "sat": "17:30～22:30",
+        "sun": "17:30～22:30",
+        "holiday": "17:30～22:30"
+      },
+      "closed": "水曜日"
+    }
   },
   {
     "name": "JJ",
@@ -490,12 +594,25 @@
     "genre": null,
     "address": "佐賀市愛敬町２−２３ エンゼルビル",
     "phone": "0952-77-9476",
-    "hours": "",
+    "hours": "月～木：22:00～7:00、金・土・祝前日：20:00～7:00 定休日：日曜日、祝日（変動有）",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=JJ&query_place_id=ChIJd9JQ4nLKQTURrBJLrqE0t-I",
     "lat": 33.258678,
     "lng": 130.301073,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～木：22:00～7:00、金・土・祝前日：20:00～7:00 定休日：日曜日、祝日（変動有）",
+      "parsed": {
+        "mon": "22:00～7:00",
+        "tue": "22:00～7:00",
+        "wed": "22:00～7:00",
+        "thu": "22:00～7:00",
+        "fri": "20:00～7:00",
+        "sat": "20:00～7:00",
+        "sun": null,
+        "holiday": "20:00～7:00"
+      },
+      "closed": "日曜日、祝日（変動有）"
+    }
   },
   {
     "name": "ジンのキッチンカー",
@@ -508,20 +625,7 @@
     "google_map": "",
     "lat": 33.249624,
     "lng": 130.301041,
-    "hours_structured": {
-      "text": "毎週木曜日 平日はお弁当も販売",
-      "parsed": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": null,
-        "sat": null,
-        "sun": null,
-        "holiday": null
-      },
-      "closed": null
-    }
+    "hours_structured": null
   },
   {
     "name": "SUIVIE 酔美",
@@ -543,13 +647,26 @@
       "寿司"
     ],
     "address": "佐賀市白山２－６－１",
-    "phone": "",
-    "hours": "",
+    "phone": "050-5485-2112",
+    "hours": "18:00 ～ 24:00",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41002583/",
     "google_map": "https://www.google.com/maps?cid=13215813988757099261",
     "lat": 33.255951,
     "lng": 130.302002,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 24:00",
+      "parsed": {
+        "mon": "18:00～24:00",
+        "tue": "18:00～24:00",
+        "wed": "18:00～24:00",
+        "thu": "18:00～24:00",
+        "fri": "18:00～24:00",
+        "sat": "18:00～24:00",
+        "sun": "18:00～24:00",
+        "holiday": "18:00～24:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "鮨・椿油天ぷら 八木",
@@ -560,12 +677,25 @@
     ],
     "address": "佐賀市大和町大字尼寺２５００−２",
     "phone": "0952-20-4170",
-    "hours": "",
+    "hours": "月～木（ランチ）：11:30～14:00（L.O.20:30）、月～金・土・祝前（ディナー）：17:30～22:00（L.O.21:30）定休日：日曜日、祝日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41004296/",
     "google_map": "https://www.google.com/maps?cid=10057453218576794572",
     "lat": 33.308044,
     "lng": 130.282016,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～木（ランチ）：11:30～14:00（L.O.20:30）、月～金・土・祝前（ディナー）：17:30～22:00（L.O.21:30）定休日：日曜日、祝日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "スナック 風花",
@@ -575,12 +705,25 @@
     ],
     "address": "佐賀市白山２−６−５ 白山ビル２F",
     "phone": "0952-25-1012",
-    "hours": "",
+    "hours": "20:00～2:00 定休日：日曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006919/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=スナック 風花&query_place_id=ChIJT4I1znPKQTURpSHCUHnvJsE",
     "lat": 33.255803,
     "lng": 130.301698,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00～2:00 定休日：日曜日",
+      "parsed": {
+        "mon": "20:00～2:00",
+        "tue": "20:00～2:00",
+        "wed": "20:00～2:00",
+        "thu": "20:00～2:00",
+        "fri": "20:00～2:00",
+        "sat": "20:00～2:00",
+        "sun": null,
+        "holiday": "20:00～2:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "炭火焼肉 牛牛",
@@ -589,13 +732,26 @@
       "焼肉"
     ],
     "address": "佐賀市愛敬町１−１",
-    "phone": "",
-    "hours": "",
+    "phone": "050-5486-7410",
+    "hours": "18:00 ～ 24:00（L.O.23:30）定休日：水曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005259/",
-    "google_map": "https://www.google.com/maps?cid=8798984515391025625",
-    "lat": 33.291506,
-    "lng": 130.285745,
-    "hours_structured": null
+    "google_map": "https://www.google.com/maps/place/%E7%82%AD%E7%81%AB%E7%84%BC%E8%82%89+%E7%89%9B%E7%89%9B/@33.2580664,130.3005985,20.03z/data=!4m14!1m7!3m6!1s0x3541ca72ff035a15:0x7a1c45cc380b71d9!2z54Kt54Gr54S86IKJIOeJm-eJmw!8m2!3d33.2581097!4d130.3011572!16s%2Fg%2F11bbx0qdt8!3m5!1s0x3541ca72ff035a15:0x7a1c45cc380b71d9!8m2!3d33.2581097!4d130.3011572!16s%2Fg%2F11bbx0qdt8?hl=ja-JP&entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 33.2581097,
+    "lng": 130.3011572,
+    "hours_structured": {
+      "text": "18:00 ～ 24:00（L.O.23:30）定休日：水曜日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "水曜日"
+    }
   },
   {
     "name": "成竜軒 高木瀬店",
@@ -620,7 +776,7 @@
         "sun": "09:00～20:00",
         "holiday": "09:00～20:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -631,12 +787,25 @@
     ],
     "address": "佐賀市中央本町１−３１",
     "phone": "0952-29-0770",
-    "hours": "",
+    "hours": "18:00 ～ 2:00 定休日：月曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=鯛だしらぁめんすいづき&query_place_id=ChIJ_-MWDNrLQTURNiSgAmGYLpM",
     "lat": 33.252996,
     "lng": 130.302,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 2:00 定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "18:00～2:00",
+        "wed": "18:00～2:00",
+        "thu": "18:00～2:00",
+        "fri": "18:00～2:00",
+        "sat": "18:00～2:00",
+        "sun": "18:00～2:00",
+        "holiday": "18:00～2:00"
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "たかもとや",
@@ -647,12 +816,25 @@
     ],
     "address": "佐賀市鍋島４丁目１−３６ 医大東ハイツ",
     "phone": "0952-48-0584",
-    "hours": "",
+    "hours": "11:00 ～ 22:00 定休日：なし",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007271/",
     "google_map": "https://www.google.com/maps?cid=3943534095812408716",
     "lat": 33.282784,
     "lng": 130.270213,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 ～ 22:00 定休日：なし",
+      "parsed": {
+        "mon": "11:00～22:00",
+        "tue": "11:00～22:00",
+        "wed": "11:00～22:00",
+        "thu": "11:00～22:00",
+        "fri": "11:00～22:00",
+        "sat": "11:00～22:00",
+        "sun": "11:00～22:00",
+        "holiday": "11:00～22:00"
+      },
+      "closed": "なし"
+    }
   },
   {
     "name": "タルト屋そらり",
@@ -660,12 +842,25 @@
     "genre": null,
     "address": "佐賀市鍋島３−４",
     "phone": "0952-30-2115",
-    "hours": "",
+    "hours": "11:00 ～ 22:00 不定休",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=3787818566650084462",
     "lat": 33.281018,
     "lng": 130.268726,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 ～ 22:00 不定休",
+      "parsed": {
+        "mon": "11:00～22:00",
+        "tue": "11:00～22:00",
+        "wed": "11:00～22:00",
+        "thu": "11:00～22:00",
+        "fri": "11:00～22:00",
+        "sat": "11:00～22:00",
+        "sun": "11:00～22:00",
+        "holiday": "11:00～22:00"
+      },
+      "closed": "不定休"
+    }
   },
   {
     "name": "だいやす",
@@ -701,12 +896,25 @@
     ],
     "address": "佐賀市中央本町１０−１ セントラル パレス",
     "phone": "0952-25-6070",
-    "hours": "",
+    "hours": "18:00 ～ 22:00 定休日：月曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007659/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=中国料理 栄志&query_place_id=ChIJidt_rXPKQTURq9zgpuhJK-w",
     "lat": 33.253166,
     "lng": 130.303398,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 22:00 定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "18:00～22:00",
+        "wed": "18:00～22:00",
+        "thu": "18:00～22:00",
+        "fri": "18:00～22:00",
+        "sat": "18:00～22:00",
+        "sun": "18:00～22:00",
+        "holiday": "18:00～22:00"
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "てんとうむし",
@@ -727,12 +935,25 @@
     "genre": null,
     "address": "佐賀市中央本町４−８",
     "phone": "0952-60-2360",
-    "hours": "",
+    "hours": "月～木 18:00 ～ 3:00 金～土 18:00 ～ 5:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=5731584819853237904",
     "lat": 33.254197,
     "lng": 130.301925,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～木 18:00 ～ 3:00 金～土 18:00 ～ 5:00 定休日：日曜日",
+      "parsed": {
+        "mon": "18:00～3:00 / 18:00～5:00",
+        "tue": "18:00～3:00 / 18:00～5:00",
+        "wed": "18:00～3:00 / 18:00～5:00",
+        "thu": "18:00～3:00 / 18:00～5:00",
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "はし冨 仕出し店",
@@ -740,12 +961,25 @@
     "genre": null,
     "address": "佐賀市八丁畷町八丁畷町１−１３",
     "phone": "0952-30-8115",
-    "hours": "",
+    "hours": "7:00 ～ 17:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=12322443675887110397",
     "lat": 33.272547,
     "lng": 130.297852,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "7:00 ～ 17:00 定休日：日曜日",
+      "parsed": {
+        "mon": "7:00～17:00",
+        "tue": "7:00～17:00",
+        "wed": "7:00～17:00",
+        "thu": "7:00～17:00",
+        "fri": "7:00～17:00",
+        "sat": "7:00～17:00",
+        "sun": null,
+        "holiday": "7:00～17:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "鳩屋製麺",
@@ -759,16 +993,16 @@
     "lat": 33.241808,
     "lng": 130.237382,
     "hours_structured": {
-      "text": "■ 営業時間日曜日以外は11:00～14:30 (うどん店として)17:00～21:00(饂飩前居酒屋として営業)日曜日は11時〜14時30分、17時〜20時の営業となります。祝日の営業は���後8時までです。■ 定休日お正月は3日までお休みいたします。また4日の営業はお昼のみとなります。",
+      "text": "月 ～ 土：11:00 ～ 14:30 / 17:00 ～ 21:00 日 ：11:00 ～ 14:30 / 17:00 ～ 20:00",
       "parsed": {
-        "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": null,
-        "sat": null,
-        "sun": "11:00～14:30 / 17:00～21:00",
-        "holiday": null
+        "mon": "11:00～14:30 / 17:00～21:00",
+        "tue": "11:00～14:30 / 17:00～21:00",
+        "wed": "11:00～14:30 / 17:00～21:00",
+        "thu": "11:00～14:30 / 17:00～21:00",
+        "fri": "11:00～14:30 / 17:00～21:00",
+        "sat": "11:00～14:30 / 17:00～21:00",
+        "sun": "11:00～14:30 / 17:00～20:00",
+        "holiday": "11:00～14:30 / 17:00～20:00"
       },
       "closed": null
     }
@@ -780,13 +1014,26 @@
       "バー"
     ],
     "address": "佐賀市白山２丁目４−２",
-    "phone": "",
-    "hours": "",
+    "phone": "090-9572-1999",
+    "hours": "17:00 ～ 0:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/place/%E3%80%92840-0826+%E4%BD%90%E8%B3%80%E7%9C%8C%E4%BD%90%E8%B3%80%E5%B8%82%E7%99%BD%E5%B1%B1%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%94%E2%88%92%EF%BC%92/@33.2577707,130.2966759,17z/data=!4m20!1m13!4m12!1m4!2m2!1d130.29806!2d33.2601738!4e1!1m6!1m2!1s0x3541ca7189ba1dd7:0x1e15cf437e99c8d!2z44CSODQwLTA4MjYg5L2Q6LOA55yM5L2Q6LOA5biC55m95bGx77yS5LiB55uu77yU4oiS77yS!2m2!1d130.3003867!2d33.2557526!3m5!1s0x3541ca7189ba1dd7:0x1e15cf437e99c8d!8m2!3d33.2557526!4d130.3003867!16s%2Fg%2F11cln6dqwq?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
     "lat": 33.2557526,
     "lng": 130.3003867,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:00 ～ 0:00 定休日：日曜日",
+      "parsed": {
+        "mon": "17:00～0:00",
+        "tue": "17:00～0:00",
+        "wed": "17:00～0:00",
+        "thu": "17:00～0:00",
+        "fri": "17:00～0:00",
+        "sat": "17:00～0:00",
+        "sun": null,
+        "holiday": "17:00～0:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "BAR Wild Flower",
@@ -810,13 +1057,26 @@
       "バー"
     ],
     "address": "佐賀市中央本町３−１８ ALPHA318",
-    "phone": "",
-    "hours": "",
+    "phone": "080-2726-7465",
+    "hours": "18:00 ～ 2:00 定休日：日曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007491/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=Bar Obu&query_place_id=ChIJNZP0Ds7LQTUR6jbhwO9HSdg",
     "lat": 33.254279,
     "lng": 130.301485,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 2:00 定休日：日曜日",
+      "parsed": {
+        "mon": "18:00～2:00",
+        "tue": "18:00～2:00",
+        "wed": "18:00～2:00",
+        "thu": "18:00～2:00",
+        "fri": "18:00～2:00",
+        "sat": "18:00～2:00",
+        "sun": null,
+        "holiday": "18:00～2:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "Bar Puerto",
@@ -854,12 +1114,25 @@
     ],
     "address": "佐賀市白山町２丁目５",
     "phone": "0952-25-3435",
-    "hours": "",
+    "hours": "21:00 ～ 5:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=PUB BRATTO&query_place_id=ChIJmV-qE3HKQTURT6R1wD0vV7g",
     "lat": 33.255688,
     "lng": 130.301025,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "21:00 ～ 5:00 定休日：日曜日",
+      "parsed": {
+        "mon": "21:00～5:00",
+        "tue": "21:00～5:00",
+        "wed": "21:00～5:00",
+        "thu": "21:00～5:00",
+        "fri": "21:00～5:00",
+        "sat": "21:00～5:00",
+        "sun": null,
+        "holiday": "21:00～5:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "肥前うどん 翔",
@@ -927,7 +1200,7 @@
         "sun": null,
         "holiday": null
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -936,12 +1209,25 @@
     "genre": null,
     "address": "佐賀市中央本町３−１８ アルファ318",
     "phone": "0952-26-3181",
-    "hours": "",
+    "hours": "20:00 ～ 2:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=ブルーグラス&query_place_id=ChIJIf_GdHHKQTURyjcU5L7G25Q",
     "lat": 33.254297,
     "lng": 130.301447,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 2:00 定休日：日曜日",
+      "parsed": {
+        "mon": "20:00～2:00",
+        "tue": "20:00～2:00",
+        "wed": "20:00～2:00",
+        "thu": "20:00～2:00",
+        "fri": "20:00～2:00",
+        "sat": "20:00～2:00",
+        "sun": null,
+        "holiday": "20:00～2:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "ぶるーむ",
@@ -949,12 +1235,25 @@
     "genre": null,
     "address": "佐賀市愛敬町１−１ 中野マンション1F",
     "phone": "0952-29-3509",
-    "hours": "",
+    "hours": "20:00 ～ 1:00 定休日：月曜日、日曜日",
     "tabelog": "",
-    "google_map": "https://www.google.com/maps?cid=14032393059486310738",
-    "lat": 33.260469,
-    "lng": 130.299743,
-    "hours_structured": null
+    "google_map": "https://www.google.com/maps/place/%E3%80%92840-0812+%E4%BD%90%E8%B3%80%E7%9C%8C%E4%BD%90%E8%B3%80%E5%B8%82%E6%84%9B%E6%95%AC%E7%94%BA%EF%BC%91%E2%88%92%E2%88%92%EF%BC%91/@33.2583112,130.3007159,19.5z/data=!4m20!1m13!4m12!1m4!2m2!1d130.2980341!2d33.2600262!4e1!1m6!1m2!1s0x3541ca72ff036863:0xf35e2be6154aad30!2z44CSODQwLTA4MTIg5L2Q6LOA55yM5L2Q6LOA5biC5oSb5pWs55S677yR4oiS77yR!2m2!1d130.3010769!2d33.2580849!3m5!1s0x3541ca72ff036863:0xf35e2be6154aad30!8m2!3d33.2580849!4d130.3010769!16s%2Fg%2F11clq_b0yx?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 33.2580849,
+    "lng": 130.3010769,
+    "hours_structured": {
+      "text": "20:00 ～ 1:00 定休日：月曜日、日曜日",
+      "parsed": {
+        "mon": "20:00～1:00",
+        "tue": "20:00～1:00",
+        "wed": "20:00～1:00",
+        "thu": "20:00～1:00",
+        "fri": "20:00～1:00",
+        "sat": "20:00～1:00",
+        "sun": null,
+        "holiday": "20:00～1:00"
+      },
+      "closed": "月曜日、日曜日"
+    }
   },
   {
     "name": "Very Very",
@@ -962,12 +1261,25 @@
     "genre": null,
     "address": "佐賀市白山２丁目５−２ 第２白山ビル",
     "phone": "0952-37-3252",
-    "hours": "",
+    "hours": "20:00 ～1:00 定休日：日曜日、祝日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=Very Very&query_place_id=ChIJzZW3LHLKQTURyFVIRdltzCI",
     "lat": 33.255679,
     "lng": 130.301278,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～1:00 定休日：日曜日、祝日",
+      "parsed": {
+        "mon": "20:00～1:00",
+        "tue": "20:00～1:00",
+        "wed": "20:00～1:00",
+        "thu": "20:00～1:00",
+        "fri": "20:00～1:00",
+        "sat": "20:00～1:00",
+        "sun": null,
+        "holiday": "20:00～1:00"
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "本庄うなぎ屋 本庄店",
@@ -977,12 +1289,25 @@
     ],
     "address": "佐賀市本庄町末次３９４−７",
     "phone": "0952-28-9160",
-    "hours": "",
+    "hours": "11:00 ～ 20:30（L.O.20:00）定休日：水曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=1366845854169203049",
     "lat": 33.2343,
     "lng": 130.30124,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 ～ 20:30（L.O.20:00）定休日：水曜日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "水曜日"
+    }
   },
   {
     "name": "本庄うなぎ屋　北部店",
@@ -1181,12 +1506,25 @@
     ],
     "address": "佐賀市鍋島３丁目８ シルキー石田",
     "phone": "0952-33-0660",
-    "hours": "",
+    "hours": "火～木：17:30～22:30 金～日：11:30～13:45/17:30～22:30 定休日：月曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=15989687915437023125",
     "lat": 33.280991,
     "lng": 130.267708,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火～木：17:30～22:30 金～日：11:30～13:45/17:30～22:30 定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "17:30～22:30 / 11:30～13:45 / 17:30～22:30",
+        "wed": "17:30～22:30 / 11:30～13:45 / 17:30～22:30",
+        "thu": "17:30～22:30 / 11:30～13:45 / 17:30～22:30",
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "夢咲屋",
@@ -1194,12 +1532,25 @@
     "genre": null,
     "address": "佐賀市兵庫北３丁目１−８",
     "phone": "0952-32-4666",
-    "hours": "",
+    "hours": "月～金：11:30～14:30（L.O.14:00）/17:00～22:00（L.O.21:00）、土・日・祝：11:00～15:00（L.O.14:30）/17:00～22:00（L.O.21:00）不定休",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=3897670272228577878",
     "lat": 33.270091,
     "lng": 130.301308,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～金：11:30～14:30（L.O.14:00）/17:00～22:00（L.O.21:00）、土・日・祝：11:00～15:00（L.O.14:30）/17:00～22:00（L.O.21:00）不定休",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "不定休"
+    }
   },
   {
     "name": "ラウンジ ENDLESS",
@@ -1224,12 +1575,25 @@
     ],
     "address": "佐賀市白山２丁目５−２ Shirayama 2賀 bld",
     "phone": "0952-28-5157",
-    "hours": "",
+    "hours": "20:00 ～ 00:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=Lounge 蓮&query_place_id=ChIJIf_GdHHKQTURP-hmnsmp6eM",
     "lat": 33.255898,
     "lng": 130.301136,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 00:00 定休日：日曜日",
+      "parsed": {
+        "mon": "20:00～00:00",
+        "tue": "20:00～00:00",
+        "wed": "20:00～00:00",
+        "thu": "20:00～00:00",
+        "fri": "20:00～00:00",
+        "sat": "20:00～00:00",
+        "sun": null,
+        "holiday": "20:00～00:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "ラウンジスナック kirakira",
@@ -1240,12 +1604,25 @@
     ],
     "address": "佐賀市大財１丁目１−１０　いろはビル１階",
     "phone": "",
-    "hours": "",
+    "hours": "20:00 ～ 2:00",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=佐賀市大財１丁目１−１０",
     "lat": 33.256711,
     "lng": 130.301089,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 2:00",
+      "parsed": {
+        "mon": "20:00～2:00",
+        "tue": "20:00～2:00",
+        "wed": "20:00～2:00",
+        "thu": "20:00～2:00",
+        "fri": "20:00～2:00",
+        "sat": "20:00～2:00",
+        "sun": "20:00～2:00",
+        "holiday": "20:00～2:00"
+      },
+      "closed": null
+    }
   },
   {
     "name": "lab",
@@ -1269,12 +1646,25 @@
     ],
     "address": "佐賀市唐人２丁目５",
     "phone": "0952-27-2017",
-    "hours": "",
+    "hours": "定休日：火曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41004204/",
     "google_map": "https://www.google.com/maps?cid=7181115562459523683",
     "lat": 33.259025,
     "lng": 130.299332,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "定休日：火曜日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "火曜日"
+    }
   },
   {
     "name": "れんげ",
@@ -1363,12 +1753,25 @@
     "genre": null,
     "address": "佐賀市中央本町２−４",
     "phone": "0952-22-1300",
-    "hours": "",
+    "hours": "18:00 ～ 3:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=味酒場　もやもん&query_place_id=ChIJ-1MqKBfLQTUR2CMd68fuKE4",
     "lat": 33.25382,
     "lng": 130.301768,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 3:00 定休日：日曜日",
+      "parsed": {
+        "mon": "18:00～3:00",
+        "tue": "18:00～3:00",
+        "wed": "18:00～3:00",
+        "thu": "18:00～3:00",
+        "fri": "18:00～3:00",
+        "sat": "18:00～3:00",
+        "sun": null,
+        "holiday": "18:00～3:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "アップシャン",
@@ -1376,12 +1779,25 @@
     "genre": null,
     "address": "佐賀市大財１丁目５−１１ ティファニービル",
     "phone": "0952-28-3178",
-    "hours": "",
+    "hours": "月～金：20:00～03:00 土・日：20:00～05:00 不定休",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=628090525997945025",
     "lat": 33.257117,
     "lng": 130.301456,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～金：20:00～03:00 土・日：20:00～05:00 不定休",
+      "parsed": {
+        "mon": "20:00～03:00 / 20:00～05:00",
+        "tue": "20:00～03:00 / 20:00～05:00",
+        "wed": "20:00～03:00 / 20:00～05:00",
+        "thu": "20:00～03:00 / 20:00～05:00",
+        "fri": "20:00～03:00 / 20:00～05:00",
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "不定休"
+    }
   },
   {
     "name": "アルル",
@@ -1490,12 +1906,25 @@
     "genre": null,
     "address": "佐賀市中央本町４−３ 美紀屋 中央ビル",
     "phone": "0952-29-3322",
-    "hours": "",
+    "hours": "21:00 ～ 00:00 定休日：日曜日、祝日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=L and L&query_place_id=ChIJkSywE3HKQTURIPtR7vH7YJU",
     "lat": 33.25385,
     "lng": 130.302004,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "21:00 ～ 00:00 定休日：日曜日、祝日",
+      "parsed": {
+        "mon": "21:00～00:00",
+        "tue": "21:00～00:00",
+        "wed": "21:00～00:00",
+        "thu": "21:00～00:00",
+        "fri": "21:00～00:00",
+        "sat": "21:00～00:00",
+        "sun": null,
+        "holiday": "21:00～00:00"
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "おさかな家嬉乃",
@@ -1538,12 +1967,25 @@
     ],
     "address": "佐賀市鍋島町大字八戸溝１２２８−１",
     "phone": "0952-31-9775",
-    "hours": "",
+    "hours": "火 ～ 土：11 :00 ～ 15:00（L.O.14:00）/17 :30 ～ 22:00（L.O.21:00）、日：11 :00 ～ 15:00（L.O.14:00）定休日：月曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005209/",
     "google_map": "https://www.google.com/maps?cid=17289140936932588609",
     "lat": 33.26132,
     "lng": 130.272309,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "火 ～ 土：11 :00 ～ 15:00（L.O.14:00）/17 :30 ～ 22:00（L.O.21:00）、日：11 :00 ～ 15:00（L.O.14:00）定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "菓子工房　リーブ",
@@ -1615,7 +2057,7 @@
         "sun": "13:00～00:00",
         "holiday": "13:00～00:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -1627,12 +2069,25 @@
     ],
     "address": "佐賀市白山２−８−２",
     "phone": "0952-26-9677",
-    "hours": "",
+    "hours": "11:00 ～ 19:00（L.O.18:30）定休日：木曜日（祝日を除く）",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=17318387788750952405",
     "lat": 33.255197,
     "lng": 130.302899,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 ～ 19:00（L.O.18:30）定休日：木曜日（祝日を除く）",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "木曜日（祝日を除く）"
+    }
   },
   {
     "name": "ぎょうざ屋",
@@ -1653,12 +2108,25 @@
     "genre": null,
     "address": "佐賀市駅前中央１丁目２−３",
     "phone": "0952-22-2087",
-    "hours": "",
+    "hours": "17:30 ～ 22:30 定休日：日曜日、祝日",
     "tabelog": "",
-    "google_map": "https://www.google.com/maps?cid=5821743011010145207",
-    "lat": 33.262929,
-    "lng": 130.299916,
-    "hours_structured": null
+    "google_map": "https://www.google.com/maps/place/%E3%80%92840-0801+%E4%BD%90%E8%B3%80%E7%9C%8C%E4%BD%90%E8%B3%80%E5%B8%82%E9%A7%85%E5%89%8D%E4%B8%AD%E5%A4%AE%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%93+%E5%B0%8F%E6%96%99%E7%90%86%E3%81%8F%E3%82%89%E3%81%8A%E3%81%8B%E4%BA%AD/@33.2627352,130.2994526,19z/data=!4m20!1m13!4m12!1m4!2m2!1d130.2980341!2d33.2600262!4e1!1m6!1m2!1s0x3541ca0d74d6afd5:0x5c3135522d674fd4!2z44CSODQwLTA4MDEg5L2Q6LOA55yM5L2Q6LOA5biC6aeF5YmN5Lit5aSu77yR5LiB55uu77yS4oiS77yTIOWwj-aWmeeQhuOBj-OCieOBiuOBi-S6rQ!2m2!1d130.2999155!2d33.2629291!3m5!1s0x3541ca0d74d6afd5:0x5c3135522d674fd4!8m2!3d33.2629291!4d130.2999155!16s%2Fg%2F12hv2kyyl?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D",
+    "lat": 33.2629291,
+    "lng": 130.2999155,
+    "hours_structured": {
+      "text": "17:30 ～ 22:30 定休日：日曜日、祝日",
+      "parsed": {
+        "mon": "17:30～22:30",
+        "tue": "17:30～22:30",
+        "wed": "17:30～22:30",
+        "thu": "17:30～22:30",
+        "fri": "17:30～22:30",
+        "sat": "17:30～22:30",
+        "sun": null,
+        "holiday": "17:30～22:30"
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "古都",
@@ -1666,12 +2134,25 @@
     "genre": null,
     "address": "佐賀市白山２−５−５ エクレール3F",
     "phone": "0952-29-7729",
-    "hours": "",
+    "hours": "20:00 ～ 3:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=古都&query_place_id=ChIJ6zqEBQDLQTURHoPyy88ANH0",
     "lat": 33.255747,
     "lng": 130.301494,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 3:00 定休日：日曜日",
+      "parsed": {
+        "mon": "20:00～3:00",
+        "tue": "20:00～3:00",
+        "wed": "20:00～3:00",
+        "thu": "20:00～3:00",
+        "fri": "20:00～3:00",
+        "sat": "20:00～3:00",
+        "sun": null,
+        "holiday": "20:00～3:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "酒・炭焼 きよ",
@@ -1708,12 +2189,25 @@
     ],
     "address": "佐賀市大財１−３−１９",
     "phone": "0952-24-3030",
-    "hours": "",
+    "hours": "月～木：15:00～24:00（L.O.23:00）、金・土・祝前日：15:00～26:00（L.O.25:00）定休日：日曜日（祝日、祝前日の場合は月曜日休）",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=16006221251802318368",
     "lat": 33.25738,
     "lng": 130.301179,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～木：15:00～24:00（L.O.23:00）、金・土・祝前日：15:00～26:00（L.O.25:00）定休日：日曜日（祝日、祝前日の場合は月曜日休）",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日曜日（祝日、祝前日の場合は月曜日休）"
+    }
   },
   {
     "name": "シャトー文雅",
@@ -1729,14 +2223,14 @@
     "hours_structured": {
       "text": "水・木・金・土・日・祝日・祝前日・祝後日 11:30 - 15:30 L.O. 料理14:30 17:30 - 21:30 L.O. 料理20:00 月・火 定休日 ■ 営業時間11:30～14:30(ラストイン）17:30～20:00（ラストイン）■ 定休日毎週/月・火曜（祝日の場合は翌日休）",
       "parsed": {
-        "mon": "17:30～20:00",
+        "mon": null,
         "tue": null,
-        "wed": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
-        "thu": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
-        "fri": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
-        "sat": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
-        "sun": "17:30～20:00 / 11:30～15:30 / 17:30～21:30",
-        "holiday": "17:30～20:00 / 11:30～15:30 / 17:30～21:30"
+        "wed": "11:30～15:30 / 17:30～21:30",
+        "thu": "11:30～15:30 / 17:30～21:30",
+        "fri": "11:30～15:30 / 17:30～21:30",
+        "sat": "11:30～15:30 / 17:30～21:30",
+        "sun": "11:30～15:30 / 17:30～21:30",
+        "holiday": "11:30～15:30 / 17:30～21:30"
       },
       "closed": "火"
     },
@@ -1778,13 +2272,26 @@
       "海鮮料理"
     ],
     "address": "佐賀市松原３−２−２２",
-    "phone": "",
-    "hours": "",
+    "phone": "050-5304-6920",
+    "hours": "11:00 ～ 14:00（L.O.13:30）/18:00 ～ 22:00 定休日：月曜日、日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=すいづき&query_place_id=ChIJLbmw09XLQTURXS4E0_1QoUk",
     "lat": 33.25224,
     "lng": 130.305655,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 ～ 14:00（L.O.13:30）/18:00 ～ 22:00 定休日：月曜日、日曜日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "月曜日、日曜日"
+    }
   },
   {
     "name": "すし栄",
@@ -1822,12 +2329,25 @@
     ],
     "address": "佐賀市大財１丁目１−１４",
     "phone": "0952-23-6581",
-    "hours": "",
+    "hours": "11:00 ～ 15:00 / 17:00 ～ 22:00（L.O.21:30）定休日：日曜日、祝日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=15068918664108318663",
     "lat": 33.256317,
     "lng": 130.30127,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "11:00 ～ 15:00 / 17:00 ～ 22:00（L.O.21:30）定休日：日曜日、祝日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "スナック 恋さん",
@@ -1837,12 +2357,25 @@
     ],
     "address": "佐賀市愛敬町１−１",
     "phone": "0952-26-7298",
-    "hours": "",
+    "hours": "月～土：20:00～0:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=12832237290094618951",
     "lat": 33.258085,
     "lng": 130.301077,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～土：20:00～0:00 定休日：日曜日",
+      "parsed": {
+        "mon": "20:00～0:00",
+        "tue": "20:00～0:00",
+        "wed": "20:00～0:00",
+        "thu": "20:00～0:00",
+        "fri": "20:00～0:00",
+        "sat": "20:00～0:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "スナック 百絵",
@@ -1852,12 +2385,25 @@
     ],
     "address": "佐賀市白山２丁目６−１ ホワイトビル2F",
     "phone": "0952-23-0624",
-    "hours": "",
+    "hours": "20:00 ～ 0:00 定休日：日曜日、祝日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=スナック 百絵&query_place_id=ChIJhTCt13PKQTURPQQ0JL_j2Mk",
     "lat": 33.255448,
     "lng": 130.301671,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 0:00 定休日：日曜日、祝日",
+      "parsed": {
+        "mon": "20:00～0:00",
+        "tue": "20:00～0:00",
+        "wed": "20:00～0:00",
+        "thu": "20:00～0:00",
+        "fri": "20:00～0:00",
+        "sat": "20:00～0:00",
+        "sun": null,
+        "holiday": "20:00～0:00"
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "成竜軒 大財店",
@@ -1882,7 +2428,7 @@
         "sun": "09:00～20:00",
         "holiday": "09:00～20:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -1934,7 +2480,7 @@
         "sun": "11:30～14:00 / 17:30～21:30",
         "holiday": "11:30～14:00 / 17:30～21:30"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -1945,12 +2491,25 @@
     ],
     "address": "佐賀市光３丁目１２−５",
     "phone": "0952-26-9090",
-    "hours": "",
+    "hours": "11:00 ～ 15:00（L.O.14:45）/17:00 ～ 20:00（L.O.19:45）定休日：火曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=11528852578954387289",
     "lat": 33.23414,
     "lng": 130.275353,
-    "hours_structured": null,
+    "hours_structured": {
+      "text": "11:00 ～ 15:00（L.O.14:45）/17:00 ～ 20:00（L.O.19:45）定休日：火曜日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "火曜日"
+    },
     "googleMapUrl": "https://www.google.com/maps?cid=11528852578954387429",
     "website": "https://www.takaraudon.co.jp/",
     "tabelogUrl": "https://tabelog.com/saga/A4101/A410101/41005449/"
@@ -1964,13 +2523,26 @@
       "しゃぶしゃぶ"
     ],
     "address": "佐賀市駅前中央１−３−１１",
-    "phone": "",
-    "hours": "",
+    "phone": "090-8356-8800",
+    "hours": "17:30～23:00 定休日：月曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007788/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=タンしゃぶ処うし彦馬彦&query_place_id=ChIJ20xyp8LLQTURkUNFuS7IISc",
     "lat": 33.263184,
     "lng": 130.298951,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "17:30～23:00 定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "17:30～23:00",
+        "wed": "17:30～23:00",
+        "thu": "17:30～23:00",
+        "fri": "17:30～23:00",
+        "sat": "17:30～23:00",
+        "sun": "17:30～23:00",
+        "holiday": "17:30～23:00"
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "ダ・ジーノ",
@@ -2016,14 +2588,14 @@
     "hours_structured": {
       "text": "■ 営業時間平日 17:00～23:00（LO22:00）日、祝日 17:00～22:00（LO21:00）閉店時間はその日のお客様の来店状況で多少早まる場合もございます。■ 定休日火曜日",
       "parsed": {
-        "mon": "17:00～23:00",
+        "mon": null,
         "tue": null,
-        "wed": "17:00～23:00",
-        "thu": "17:00～23:00",
-        "fri": "17:00～23:00",
-        "sat": "17:00～23:00",
-        "sun": "17:00～23:00",
-        "holiday": "17:00～23:00"
+        "wed": null,
+        "thu": null,
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
       },
       "closed": "火"
     }
@@ -2057,7 +2629,7 @@
         "sun": "17:00～01:00",
         "holiday": "17:00～01:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -2083,7 +2655,7 @@
         "sun": "16:00～00:00",
         "holiday": "16:00～00:00"
       },
-      "closed": null
+      "closed": "無休"
     }
   },
   {
@@ -2151,12 +2723,25 @@
     ],
     "address": "佐賀県佐賀市白山１丁目２−２２",
     "phone": "0952-29-9401",
-    "hours": "",
+    "hours": "月～土：19:00～03:00 日：19:00～01:00 不定休",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41006184/",
-    "google_map": "https://www.google.com/maps/search/?api=1&query=Bar MIS TONE&query_place_id=ChIJXQtu3XHKQTURTgfRqcuPg7k",
+    "google_map": "https://www.google.com/maps/search/?api=1&query=Bar MIS TONE&query_place_id=ChIJXQtu3XHKQTURTgfRqcuPg7k",
     "lat": 33.255071,
     "lng": 130.299157,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月～土：19:00～03:00 日：19:00～01:00 不定休",
+      "parsed": {
+        "mon": "19:00～03:00 / 19:00～01:00",
+        "tue": "19:00～03:00 / 19:00～01:00",
+        "wed": "19:00～03:00 / 19:00～01:00",
+        "thu": "19:00～03:00 / 19:00～01:00",
+        "fri": "19:00～03:00 / 19:00～01:00",
+        "sat": "19:00～03:00 / 19:00～01:00",
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "不定休"
+    }
   },
   {
     "name": "BAR AROMA",
@@ -2183,7 +2768,7 @@
         "sun": null,
         "holiday": null
       },
-      "closed": null
+      "closed": "無休"
     }
   },
   {
@@ -2193,7 +2778,7 @@
       "バー"
     ],
     "address": "佐賀市大財１丁目４−２",
-    "phone": "",
+    "phone": "070-1298-0709",
     "hours": "",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=16637008460288469082",
@@ -2310,7 +2895,7 @@
         "sun": "11:30～14:00 / 17:00～20:00",
         "holiday": "11:30～14:00 / 17:00～20:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -2359,12 +2944,25 @@
     "genre": null,
     "address": "佐賀市中央本町７−２",
     "phone": "0952-24-4720",
-    "hours": "",
+    "hours": "月 ～ 木、金、土：17 :00 ～ 23:00、木：17:30 ～ 0:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=3795807686832765469",
     "lat": 33.253318,
     "lng": 130.302441,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "月 ～ 木、金、土：17 :00 ～ 23:00、木：17:30 ～ 0:00 定休日：日曜日",
+      "parsed": {
+        "mon": null,
+        "tue": null,
+        "wed": null,
+        "thu": "17:30～0:00",
+        "fri": null,
+        "sat": null,
+        "sun": null,
+        "holiday": null
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "本庄うなぎ屋　東部店",
@@ -2404,12 +3002,25 @@
     ],
     "address": "佐賀市中央本町７−１３",
     "phone": "0952-48-0371",
-    "hours": "",
+    "hours": "18:00 ～ 23:00 定休日：日曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007259/",
     "google_map": "https://www.google.com/maps?cid=6278653391884495004",
     "lat": 33.253455,
     "lng": 130.303014,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "18:00 ～ 23:00 定休日：日曜日",
+      "parsed": {
+        "mon": "18:00～23:00",
+        "tue": "18:00～23:00",
+        "wed": "18:00～23:00",
+        "thu": "18:00～23:00",
+        "fri": "18:00～23:00",
+        "sat": "18:00～23:00",
+        "sun": null,
+        "holiday": "18:00～23:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "むとう",
@@ -2450,13 +3061,26 @@
     "url": "https://www.sagashi-insyoku.com/restaurants/members_chip_in",
     "genre": null,
     "address": "佐賀市中央本町１０−５ ＡＩビルディング",
-    "phone": "",
-    "hours": "",
+    "phone": "080-4289-5343",
+    "hours": "20:00 ～ 0:00 定休日：日曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=member's chip IN&query_place_id=ChIJKbyphxHLQTURLQRbg8jGyAA",
     "lat": 33.253486,
     "lng": 130.303309,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 0:00 定休日：日曜日",
+      "parsed": {
+        "mon": "20:00～0:00",
+        "tue": "20:00～0:00",
+        "wed": "20:00～0:00",
+        "thu": "20:00～0:00",
+        "fri": "20:00～0:00",
+        "sat": "20:00～0:00",
+        "sun": null,
+        "holiday": "20:00～0:00"
+      },
+      "closed": "日曜日"
+    }
   },
   {
     "name": "焼とり かちがらす駅前店",
@@ -2513,7 +3137,7 @@
         "sun": "18:00～00:00",
         "holiday": "18:00～00:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -2527,24 +3151,24 @@
     ],
     "address": "佐賀市唐人２丁目７－１７",
     "phone": "0952-24-0776",
-    "hours": "■ 営業時間.■ 定休日.",
+    "hours": "18:00 ～ 23:00 定休日：月曜日",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41005474/",
     "google_map": "https://www.google.com/maps?cid=13009490268639435019",
     "lat": 33.259691,
     "lng": 130.29902,
     "hours_structured": {
-      "text": "■ 営業時間.■ 定休日.",
+      "text": "18:00 ～ 23:00 定休日：月曜日",
       "parsed": {
         "mon": null,
-        "tue": null,
-        "wed": null,
-        "thu": null,
-        "fri": null,
-        "sat": null,
-        "sun": null,
-        "holiday": null
+        "tue": "18:00～23:00",
+        "wed": "18:00～23:00",
+        "thu": "18:00～23:00",
+        "fri": "18:00～23:00",
+        "sat": "18:00～23:00",
+        "sun": "18:00～23:00",
+        "holiday": "18:00～23:00"
       },
-      "closed": null
+      "closed": "月曜日"
     }
   },
   {
@@ -2611,12 +3235,25 @@
     ],
     "address": "佐賀市白山２−５−５ エクレール白山4F",
     "phone": "0952-29-0087",
-    "hours": "",
+    "hours": "20:00 ～1:00 定休日：月曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=5306909240175205721",
     "lat": 33.255529,
     "lng": 130.300942,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～1:00 定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "20:00～1:00",
+        "wed": "20:00～1:00",
+        "thu": "20:00～1:00",
+        "fri": "20:00～1:00",
+        "sat": "20:00～1:00",
+        "sun": "20:00～1:00",
+        "holiday": "20:00～1:00"
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "Lounge CHERIE",
@@ -2626,12 +3263,25 @@
     ],
     "address": "佐賀市中央本町４−９",
     "phone": "0952-22-6885",
-    "hours": "",
+    "hours": "21:00 ～ 5:00 定休日：月曜日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=6135677246566361010",
     "lat": 33.25433,
     "lng": 130.301909,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "21:00 ～ 5:00 定休日：月曜日",
+      "parsed": {
+        "mon": null,
+        "tue": "21:00～5:00",
+        "wed": "21:00～5:00",
+        "thu": "21:00～5:00",
+        "fri": "21:00～5:00",
+        "sat": "21:00～5:00",
+        "sun": "21:00～5:00",
+        "holiday": "21:00～5:00"
+      },
+      "closed": "月曜日"
+    }
   },
   {
     "name": "Lounge Revie",
@@ -2653,13 +3303,26 @@
     "url": "https://www.sagashi-insyoku.com/restaurants/lagurus",
     "genre": null,
     "address": "佐賀市中央本町５−１",
-    "phone": "",
-    "hours": "",
+    "phone": "080-8906-1478",
+    "hours": "20:00 ～ 01:00 定休日：日曜日、祝日",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=中央本町５−１&query_place_id=ChIJ-91TGXHKQTURCLCYPrCw-1I",
     "lat": 33.253117,
     "lng": 130.302178,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 01:00 定休日：日曜日、祝日",
+      "parsed": {
+        "mon": "20:00～01:00",
+        "tue": "20:00～01:00",
+        "wed": "20:00～01:00",
+        "thu": "20:00～01:00",
+        "fri": "20:00～01:00",
+        "sat": "20:00～01:00",
+        "sun": null,
+        "holiday": "20:00～01:00"
+      },
+      "closed": "日曜日、祝日"
+    }
   },
   {
     "name": "凛",
@@ -2712,7 +3375,7 @@
         "sun": "18:00～00:00",
         "holiday": "18:00～00:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {

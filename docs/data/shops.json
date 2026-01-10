@@ -514,24 +514,24 @@
     "genre": null,
     "address": "佐賀市松原３丁目３−７ 増田ビル1F",
     "phone": "0952-23-1569",
-    "hours": "11:30 - 01:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+    "hours": "月 ～ 金：17:00 ～ 24:00、土・日・祝日：12:00 ～ 24:00",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41004914/",
     "google_map": "https://www.google.com/maps?cid=5471759882956488006",
     "lat": 33.252838,
     "lng": 130.304198,
     "hours_structured": {
-      "text": "11:30 - 01:00 営業時間・定休日は変更となる場合がございますので、ご来店前に店舗にご確認ください。",
+      "text": "月 ～ 金：17:00 ～ 24:00、土・日・祝日：12:00 ～ 24:00",
       "parsed": {
-        "mon": "11:30～25:00",
-        "tue": "11:30～25:00",
-        "wed": "11:30～25:00",
-        "thu": "11:30～25:00",
-        "fri": "11:30～25:00",
-        "sat": "11:30～25:00",
-        "sun": "11:30～25:00",
-        "holiday": "11:30～25:00"
+        "mon": "17:00～24:00",
+        "tue": "17:00～24:00",
+        "wed": "17:00～24:00",
+        "thu": "17:00～24:00",
+        "fri": "17:00～24:00",
+        "sat": "12:00～24:00",
+        "sun": "12:00～24:00",
+        "holiday": "12:00～24:00"
       },
-      "closed": null
+      "closed": "不定休"
     }
   },
   {
@@ -1056,12 +1056,25 @@
     ],
     "address": "佐賀市白山１丁目２−２２",
     "phone": "0952-26-7335",
-    "hours": "",
+    "hours": "20:00 ～ 0:00",
     "tabelog": "https://tabelog.com/saga/A4101/A410101/41007289/",
     "google_map": "https://www.google.com/maps/search/?api=1&query=BAR Wild Flower&query_place_id=ChIJT-QQ3XHKQTURws6V2nzw1Ss",
     "lat": 33.255071,
     "lng": 130.299157,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "20:00 ～ 0:00",
+      "parsed": {
+        "mon": "20:00～24:00",
+        "tue": "20:00～24:00",
+        "wed": "20:00～24:00",
+        "thu": "20:00～24:00",
+        "fri": "20:00～24:00",
+        "sat": "20:00～24:00",
+        "sun": null,
+        "holiday": "20:00～24:00"
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "Bar Obu",
@@ -3421,12 +3434,25 @@
     "genre": null,
     "address": "佐賀市中央本町４−７",
     "phone": "0954-62-2774",
-    "hours": "",
+    "hours": "21:00 ～ 24:00",
     "tabelog": "",
     "google_map": "https://www.google.com/maps/search/?api=1&query=佐賀市中央本町４−７&query_place_id=ChIJ_WoXbXHKQTURFxxaZ5uUv2",
     "lat": 33.254244,
     "lng": 130.301933,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "21:00 ～ 24:00",
+      "parsed": {
+        "mon": "21:00～24:00",
+        "tue": "21:00～24:00",
+        "wed": "21:00～24:00",
+        "thu": "21:00～24:00",
+        "fri": "21:00～24:00",
+        "sat": "21:00～24:00",
+        "sun": null,
+        "holiday": "21:00～24:00"
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "PUB Let’s go Teppei",
@@ -3436,12 +3462,25 @@
     ],
     "address": "佐賀市大財１丁目５−３",
     "phone": "0952-22-7134",
-    "hours": "",
+    "hours": "21:00 ～ 5:00",
     "tabelog": "",
     "google_map": "https://www.google.com/maps?cid=5775866123828281530",
     "lat": 33.256395,
     "lng": 130.301459,
-    "hours_structured": null
+    "hours_structured": {
+      "text": "21:00 ～ 5:00",
+      "parsed": {
+        "mon": "21:00～29:00",
+        "tue": "21:00～29:00",
+        "wed": "21:00～29:00",
+        "thu": "21:00～29:00",
+        "fri": "21:00～29:00",
+        "sat": "21:00～29:00",
+        "sun": null,
+        "holiday": "21:00～29:00"
+      },
+      "closed": "日"
+    }
   },
   {
     "name": "ロレッタ",
